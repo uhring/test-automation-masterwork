@@ -4,6 +4,7 @@
 - Manual test cases in Google Sheets : **https://docs.google.com/spreadsheets/d/1JU_-Nuq-PCI_imIMcbGNFMfSI8Oqm75S7lBkDq4Jd6o/edit?usp=sharing**
 - Steps for running the automated test cases : 
   1. Clone this repository
-  2. Run  ' **./gradlew clean test** ' in the cloned repository directory
+  2. Navigate to the cloned repository directory
+  3. Run  ' **./gradlew clean test** '
 - To see the test report (Allure Test Report):
-  - Run ' **./gradlew allureServe** ' in the cloned repository directory after running the test
+  - Run ' **./gradlew allureServe** ' after running the automated test cases
