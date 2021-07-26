@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -41,6 +42,7 @@ public class LoginPage extends YourStoreHome {
         LOG.info("Password written in the password field");
         loginButton.click();
         LOG.info("Click on login button");
+        wait.until(ExpectedConditions.titleIs("My Account"));
     }
 
     public WebElement getWarningNoMatch() {
