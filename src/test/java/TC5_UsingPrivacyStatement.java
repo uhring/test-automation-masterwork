@@ -25,6 +25,7 @@ public class TC5_UsingPrivacyStatement extends BaseTest{
         makeScreenshot();
         registerAccountPage.closePrivacyPolicy();
         registerAccountPage.acceptPrivacyPolicy();
+        makeScreenshot();
         assertThat(registerAccountPage.getPrivacyCheckbox().isSelected())
                 .isTrue();
         LOG.info("Privacy checkbox checked successfully");

@@ -82,6 +82,7 @@ public class RegisterAccount extends YourStoreMain{
     }
     public void acceptPrivacyPolicy(){
         privacyCheckbox.click();
+        wait.until(ExpectedConditions.elementToBeSelected(privacyCheckbox));
         LOG.info("Clicked on privacy checkbox");
     }
 }
