@@ -22,7 +22,7 @@ public class TC1_SuccessfulRegistration extends BaseTest {
         registerAccount.openHomePage();
         registerAccount.openLoginPage();
         registerAccount.registerNewCustomer();
-        registerAccount.registerAccount("Nagy", "Ilona", email, "061111111", "nagyi");
+        registerAccount.registerAccount("Ilona", "Nagy", email, "061111111", "nagyi");
         assertThat(driver.getTitle()).isEqualTo("Your Account Has Been Created!");
         LOG.info("Account created successfully");
     }
