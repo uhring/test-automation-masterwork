@@ -9,16 +9,16 @@ import pages.RegisterAccount;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@Epic("Your Store webapplication")
-@Feature("User administration")
-@Story("User registration")
+@Epic("Your Store webapplication user administration")
+@Feature("User registration")
+@Story("Successful registration")
 public class TC1_SuccessfulRegistration extends BaseTest{
     protected String email = "nagy" + ((int) (Math.random() * 10000)) + "@ilona.hu";
 
     LoginPage loginPage = PageFactory.initElements(driver , LoginPage.class);
     RegisterAccount registerAccountPage = PageFactory.initElements(driver, RegisterAccount.class);
     @Test
-    @DisplayName("Successful registration in the Your Store webapplication")
+    @DisplayName("Successful registration")
     public void successfulRegistration(){
         loginPage.openHomePage();
         loginPage.openLoginPage();
