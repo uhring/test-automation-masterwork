@@ -1,8 +1,10 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.concurrent.TimeUnit;
@@ -34,6 +36,9 @@ public class AddAddressPage extends AddressBookPage{
     @FindBy(xpath = "//*[@id=\"content\"]/form/div/div[2]/input")
     WebElement continueButton;
 
+    @FindBy(xpath = "//*[@id=\"column-right\"]/div/a[13]")
+    WebElement logout;
+
     public void addNewAddress (String firstName, String lastName, String address, String city, String postcode, String country){
         inputFirstName.sendKeys(firstName);
         LOG.info("First name input : " + firstName);
@@ -47,9 +52,17 @@ public class AddAddressPage extends AddressBookPage{
         LOG.info("Post code input: " + postcode);
         Select select = new Select(countryDropdown);
         select.selectByVisibleText(country);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         LOG.info("Country selected: " + country);
+        wait.until(ExpectedConditions.elementToBeClickable(continueButton));
         continueButton.click();
         LOG.info("Continue button clicked");
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("content")));
+        LOG.info("Wait until next page loaded");
+
+    }
+
+    public void logout(){
+        logout.click();
+        LOG.info("Logout (from right menu) clicked");
     }
 }

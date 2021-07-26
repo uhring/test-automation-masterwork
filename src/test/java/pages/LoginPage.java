@@ -42,7 +42,6 @@ public class LoginPage extends YourStoreHome {
         LOG.info("Password written in the password field");
         loginButton.click();
         LOG.info("Click on login button");
-        wait.until(ExpectedConditions.titleIs("My Account"));
     }
 
     public WebElement getWarningNoMatch() {
