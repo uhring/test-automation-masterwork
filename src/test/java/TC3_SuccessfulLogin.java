@@ -8,7 +8,7 @@ import pages.LoginPage;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@Epic("Your Store webapplication user administration")
+@Epic("Your Store web application user administration")
 @Feature("Login")
 @Story("Successful login")
 public class TC3_SuccessfulLogin extends BaseTest{

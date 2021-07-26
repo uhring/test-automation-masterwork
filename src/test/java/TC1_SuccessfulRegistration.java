@@ -9,7 +9,7 @@ import pages.RegisterAccount;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@Epic("Your Store webapplication user administration")
+@Epic("Your Store web application user administration")
 @Feature("User registration")
 @Story("Successful registration")
 public class TC1_SuccessfulRegistration extends BaseTest{
