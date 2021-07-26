@@ -8,9 +8,9 @@ import pages.LoginPage;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@Epic("Your Store webapplication")
-@Feature("User administration")
-@Story("Login")
+@Epic("Your Store webapplication user administration")
+@Feature("Login")
+@Story("Successful login")
 public class TC3_SuccessfulLogin extends BaseTest{
     LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
 
