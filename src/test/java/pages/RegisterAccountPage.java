@@ -5,10 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import static org.assertj.core.api.Assertions.assertThat;
 
-public class RegisterAccount extends YourStoreHome {
-    public RegisterAccount(WebDriver driver) {
+public class RegisterAccountPage extends LoginPage {
+    public RegisterAccountPage(WebDriver driver) {
         super(driver);
     }
     @FindBy(id = "input-firstname")

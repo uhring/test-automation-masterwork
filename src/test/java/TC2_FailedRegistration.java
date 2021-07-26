@@ -4,25 +4,24 @@ import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.PageFactory;
-import pages.LoginPage;
-import pages.RegisterAccount;
+import pages.RegisterAccountPage;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 @Epic("Your Store web application user administration")
 @Feature("User registration")
 @Story("Failed registration with previously registered email")
-public class TC2_FailedRegistration extends BaseTest{
-    LoginPage loginPage = PageFactory.initElements(driver , LoginPage.class);
-    RegisterAccount registerAccountPage = PageFactory.initElements(driver, RegisterAccount.class);
+public class TC2_FailedRegistration extends BaseTest {
+    RegisterAccountPage registerAccount = PageFactory.initElements(driver, RegisterAccountPage.class);
+
     @Test
     @DisplayName("Failed registration with previously registered email")
-    public void unsuccessfulRegistration(){
-        loginPage.openHomePage();
-        loginPage.openLoginPage();
-        loginPage.registerNewCustomer();
-        registerAccountPage.registerAccount("Nagy","Ilona", "nagy@ilona.hu","061111111", "nagyi");
-        assertThat(registerAccountPage.getWarningEmailAlreadyRegistered().getText())
+    public void unsuccessfulRegistration() {
+        registerAccount.openHomePage();
+        registerAccount.openLoginPage();
+        registerAccount.registerNewCustomer();
+        registerAccount.registerAccount("Nagy", "Ilona", "nagy@ilona.hu", "061111111", "nagyi");
+        assertThat(registerAccount.getWarningEmailAlreadyRegistered().getText())
                 .isEqualTo("Warning: E-Mail Address is already registered!");
         LOG.info("Email already registered warning is displayed");
     }
