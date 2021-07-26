@@ -1,0 +1,85 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TC1_SuccessfulRegistration",
+    "children" : [ {
+      "name" : "Successful registration in the Your Store webapplication",
+      "uid" : "da4b2daa3243e690",
+      "parentUid" : "4eb2c2873e1c023212299446d63d8060",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627320467026,
+        "stop" : 1627320471031,
+        "duration" : 4005
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4eb2c2873e1c023212299446d63d8060"
+  }, {
+    "name" : "TC2_FailedRegistration",
+    "children" : [ {
+      "name" : "Unsuccessful registration in the Your Store webapplication",
+      "uid" : "580f80f74c9c6617",
+      "parentUid" : "41fffe30cdfb06d417f3ae76540abdff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627320473001,
+        "stop" : 1627320476718,
+        "duration" : 3717
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "41fffe30cdfb06d417f3ae76540abdff"
+  }, {
+    "name" : "TC3_SuccessfulLogin",
+    "children" : [ {
+      "name" : "Successful login",
+      "uid" : "27610808115c1f17",
+      "parentUid" : "ef0f3a8f238c6b12e746eeea3beddd97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627320478618,
+        "stop" : 1627320481612,
+        "duration" : 2994
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ef0f3a8f238c6b12e746eeea3beddd97"
+  }, {
+    "name" : "TC4_FailedLogin",
+    "children" : [ {
+      "name" : "Failed login",
+      "uid" : "b9a9482fad6e7f54",
+      "parentUid" : "b5d302be454688f6a1f399e3a4ce626c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627320483504,
+        "stop" : 1627320486051,
+        "duration" : 2547
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b5d302be454688f6a1f399e3a4ce626c"
+  }, {
+    "name" : "TC5_UsingPrivacyStatement",
+    "children" : [ {
+      "name" : "Open privacy statement and check the checkbox",
+      "uid" : "2c683222b1c5125b",
+      "parentUid" : "2c32061d860bd4997a14c9c0eed6df4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627323344702,
+        "stop" : 1627323348452,
+        "duration" : 3750
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2c32061d860bd4997a14c9c0eed6df4f"
+  } ]
+}

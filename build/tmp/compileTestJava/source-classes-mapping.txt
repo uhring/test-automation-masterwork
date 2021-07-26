@@ -1,0 +1,18 @@
+pages/LoginPage.java
+ pages.LoginPage
+BaseTest.java
+ BaseTest
+pages/YourStoreMain.java
+ pages.YourStoreMain
+TC3_SuccessfulLogin.java
+ TC3_SuccessfulLogin
+TC4_FailedLogin.java
+ TC4_FailedLogin
+TC2_FailedRegistration.java
+ TC2_FailedRegistration
+TC5_UsingPrivacyStatement.java
+ TC5_UsingPrivacyStatement
+pages/RegisterAccount.java
+ pages.RegisterAccount
+TC1_SuccessfulRegistration.java
+ TC1_SuccessfulRegistration
