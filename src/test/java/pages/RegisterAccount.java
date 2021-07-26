@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -28,6 +29,9 @@ public class RegisterAccount extends YourStoreMain{
     @FindBy(id = "input-confirm")
     WebElement passwordConfirmField;
 
+    @FindBy(linkText = "Privacy Policy")
+    WebElement privacyPolicy;
+
     @FindBy(xpath = "//*[@id=\"content\"]/form/div/div/input[1]")
     WebElement privacyCheckbox;
 
@@ -36,6 +40,9 @@ public class RegisterAccount extends YourStoreMain{
 
     @FindBy(xpath = "//*[@id=\"account-register\"]/div[1]")
     WebElement warningEmailAlreadyRegistered;
+
+    @FindBy(xpath = "//*[@id=\"modal-agree\"]/div/div/div[1]/button")
+    WebElement privacyCloseButton;
 
     public void registerAccount(String firstName, String lastName, String email, String telephone, String password){
         firstNameField.sendKeys(firstName);
@@ -58,5 +65,23 @@ public class RegisterAccount extends YourStoreMain{
 
     public WebElement getWarningEmailAlreadyRegistered(){
         return warningEmailAlreadyRegistered;
+    }
+
+    public WebElement getPrivacyCheckbox() {
+        return privacyCheckbox;
+    }
+
+    public void openPrivacyPolicy() {
+        privacyPolicy.click();
+        wait.until(ExpectedConditions.visibilityOf(privacyCloseButton));
+        LOG.info("Privacy policy opened");
+    }
+    public void closePrivacyPolicy(){
+        privacyCloseButton.click();
+        LOG.info("Privacy policy close");
+    }
+    public void acceptPrivacyPolicy(){
+        privacyCheckbox.click();
+        LOG.info("Clicked on privacy checkbox");
     }
 }
