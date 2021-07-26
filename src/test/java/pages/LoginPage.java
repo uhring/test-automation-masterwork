@@ -3,11 +3,10 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class LoginPage extends YourStoreMain{
+public class LoginPage extends YourStoreHome {
     public LoginPage(WebDriver driver) {
         super(driver);
     }

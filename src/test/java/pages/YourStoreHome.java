@@ -13,10 +13,10 @@ import org.slf4j.LoggerFactory;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class YourStoreMain {
+public class YourStoreHome {
     protected WebDriver driver;
     protected WebDriverWait wait;
-    protected static Logger LOG = LoggerFactory.getLogger(YourStoreMain.class);
+    protected static Logger LOG = LoggerFactory.getLogger(YourStoreHome.class);
 
     @FindBy(xpath = "//div[4]/ul/li/a[contains(.,'My Account')]")
     WebElement myAccount;
@@ -27,7 +27,10 @@ public class YourStoreMain {
     @FindBy(xpath = "//*[@id=\"menu\"]/div[2]/ul/li[1]/div/a")
     WebElement showAllDesktops;
 
-    public YourStoreMain(WebDriver driver) {
+    @FindBy(xpath = "//*[@id=\"content\"]/div[5]/div[1]/ul/li[3]/a")
+    WebElement showMoreItems;
+
+    public YourStoreHome(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, 10);
     }
@@ -56,5 +59,11 @@ public class YourStoreMain {
         showAllDesktops.click();
         wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//div[@class='product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12']"), 0));
         LOG.info("Click \"Show All Desktops\" from the dropdown list");
+    }
+
+    public void paginateOnePage(){
+        showMoreItems.click();
+        wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//*[@id=\"content\"]/div[4]/div"), 0));
+        LOG.info("Paginate to the next page");
     }
 }

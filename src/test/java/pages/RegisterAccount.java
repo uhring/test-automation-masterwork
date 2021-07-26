@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class RegisterAccount extends YourStoreMain{
+public class RegisterAccount extends YourStoreHome {
     public RegisterAccount(WebDriver driver) {
         super(driver);
     }

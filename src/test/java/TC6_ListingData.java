@@ -2,12 +2,11 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
-import pages.YourStoreMain;
+import pages.YourStoreHome;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -15,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Feature("Listing data")
 @Story("Listing all sales items")
 public class TC6_ListingData extends BaseTest{
-    YourStoreMain home = PageFactory.initElements(driver, YourStoreMain.class);
+    YourStoreHome home = PageFactory.initElements(driver, YourStoreHome.class);
 
     @Test
     @DisplayName("Listing all sales items")
