@@ -9,14 +9,14 @@ import pages.RegisterAccount;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@Epic("Your Store webapplication")
-@Feature("User administration")
-@Story("User registration")
+@Epic("Your Store webapplication user administration")
+@Feature("User registration")
+@Story("Failed registration with previously registered email")
 public class TC2_FailedRegistration extends BaseTest{
     LoginPage loginPage = PageFactory.initElements(driver , LoginPage.class);
     RegisterAccount registerAccountPage = PageFactory.initElements(driver, RegisterAccount.class);
     @Test
-    @DisplayName("Unsuccessful registration in the Your Store webapplication")
+    @DisplayName("Failed registration with previously registered email")
     public void unsuccessfulRegistration(){
         loginPage.openHomePage();
         loginPage.openLoginPage();
