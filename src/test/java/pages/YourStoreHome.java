@@ -67,6 +67,7 @@ public class YourStoreHome {
   }
 
   public void listAllItems() {
+    wait.until(ExpectedConditions.elementToBeClickable(desktopsList));
     action.moveToElement(desktopsList).perform();
     LOG.info("Move pointer to \"Desktops\" tab");
     showAllDesktops.click();
