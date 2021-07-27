@@ -2,7 +2,6 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -30,6 +29,4 @@ public class TC10_ExistingDataModification extends BaseTest{
                 .isEqualTo("Success: Your account has been successfully updated.");
         LOG.info("Assertion on actual and expected text is done");
     }
-
-
 }

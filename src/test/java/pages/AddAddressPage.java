@@ -36,9 +36,6 @@ public class AddAddressPage extends AddressBookPage{
     @FindBy(xpath = "//*[@id=\"content\"]/form/div/div[2]/input")
     WebElement continueButton;
 
-    @FindBy(xpath = "//*[@id=\"column-right\"]/div/a[13]")
-    WebElement logout;
-
     public void addNewAddress (String firstName, String lastName, String address, String city, String postcode, String country){
         inputFirstName.sendKeys(firstName);
         LOG.info("First name input : " + firstName);
@@ -58,11 +55,5 @@ public class AddAddressPage extends AddressBookPage{
         LOG.info("Continue button clicked");
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("content")));
         LOG.info("Wait until next page loaded");
-
-    }
-
-    public void logout(){
-        logout.click();
-        LOG.info("Logout (from right menu) clicked");
     }
 }
