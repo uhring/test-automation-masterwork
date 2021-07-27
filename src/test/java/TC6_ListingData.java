@@ -19,7 +19,7 @@ public class TC6_ListingData extends BaseTest {
   @DisplayName("Listing all sales items")
   public void listingData() {
     home.openHomePage();
-    home.listItems();
+    home.listAllItems();
     makeScreenshot();
     LOG.info("Screenshot taken");
     assertThat(driver.findElements(By.xpath("//div[@class='product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12']")).size())

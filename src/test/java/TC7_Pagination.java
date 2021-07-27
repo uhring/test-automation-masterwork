@@ -19,7 +19,7 @@ public class TC7_Pagination extends BaseTest {
   @DisplayName("Navigate to the next page with more results after listing all sales items")
   public void pagination() {
     home.openHomePage();
-    home.listItems();
+    home.listAllItems();
     home.paginateOnePage();
     assertThat(driver.findElement(By.xpath("//*[@id=\"content\"]/div[5]/div[2]")).getText())
         .as("Text should be : Showing 16 to 16 of 16 (2 Pages)")
