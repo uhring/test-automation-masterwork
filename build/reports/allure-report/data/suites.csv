@@ -1,6 +1,0 @@
-"Status","Name","Duration in ms","Description"
-"passed","TC2_FailedRegistration.unsuccessfulRegistration","3717",""
-"passed","TC5_UsingPrivacyStatement.openPrivacyStatement","3750",""
-"passed","TC1_SuccessfulRegistration.successfulRegistration","4005",""
-"passed","TC3_SuccessfulLogin.successfulLogin","2994",""
-"passed","TC4_FailedLogin.failedLogin","2547",""

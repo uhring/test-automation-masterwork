@@ -1,18 +1,42 @@
-pages/LoginPage.java
- pages.LoginPage
-BaseTest.java
- BaseTest
-pages/YourStoreMain.java
- pages.YourStoreMain
-TC3_SuccessfulLogin.java
- TC3_SuccessfulLogin
+TC7_Pagination.java
+ TC7_Pagination
+TC12_SavingDataFromTheWebApplication.java
+ TC12_SavingDataFromTheWebApplication
 TC4_FailedLogin.java
  TC4_FailedLogin
-TC2_FailedRegistration.java
- TC2_FailedRegistration
-TC5_UsingPrivacyStatement.java
- TC5_UsingPrivacyStatement
-pages/RegisterAccount.java
- pages.RegisterAccount
+TC10_ExistingDataModification.java
+ TC10_ExistingDataModification
+pages/AddAddressPage.java
+ pages.AddAddressPage
+TC13_Logout.java
+ TC13_Logout
+pages/LoginPage.java
+ pages.LoginPage
+pages/MyAccountPage.java
+ pages.MyAccountPage
 TC1_SuccessfulRegistration.java
  TC1_SuccessfulRegistration
+TC11_DeletingData.java
+ TC11_DeletingData
+TC2_FailedRegistration.java
+ TC2_FailedRegistration
+TC6_ListingData.java
+ TC6_ListingData
+TC9_RepetitiveDataEntryFromExternalSource.java
+ TC9_RepetitiveDataEntryFromExternalSource
+TC5_UsingPrivacyStatement.java
+ TC5_UsingPrivacyStatement
+pages/RegisterAccountPage.java
+ pages.RegisterAccountPage
+pages/AddressBookPage.java
+ pages.AddressBookPage
+pages/YourStoreHome.java
+ pages.YourStoreHome
+TC3_SuccessfulLogin.java
+ TC3_SuccessfulLogin
+BaseTest.java
+ BaseTest
+pages/EditAccountPage.java
+ pages.EditAccountPage
+TC8_InputOfNewData.java
+ TC8_InputOfNewData
