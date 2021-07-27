@@ -31,7 +31,7 @@ public class TC11_DeletingData extends BaseTest {
       assertThat(driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr")).size())
           .as("New number of addresses should be initial number - 1")
           .isEqualTo(initialAddresses.size() - 1);
-      LOG.info("Assertion of number of addresses done");
+      LOG.info("Assertion of number if initial number of addresses >1 is done.");
     } else {
       addressBookPage.deleteTopElementFromTheList();
       assertThat(driver.findElement(By.xpath("//*[@id=\"account-address\"]/div[1]")).getText())

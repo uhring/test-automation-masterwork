@@ -29,5 +29,6 @@ public class TC8_InputOfNewData extends BaseTest {
     wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"content\"]/h2")));
     assertThat(driver.findElement(By.xpath("//*[@id=\"content\"]/h2")).getText())
         .isEqualTo("Address Book Entries");
+    LOG.info("Assertion done, text as expected.");
   }
 }

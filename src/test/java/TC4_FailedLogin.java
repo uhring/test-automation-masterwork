@@ -22,6 +22,6 @@ public class TC4_FailedLogin extends BaseTest {
     loginPage.loginReturningCustomer("nagy@ilona.hu", "nag");
     assertThat(loginPage.getWarningNoMatch().getText())
         .isEqualTo("Warning: No match for E-Mail Address and/or Password.");
-    LOG.info("Login successful");
+    LOG.info("Assert OK. Login failed.");
   }
 }

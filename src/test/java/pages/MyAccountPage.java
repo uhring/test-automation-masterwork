@@ -16,6 +16,9 @@ public class MyAccountPage extends LoginPage {
   @FindBy(xpath = "//*[@id=\"column-right\"]/div/a[2]")
   WebElement editAccountLink;
 
+  @FindBy(xpath = "//*[@id=\"column-right\"]/div/a[13]")
+  WebElement logout;
+
   public void goToAddressBook() {
     addressBookLink.click();
     LOG.info("Click on address book link");
@@ -28,5 +31,11 @@ public class MyAccountPage extends LoginPage {
     LOG.info("Click on edit account link");
     wait.until(ExpectedConditions.titleIs("My Account Information"));
     LOG.info("Wait until account information page opens");
+  }
+
+  public void logout() {
+    logout.click();
+    wait.until(ExpectedConditions.titleIs("Account Logout"));
+    LOG.info("Logout");
   }
 }
