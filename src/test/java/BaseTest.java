@@ -13,27 +13,27 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 
 public class BaseTest {
-    protected static WebDriver driver;
-    protected static WebDriverWait wait;
-    protected static Logger LOG = LoggerFactory.getLogger(BaseTest.class);
+  protected static WebDriver driver;
+  protected static WebDriverWait wait;
+  protected static Logger LOG = LoggerFactory.getLogger(BaseTest.class);
 
 
-    @BeforeAll
-    public static void setup() throws IOException {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().deleteAllCookies();
-        wait = new WebDriverWait(driver, 10);
-    }
+  @BeforeAll
+  public static void setup() throws IOException {
+    WebDriverManager.chromedriver().setup();
+    driver = new ChromeDriver();
+    driver.manage().window().maximize();
+    driver.manage().deleteAllCookies();
+    wait = new WebDriverWait(driver, 10);
+  }
 
-    @AfterAll
-    public static void cleanup() {
-        driver.quit();
-    }
+  @AfterAll
+  public static void cleanup() {
+    driver.quit();
+  }
 
-    @Attachment("screenshot")
-    public byte[] makeScreenshot() {
-        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-    }
+  @Attachment("screenshot")
+  public byte[] makeScreenshot() {
+    return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+  }
 }

@@ -11,16 +11,17 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Epic("Your Store web application user administration")
 @Feature("Login")
 @Story("Failed login - invalid password")
-public class TC4_FailedLogin extends BaseTest{
-    LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
-    @Test
-    @DisplayName("Failed login - invalid password")
-    public void failedLogin(){
-        loginPage.openHomePage();
-        loginPage.openLoginPage();
-        loginPage.loginReturningCustomer("nagy@ilona.hu", "nag");
-        assertThat(loginPage.getWarningNoMatch().getText())
-                .isEqualTo("Warning: No match for E-Mail Address and/or Password.");
-        LOG.info("Login successful");
-    }
+public class TC4_FailedLogin extends BaseTest {
+  LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
+
+  @Test
+  @DisplayName("Failed login - invalid password")
+  public void failedLogin() {
+    loginPage.openHomePage();
+    loginPage.openLoginPage();
+    loginPage.loginReturningCustomer("nagy@ilona.hu", "nag");
+    assertThat(loginPage.getWarningNoMatch().getText())
+        .isEqualTo("Warning: No match for E-Mail Address and/or Password.");
+    LOG.info("Login successful");
+  }
 }

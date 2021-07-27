@@ -11,16 +11,16 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Epic("Your Store web application user administration")
 @Feature("Login")
 @Story("Successful login")
-public class TC3_SuccessfulLogin extends BaseTest{
-    LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
+public class TC3_SuccessfulLogin extends BaseTest {
+  LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
 
-    @Test
-    @DisplayName("Successful login")
-    public void successfulLogin(){
-        loginPage.openHomePage();
-        loginPage.openLoginPage();
-        loginPage.loginReturningCustomer("nagy@ilona.hu", "nagyi");
-        assertThat(driver.getTitle()).isEqualTo("My Account");
-        LOG.info("Login successful");
-    }
+  @Test
+  @DisplayName("Successful login")
+  public void successfulLogin() {
+    loginPage.openHomePage();
+    loginPage.openLoginPage();
+    loginPage.loginReturningCustomer("nagy@ilona.hu", "nagyi");
+    assertThat(driver.getTitle()).isEqualTo("My Account");
+    LOG.info("Login successful");
+  }
 }

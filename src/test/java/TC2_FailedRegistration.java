@@ -12,17 +12,17 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Feature("User registration")
 @Story("Failed registration with previously registered email")
 public class TC2_FailedRegistration extends BaseTest {
-    RegisterAccountPage registerAccount = PageFactory.initElements(driver, RegisterAccountPage.class);
+  RegisterAccountPage registerAccount = PageFactory.initElements(driver, RegisterAccountPage.class);
 
-    @Test
-    @DisplayName("Failed registration with previously registered email")
-    public void unsuccessfulRegistration() {
-        registerAccount.openHomePage();
-        registerAccount.openLoginPage();
-        registerAccount.registerNewCustomer();
-        registerAccount.registerAccount("Nagy", "Ilona", "nagy@ilona.hu", "061111111", "nagyi");
-        assertThat(registerAccount.getWarningEmailAlreadyRegistered().getText())
-                .isEqualTo("Warning: E-Mail Address is already registered!");
-        LOG.info("Email already registered warning is displayed");
-    }
+  @Test
+  @DisplayName("Failed registration with previously registered email")
+  public void unsuccessfulRegistration() {
+    registerAccount.openHomePage();
+    registerAccount.openLoginPage();
+    registerAccount.registerNewCustomer();
+    registerAccount.registerAccount("Nagy", "Ilona", "nagy@ilona.hu", "061111111", "nagyi");
+    assertThat(registerAccount.getWarningEmailAlreadyRegistered().getText())
+        .isEqualTo("Warning: E-Mail Address is already registered!");
+    LOG.info("Email already registered warning is displayed");
+  }
 }

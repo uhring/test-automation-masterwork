@@ -12,23 +12,23 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Feature("User registration")
 @Story("Open privacy statement and check the checkbox")
 public class TC5_UsingPrivacyStatement extends BaseTest {
-    RegisterAccountPage registerAccount = PageFactory.initElements(driver, RegisterAccountPage.class);
+  RegisterAccountPage registerAccount = PageFactory.initElements(driver, RegisterAccountPage.class);
 
-    @Test
-    @DisplayName("Open privacy statement and check the checkbox")
-    public void openPrivacyStatement() {
-        registerAccount.openHomePage();
-        registerAccount.openLoginPage();
-        registerAccount.registerNewCustomer();
-        registerAccount.openPrivacyPolicy();
-        makeScreenshot();
-        LOG.info("Screenshot taken");
-        registerAccount.closePrivacyPolicy();
-        registerAccount.acceptPrivacyPolicy();
-        makeScreenshot();
-        LOG.info("Screenshot taken");
-        assertThat(registerAccount.getPrivacyCheckbox().isSelected())
-                .isTrue();
-        LOG.info("Privacy checkbox checked successfully");
-    }
+  @Test
+  @DisplayName("Open privacy statement and check the checkbox")
+  public void openPrivacyStatement() {
+    registerAccount.openHomePage();
+    registerAccount.openLoginPage();
+    registerAccount.registerNewCustomer();
+    registerAccount.openPrivacyPolicy();
+    makeScreenshot();
+    LOG.info("Screenshot taken");
+    registerAccount.closePrivacyPolicy();
+    registerAccount.acceptPrivacyPolicy();
+    makeScreenshot();
+    LOG.info("Screenshot taken");
+    assertThat(registerAccount.getPrivacyCheckbox().isSelected())
+        .isTrue();
+    LOG.info("Privacy checkbox checked successfully");
+  }
 }

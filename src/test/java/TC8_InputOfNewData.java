@@ -14,20 +14,20 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Feature("Address book administration")
 @Story("Add address to an existing account")
 public class TC8_InputOfNewData extends BaseTest {
-    AddAddressPage addAddressPage = PageFactory.initElements(driver, AddAddressPage.class);
+  AddAddressPage addAddressPage = PageFactory.initElements(driver, AddAddressPage.class);
 
-    @Test
-    @DisplayName("Add address to an existing account")
-    public void addAddressToAccount() {
-        addAddressPage.openHomePage();
-        addAddressPage.openLoginPage();
-        addAddressPage.loginReturningCustomer("nagy@ilona.hu", "nagyi");
-        addAddressPage.goToAddressBook();
-        addAddressPage.addAddress();
-        addAddressPage.addNewAddress("Ilona", "Nagy", "Nagy utca 1",
-                "Budapest", "1999", "Hungary");
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"content\"]/h2")));
-        assertThat(driver.findElement(By.xpath("//*[@id=\"content\"]/h2")).getText())
-                .isEqualTo("Address Book Entries");
-    }
+  @Test
+  @DisplayName("Add address to an existing account")
+  public void addAddressToAccount() {
+    addAddressPage.openHomePage();
+    addAddressPage.openLoginPage();
+    addAddressPage.loginReturningCustomer("nagy@ilona.hu", "nagyi");
+    addAddressPage.goToAddressBook();
+    addAddressPage.addAddress();
+    addAddressPage.addNewAddress("Ilona", "Nagy", "Nagy utca 1",
+        "Budapest", "1999", "Hungary");
+    wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"content\"]/h2")));
+    assertThat(driver.findElement(By.xpath("//*[@id=\"content\"]/h2")).getText())
+        .isEqualTo("Address Book Entries");
+  }
 }

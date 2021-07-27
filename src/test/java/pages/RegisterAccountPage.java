@@ -7,81 +7,84 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 
 public class RegisterAccountPage extends LoginPage {
-    public RegisterAccountPage(WebDriver driver) {
-        super(driver);
-    }
-    @FindBy(id = "input-firstname")
-    WebElement firstNameField;
+  public RegisterAccountPage(WebDriver driver) {
+    super(driver);
+  }
 
-    @FindBy(id = "input-lastname")
-    WebElement lastNameField;
+  @FindBy(id = "input-firstname")
+  WebElement firstNameField;
 
-    @FindBy(id = "input-email")
-    WebElement emailField;
+  @FindBy(id = "input-lastname")
+  WebElement lastNameField;
 
-    @FindBy(id = "input-telephone")
-    WebElement telephoneField;
+  @FindBy(id = "input-email")
+  WebElement emailField;
 
-    @FindBy(id = "input-password")
-    WebElement passwordField;
+  @FindBy(id = "input-telephone")
+  WebElement telephoneField;
 
-    @FindBy(id = "input-confirm")
-    WebElement passwordConfirmField;
+  @FindBy(id = "input-password")
+  WebElement passwordField;
 
-    @FindBy(linkText = "Privacy Policy")
-    WebElement privacyPolicy;
+  @FindBy(id = "input-confirm")
+  WebElement passwordConfirmField;
 
-    @FindBy(xpath = "//*[@id=\"content\"]/form/div/div/input[1]")
-    WebElement privacyCheckbox;
+  @FindBy(linkText = "Privacy Policy")
+  WebElement privacyPolicy;
 
-    @FindBy(xpath = "//*[@id=\"content\"]/form/div/div/input[2]")
-    WebElement continueButton;
+  @FindBy(xpath = "//*[@id=\"content\"]/form/div/div/input[1]")
+  WebElement privacyCheckbox;
 
-    @FindBy(xpath = "//*[@id=\"account-register\"]/div[1]")
-    WebElement warningEmailAlreadyRegistered;
+  @FindBy(xpath = "//*[@id=\"content\"]/form/div/div/input[2]")
+  WebElement continueButton;
 
-    @FindBy(xpath = "//*[@id=\"modal-agree\"]/div/div/div[1]/button")
-    WebElement privacyCloseButton;
+  @FindBy(xpath = "//*[@id=\"account-register\"]/div[1]")
+  WebElement warningEmailAlreadyRegistered;
 
-    public void registerAccount(String firstName, String lastName, String email, String telephone, String password){
-        firstNameField.sendKeys(firstName);
-        LOG.info("First name field done");
-        lastNameField.sendKeys(lastName);
-        LOG.info("Last name field done");
-        emailField.sendKeys(email);
-        LOG.info("Email field done");
-        telephoneField.sendKeys(telephone);
-        LOG.info("Telephone field done");
-        passwordField.sendKeys(password);
-        LOG.info("Password field done");
-        passwordConfirmField.sendKeys(password);
-        LOG.info("Password confirmation field done");
-        privacyCheckbox.click();
-        LOG.info("Clicked on privacy checkbox");
-        continueButton.click();
-        LOG.info("Click on continue button");
-    }
+  @FindBy(xpath = "//*[@id=\"modal-agree\"]/div/div/div[1]/button")
+  WebElement privacyCloseButton;
 
-    public WebElement getWarningEmailAlreadyRegistered(){
-        return warningEmailAlreadyRegistered;
-    }
+  public void registerAccount(String firstName, String lastName, String email, String telephone, String password) {
+    firstNameField.sendKeys(firstName);
+    LOG.info("First name field done");
+    lastNameField.sendKeys(lastName);
+    LOG.info("Last name field done");
+    emailField.sendKeys(email);
+    LOG.info("Email field done");
+    telephoneField.sendKeys(telephone);
+    LOG.info("Telephone field done");
+    passwordField.sendKeys(password);
+    LOG.info("Password field done");
+    passwordConfirmField.sendKeys(password);
+    LOG.info("Password confirmation field done");
+    privacyCheckbox.click();
+    LOG.info("Clicked on privacy checkbox");
+    continueButton.click();
+    LOG.info("Click on continue button");
+  }
 
-    public WebElement getPrivacyCheckbox() {
-        return privacyCheckbox;
-    }
+  public WebElement getWarningEmailAlreadyRegistered() {
+    return warningEmailAlreadyRegistered;
+  }
 
-    public void openPrivacyPolicy() {
-        privacyPolicy.click();
-        wait.until(ExpectedConditions.visibilityOf(privacyCloseButton));
-        LOG.info("Privacy policy opened");
-    }
-    public void closePrivacyPolicy(){
-        privacyCloseButton.click();
-        LOG.info("Privacy policy close");
-    }
-    public void acceptPrivacyPolicy(){
-        privacyCheckbox.click();
-        wait.until(ExpectedConditions.elementToBeSelected(privacyCheckbox));
-        LOG.info("Clicked on privacy checkbox");
-    }
+  public WebElement getPrivacyCheckbox() {
+    return privacyCheckbox;
+  }
+
+  public void openPrivacyPolicy() {
+    privacyPolicy.click();
+    wait.until(ExpectedConditions.visibilityOf(privacyCloseButton));
+    LOG.info("Privacy policy opened");
+  }
+
+  public void closePrivacyPolicy() {
+    privacyCloseButton.click();
+    LOG.info("Privacy policy close");
+  }
+
+  public void acceptPrivacyPolicy() {
+    privacyCheckbox.click();
+    wait.until(ExpectedConditions.elementToBeSelected(privacyCheckbox));
+    LOG.info("Clicked on privacy checkbox");
+  }
 }
