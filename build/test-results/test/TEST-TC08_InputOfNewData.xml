@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TC08_InputOfNewData" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-27T01:50:49" hostname="GABOR-PC" time="5.341">
+  <properties/>
+  <testcase name="Add address to an existing account" classname="TC08_InputOfNewData" time="5.341"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.43 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gábor\.cache\selenium\chromedriver\win32\92.0.4515.43\chromedriver.exe
+Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 4134
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+júl. 27, 2021 3:50:49 DE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO pages.YourStoreHome - Opening YourStore homepage...
+[Test worker] INFO pages.YourStoreHome - YourStore Page loaded successfully
+[Test worker] INFO pages.YourStoreHome - Opening login page
+[Test worker] INFO pages.YourStoreHome - Account Login page loaded successfully
+[Test worker] INFO pages.YourStoreHome - Email written in the email field
+[Test worker] INFO pages.YourStoreHome - Password written in the password field
+[Test worker] INFO pages.YourStoreHome - Click on login button
+[Test worker] INFO pages.YourStoreHome - Click on address book link
+[Test worker] INFO pages.YourStoreHome - Wait until address book page opens
+[Test worker] INFO pages.YourStoreHome - New address button clicked
+[Test worker] INFO pages.YourStoreHome - Wait until Add Address page opens
+[Test worker] INFO pages.YourStoreHome - First name input : Ilona
+[Test worker] INFO pages.YourStoreHome - Last name input: Nagy
+[Test worker] INFO pages.YourStoreHome - Address input: Nagy utca 1
+[Test worker] INFO pages.YourStoreHome - City input: Budapest
+[Test worker] INFO pages.YourStoreHome - Post code input: 1999
+[Test worker] INFO pages.YourStoreHome - Country selected: Hungary
+[Test worker] INFO pages.YourStoreHome - Continue button clicked
+[Test worker] INFO pages.YourStoreHome - Wait until next page loaded
+[Test worker] INFO BaseTest - Assertion done, text as expected.
+]]></system-err>
+</testsuite>

@@ -1,0 +1,249 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TC01_SuccessfulRegistration",
+    "children" : [ {
+      "name" : "Successful registration",
+      "uid" : "9b181bbcba2cfced",
+      "parentUid" : "bb0ad08dac9f895cb19bde013aa22e7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627350613523,
+        "stop" : 1627350617338,
+        "duration" : 3815
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bb0ad08dac9f895cb19bde013aa22e7c"
+  }, {
+    "name" : "TC02_FailedRegistration",
+    "children" : [ {
+      "name" : "Failed registration with previously registered email",
+      "uid" : "4e363f1d42520332",
+      "parentUid" : "8909c318f2fa444b3055ab145c6ca7c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627350619343,
+        "stop" : 1627350623074,
+        "duration" : 3731
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8909c318f2fa444b3055ab145c6ca7c7"
+  }, {
+    "name" : "TC03_SuccessfulLogin",
+    "children" : [ {
+      "name" : "Successful login",
+      "uid" : "689ac46b2b94cfbe",
+      "parentUid" : "3c990b1911ad4aec467f7b6d58e66431",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627350625004,
+        "stop" : 1627350627512,
+        "duration" : 2508
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3c990b1911ad4aec467f7b6d58e66431"
+  }, {
+    "name" : "TC04_FailedLogin",
+    "children" : [ {
+      "name" : "Failed login - invalid password",
+      "uid" : "681f93c298b37509",
+      "parentUid" : "e69b8986f13bf78fea56c4685c20b54f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627350629429,
+        "stop" : 1627350632166,
+        "duration" : 2737
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e69b8986f13bf78fea56c4685c20b54f"
+  }, {
+    "name" : "TC05_UsingPrivacyStatement",
+    "children" : [ {
+      "name" : "Open privacy statement and check the checkbox",
+      "uid" : "790f6ab228bf861c",
+      "parentUid" : "e8c53a6f8eb2ad6d9c1d8ac33117591c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627350634123,
+        "stop" : 1627350637984,
+        "duration" : 3861
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e8c53a6f8eb2ad6d9c1d8ac33117591c"
+  }, {
+    "name" : "TC06_ListingData",
+    "children" : [ {
+      "name" : "Listing all sales items",
+      "uid" : "1a561858c49e2c25",
+      "parentUid" : "3e8d5b979a33b24ee02bfd2919188418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627350639938,
+        "stop" : 1627350642653,
+        "duration" : 2715
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3e8d5b979a33b24ee02bfd2919188418"
+  }, {
+    "name" : "TC07_Pagination",
+    "children" : [ {
+      "name" : "Navigate to the next page with more results after listing all sales items",
+      "uid" : "ed93d7d214dd164a",
+      "parentUid" : "fb0938b4e8ea0265dccd0b9d9070242a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627350644550,
+        "stop" : 1627350647507,
+        "duration" : 2957
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fb0938b4e8ea0265dccd0b9d9070242a"
+  }, {
+    "name" : "TC08_InputOfNewData",
+    "children" : [ {
+      "name" : "Add address to an existing account",
+      "uid" : "2d0d307f703e4954",
+      "parentUid" : "f962f8451f225fdc21a6a8f417c75cd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627350649389,
+        "stop" : 1627350654728,
+        "duration" : 5339
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f962f8451f225fdc21a6a8f417c75cd7"
+  }, {
+    "name" : "TC09_RepetitiveDataEntryFromExternalSource",
+    "children" : [ {
+      "name" : "[1] Imre, Kiss, Palota u. 11., Soltvadkert, 3443, Hungary",
+      "uid" : "c82cbd20cce1bf50",
+      "parentUid" : "aa04445aeb6bf5d0d75bf01a7870e0de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627350656707,
+        "stop" : 1627350662823,
+        "duration" : 6116
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] Ilona, Nagy, Palota u. 11., Soltvadkert, 3443, Hungary",
+      "uid" : "eeb973321043b2bc",
+      "parentUid" : "aa04445aeb6bf5d0d75bf01a7870e0de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627350662828,
+        "stop" : 1627350668136,
+        "duration" : 5308
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3] Ambrus, Kiss, Ceruza u. 23., Buda, 1443, Hungary",
+      "uid" : "cdb0a1cc92b3ccdb",
+      "parentUid" : "aa04445aeb6bf5d0d75bf01a7870e0de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627350668141,
+        "stop" : 1627350673559,
+        "duration" : 5418
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[4] Anna, Nagy, Kapu u. 13., Pest, 1943, Hungary",
+      "uid" : "301a13b9fafcbd78",
+      "parentUid" : "aa04445aeb6bf5d0d75bf01a7870e0de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627350673565,
+        "stop" : 1627350678744,
+        "duration" : 5179
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "aa04445aeb6bf5d0d75bf01a7870e0de"
+  }, {
+    "name" : "TC10_ExistingDataModification",
+    "children" : [ {
+      "name" : "Modification of the customer's first name",
+      "uid" : "c8e4503df25142f6",
+      "parentUid" : "a836396c6146d02b7e0d860d5b3f23f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627350680835,
+        "stop" : 1627350685113,
+        "duration" : 4278
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a836396c6146d02b7e0d860d5b3f23f7"
+  }, {
+    "name" : "TC11_DeletingData",
+    "children" : [ {
+      "name" : "Deleting one address from the address book",
+      "uid" : "23918e71b1791b95",
+      "parentUid" : "d37b8cbce5faeea774a25e0503ee4c7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627350687079,
+        "stop" : 1627350690830,
+        "duration" : 3751
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d37b8cbce5faeea774a25e0503ee4c7f"
+  }, {
+    "name" : "TC12_SavingDataFromTheWebApplication",
+    "children" : [ {
+      "name" : "Save the name, description and price of all laptops from the list into a text file",
+      "uid" : "819204359f5bbe28",
+      "parentUid" : "a8784f683c78619c82af9b55f4cd7a56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627350692753,
+        "stop" : 1627350695089,
+        "duration" : 2336
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a8784f683c78619c82af9b55f4cd7a56"
+  }, {
+    "name" : "TC13_Logout",
+    "children" : [ {
+      "name" : "Login and logout",
+      "uid" : "685a2d8cf9f70104",
+      "parentUid" : "86467502eb83d2d2fabfe2c9ce241bcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627350697013,
+        "stop" : 1627350700114,
+        "duration" : 3101
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "86467502eb83d2d2fabfe2c9ce241bcd"
+  } ]
+}

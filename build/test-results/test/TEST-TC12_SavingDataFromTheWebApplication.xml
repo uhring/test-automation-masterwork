@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TC12_SavingDataFromTheWebApplication" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-27T01:45:56" hostname="GABOR-PC" time="2.3">
+<testsuite name="TC12_SavingDataFromTheWebApplication" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-27T01:51:32" hostname="GABOR-PC" time="2.338">
   <properties/>
-  <testcase name="Save the name, description and price of all laptops from the list into a text file" classname="TC12_SavingDataFromTheWebApplication" time="2.3"/>
+  <testcase name="Save the name, description and price of all laptops from the list into a text file" classname="TC12_SavingDataFromTheWebApplication" time="2.338"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.43 (resolved driver for Chrome 92)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gábor\.cache\selenium\chromedriver\win32\92.0.4515.43\chromedriver.exe
-Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 34932
+Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 36317
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-júl. 27, 2021 3:45:55 DE org.openqa.selenium.remote.ProtocolHandshake createSession
+júl. 27, 2021 3:51:32 DE org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO pages.YourStoreHome - Opening YourStore homepage...
 [Test worker] INFO pages.YourStoreHome - YourStore Page loaded successfully
