@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TC03_SuccessfulLogin" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-27T01:50:25" hostname="GABOR-PC" time="2.51">
+<testsuite name="TC03_SuccessfulLogin" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-27T09:49:56" hostname="GABOR-PC" time="2.815">
   <properties/>
-  <testcase name="Successful login" classname="TC03_SuccessfulLogin" time="2.51"/>
+  <testcase name="Successful login" classname="TC03_SuccessfulLogin" time="2.815"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.43 (resolved driver for Chrome 92)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gábor\.cache\selenium\chromedriver\win32\92.0.4515.43\chromedriver.exe
-Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 45934
+Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 47736
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-júl. 27, 2021 3:50:24 DE org.openqa.selenium.remote.ProtocolHandshake createSession
+júl. 27, 2021 11:49:56 DE org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO pages.YourStoreHome - Opening YourStore homepage...
 [Test worker] INFO pages.YourStoreHome - YourStore Page loaded successfully
