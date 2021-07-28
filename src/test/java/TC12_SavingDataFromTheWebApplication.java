@@ -28,6 +28,7 @@ public class TC12_SavingDataFromTheWebApplication extends BaseTest{
     home.openHomePage();
     home.listAllLaptops();
     writeToFile();
+    LOG.info("File written to resources/output");
   }
 
   public void writeToFile() {
