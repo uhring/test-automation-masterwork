@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class LoginPage extends YourStoreHome {
+public class LoginPage extends HomePage {
   public LoginPage(WebDriver driver) {
     super(driver);
   }

@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-import pages.YourStoreHome;
+import pages.HomePage;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -19,7 +19,7 @@ import java.util.List;
 @Feature("Listing and saving data from the web application")
 @Story("Save the name, description and price of all laptops from the list into a text file")
 public class TC12_SavingDataFromTheWebApplication extends BaseTest{
-  YourStoreHome home = PageFactory.initElements(driver, YourStoreHome.class);
+  HomePage home = PageFactory.initElements(driver, HomePage.class);
 
   @Test
   @DisplayName("Save the name, description and price of all laptops from the list into a text file. " +

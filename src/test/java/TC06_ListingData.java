@@ -5,7 +5,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
-import pages.YourStoreHome;
+import pages.HomePage;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Feature("Listing data")
 @Story("Listing all sales items")
 public class TC06_ListingData extends BaseTest {
-  YourStoreHome home = PageFactory.initElements(driver, YourStoreHome.class);
+  HomePage home = PageFactory.initElements(driver, HomePage.class);
 
   @Test
   @DisplayName("Listing all sales items")

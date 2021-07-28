@@ -13,11 +13,11 @@ import org.slf4j.LoggerFactory;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class YourStoreHome {
+public class HomePage {
   protected WebDriver driver;
   protected WebDriverWait wait;
   protected Actions action;
-  protected static Logger LOG = LoggerFactory.getLogger(YourStoreHome.class);
+  protected static Logger LOG = LoggerFactory.getLogger(HomePage.class);
 
   @FindBy(xpath = "//div[4]/ul/li/a[contains(.,'My Account')]")
   WebElement myAccount;
@@ -37,7 +37,7 @@ public class YourStoreHome {
   @FindBy(xpath = "//*[@id=\"content\"]/div[5]/div[1]/ul/li[3]/a")
   WebElement showMoreItems;
 
-  public YourStoreHome(WebDriver driver) {
+  public HomePage(WebDriver driver) {
     this.driver = driver;
     this.wait = new WebDriverWait(driver, 10);
     this.action = new Actions(driver);
