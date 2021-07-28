@@ -22,10 +22,12 @@ public class TC10_ExistingDataModification extends BaseTest {
     editAccountPage.openLoginPage();
     editAccountPage.loginReturningCustomer(registeredEmail, registeredPassword);
     editAccountPage.goToEditAccountPage();
-    editAccountPage.modifyFirstName("Ilonka");
+    editAccountPage.modifyFirstName("Ilona" + (int) (Math.random() * 100));
     assertThat(driver.findElement(By.xpath("//*[@id=\"account-account\"]/div[1]")).getText())
         .as("Text should be: Success: Your account has been successfully updated.")
         .isEqualTo("Success: Your account has been successfully updated.");
     LOG.info("Assertion on actual and expected text is done");
+    makeScreenshot();
+    LOG.info("Success screenshot taken");
   }
 }

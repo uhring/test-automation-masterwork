@@ -18,11 +18,15 @@ public class EditAccountPage extends MyAccountPage {
   WebElement continueButton;
 
   public void modifyFirstName(String firstName) {
+    makeScreenshot();
+    LOG.info("Screenshot before modification");
     firstNameField.clear();
     LOG.info("Clear first name field");
     firstNameField.sendKeys(firstName);
     LOG.info("Fill new data to first name field");
     wait.until(ExpectedConditions.elementToBeClickable(continueButton));
+    makeScreenshot();
+    LOG.info("Screenshot after modification");
     continueButton.click();
     LOG.info("Click on Continue");
     wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"account-account\"]/div[1]")));

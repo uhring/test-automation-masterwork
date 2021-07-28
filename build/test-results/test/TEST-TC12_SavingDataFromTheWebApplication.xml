@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TC12_SavingDataFromTheWebApplication" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-28T10:48:05" hostname="GABOR-PC" time="2.278">
+<testsuite name="TC12_SavingDataFromTheWebApplication" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-28T12:06:38" hostname="GABOR-PC" time="2.283">
   <properties/>
-  <testcase name="Save the name, description and price of all laptops from the list into a text file. File path: src/test/resources/output.txt" classname="TC12_SavingDataFromTheWebApplication" time="2.278"/>
+  <testcase name="Save the name, description and price of all laptops from the list into a text file. File path: src/test/resources/output.txt" classname="TC12_SavingDataFromTheWebApplication" time="2.283"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.43 (resolved driver for Chrome 92)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gábor\.cache\selenium\chromedriver\win32\92.0.4515.43\chromedriver.exe
-Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 40262
+Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 16679
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-júl. 28, 2021 12:48:05 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+júl. 28, 2021 2:06:38 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO pages.HomePage - Opening YourStore homepage...
 [Test worker] INFO pages.HomePage - YourStore Page loaded successfully
 [Test worker] INFO pages.HomePage - Move pointer to "Laptops & Notebooks" tab
 [Test worker] INFO pages.HomePage - Click "Show All Laptops & Notebooks" from the dropdown list
 [Test worker] INFO BaseTest - Write output.txt file
+[Test worker] INFO BaseTest - File written to resources/output
 ]]></system-err>
 </testsuite>
