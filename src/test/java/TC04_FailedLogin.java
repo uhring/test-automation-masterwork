@@ -19,7 +19,7 @@ public class TC04_FailedLogin extends BaseTest {
   public void failedLogin() {
     loginPage.openHomePage();
     loginPage.openLoginPage();
-    loginPage.loginReturningCustomer(registeredEmail, registeredPassword);
+    loginPage.loginReturningCustomer(registeredEmail, "nag");
     assertThat(loginPage.getWarningNoMatch().getText())
         .isEqualTo("Warning: No match for E-Mail Address and/or Password.");
     LOG.info("Assert OK. Login failed.");

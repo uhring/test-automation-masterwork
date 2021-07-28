@@ -1,5 +1,3 @@
-BaseTest.java
- BaseTest
 TC12_SavingDataFromTheWebApplication.java
  TC12_SavingDataFromTheWebApplication
 TC10_ExistingDataModification.java
@@ -22,6 +20,8 @@ TC01_SuccessfulRegistration.java
  TC01_SuccessfulRegistration
 TC02_FailedRegistration.java
  TC02_FailedRegistration
+pages/HomePage.java
+ pages.HomePage
 TC05_UsingPrivacyStatement.java
  TC05_UsingPrivacyStatement
 TC06_ListingData.java
@@ -36,7 +36,7 @@ TC07_Pagination.java
  TC07_Pagination
 pages/AddressBookPage.java
  pages.AddressBookPage
-pages/YourStoreHome.java
- pages.YourStoreHome
+BaseTest.java
+ BaseTest
 pages/EditAccountPage.java
  pages.EditAccountPage
