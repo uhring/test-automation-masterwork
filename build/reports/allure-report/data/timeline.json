@@ -1,205 +1,209 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
     "name" : "GABOR-PC",
     "children" : [ {
-      "name" : "18912@GABOR-PC.Test worker(12)",
+      "name" : "4244@GABOR-PC.Test worker(12)",
       "children" : [ {
-        "name" : "Login and logout",
-        "uid" : "a6cd16534e64efc6",
-        "parentUid" : "e243d1408dee483534c3caacf2b41d86",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627379468777,
-          "stop" : 1627379471962,
-          "duration" : 3185
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "[4] Anna, Nagy, Kapu u. 13., Pest, 1943, Hungary",
-        "uid" : "875468bd01f7ca58",
-        "parentUid" : "e243d1408dee483534c3caacf2b41d86",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627379445072,
-          "stop" : 1627379450235,
-          "duration" : 5163
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Listing all sales items",
-        "uid" : "13b9d1cc6f13b5b7",
-        "parentUid" : "e243d1408dee483534c3caacf2b41d86",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627379411162,
-          "stop" : 1627379413747,
-          "duration" : 2585
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Successful registration",
-        "uid" : "47ee668cbe2a6401",
-        "parentUid" : "e243d1408dee483534c3caacf2b41d86",
+        "uid" : "f9e21755522e3d39",
+        "parentUid" : "dae0adcadc7b1a682d563a31b1b0151f",
         "status" : "passed",
         "time" : {
-          "start" : 1627379384338,
-          "stop" : 1627379388354,
-          "duration" : 4016
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Failed login - invalid password",
-        "uid" : "91baf225cee7799b",
-        "parentUid" : "e243d1408dee483534c3caacf2b41d86",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627379400913,
-          "stop" : 1627379403460,
-          "duration" : 2547
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Deleting one address from the address book",
-        "uid" : "876a59965bc4d2d6",
-        "parentUid" : "e243d1408dee483534c3caacf2b41d86",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627379458578,
-          "stop" : 1627379462492,
-          "duration" : 3914
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Open privacy statement and check the checkbox",
-        "uid" : "62996c8cadb6b4b1",
-        "parentUid" : "e243d1408dee483534c3caacf2b41d86",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627379405362,
-          "stop" : 1627379409206,
-          "duration" : 3844
+          "start" : 1627417841499,
+          "stop" : 1627417845530,
+          "duration" : 4031
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "[3] Ambrus, Kiss, Ceruza u. 23., Buda, 1443, Hungary",
-        "uid" : "301cacc7f4185a36",
-        "parentUid" : "e243d1408dee483534c3caacf2b41d86",
+        "uid" : "fb00169813cb4eeb",
+        "parentUid" : "dae0adcadc7b1a682d563a31b1b0151f",
         "status" : "passed",
         "time" : {
-          "start" : 1627379439773,
-          "stop" : 1627379445065,
-          "duration" : 5292
+          "start" : 1627417896207,
+          "stop" : 1627417901413,
+          "duration" : 5206
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "[2] Ilona, Nagy, Palota u. 11., Soltvadkert, 3443, Hungary",
-        "uid" : "73dc077eb81653d1",
-        "parentUid" : "e243d1408dee483534c3caacf2b41d86",
+        "name" : "Login and logout",
+        "uid" : "ef7e8b8110366ebf",
+        "parentUid" : "dae0adcadc7b1a682d563a31b1b0151f",
         "status" : "passed",
         "time" : {
-          "start" : 1627379434422,
-          "stop" : 1627379439767,
-          "duration" : 5345
+          "start" : 1627417924782,
+          "stop" : 1627417928038,
+          "duration" : 3256
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Successful login",
-        "uid" : "1a7ac73f57da10aa",
-        "parentUid" : "e243d1408dee483534c3caacf2b41d86",
+        "name" : "Listing all sales items",
+        "uid" : "1eb4fe503146b296",
+        "parentUid" : "dae0adcadc7b1a682d563a31b1b0151f",
         "status" : "passed",
         "time" : {
-          "start" : 1627379396155,
-          "stop" : 1627379398967,
-          "duration" : 2812
+          "start" : 1627417868016,
+          "stop" : 1627417870701,
+          "duration" : 2685
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Add address to an existing account",
-        "uid" : "776dd35b10b729fd",
-        "parentUid" : "e243d1408dee483534c3caacf2b41d86",
+        "uid" : "8ed4f1cafabfc49e",
+        "parentUid" : "dae0adcadc7b1a682d563a31b1b0151f",
         "status" : "passed",
         "time" : {
-          "start" : 1627379420817,
-          "stop" : 1627379426061,
-          "duration" : 5244
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Modification of the customer's first name",
-        "uid" : "c52ee5fc33cbf8b8",
-        "parentUid" : "e243d1408dee483534c3caacf2b41d86",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627379452210,
-          "stop" : 1627379456690,
-          "duration" : 4480
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Navigate to the next page with more results after listing all sales items",
-        "uid" : "bdd0cb30f8b90570",
-        "parentUid" : "e243d1408dee483534c3caacf2b41d86",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627379415710,
-          "stop" : 1627379418896,
-          "duration" : 3186
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Save the name, description and price of all laptops from the list into a text file",
-        "uid" : "dee0828301f723f0",
-        "parentUid" : "e243d1408dee483534c3caacf2b41d86",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627379464441,
-          "stop" : 1627379466836,
-          "duration" : 2395
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Failed registration with previously registered email",
-        "uid" : "1075a91a63f4dfcf",
-        "parentUid" : "e243d1408dee483534c3caacf2b41d86",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627379390530,
-          "stop" : 1627379394181,
-          "duration" : 3651
+          "start" : 1627417877673,
+          "stop" : 1627417882953,
+          "duration" : 5280
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "[1] Imre, Kiss, Palota u. 11., Soltvadkert, 3443, Hungary",
-        "uid" : "c87b4fa468aa689d",
-        "parentUid" : "e243d1408dee483534c3caacf2b41d86",
+        "uid" : "fcf24c2314f55bfc",
+        "parentUid" : "dae0adcadc7b1a682d563a31b1b0151f",
         "status" : "passed",
         "time" : {
-          "start" : 1627379428126,
-          "stop" : 1627379434416,
-          "duration" : 6290
+          "start" : 1627417884965,
+          "stop" : 1627417891005,
+          "duration" : 6040
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[2] Ilona, Nagy, Palota u. 11., Soltvadkert, 3443, Hungary",
+        "uid" : "c3431a84a804b690",
+        "parentUid" : "dae0adcadc7b1a682d563a31b1b0151f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627417891011,
+          "stop" : 1627417896200,
+          "duration" : 5189
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[4] Anna, Nagy, Kapu u. 13., Pest, 1943, Hungary",
+        "uid" : "441bb6bc3f077bdf",
+        "parentUid" : "dae0adcadc7b1a682d563a31b1b0151f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627417901418,
+          "stop" : 1627417906613,
+          "duration" : 5195
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Successful login",
+        "uid" : "d0c054d9c140d311",
+        "parentUid" : "dae0adcadc7b1a682d563a31b1b0151f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627417853352,
+          "stop" : 1627417855851,
+          "duration" : 2499
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Failed registration with previously registered email",
+        "uid" : "b3f25e81bba58f6f",
+        "parentUid" : "dae0adcadc7b1a682d563a31b1b0151f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627417847716,
+          "stop" : 1627417851403,
+          "duration" : 3687
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Modification of the customer's first name",
+        "uid" : "628aadd4901b2591",
+        "parentUid" : "dae0adcadc7b1a682d563a31b1b0151f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627417908579,
+          "stop" : 1627417912780,
+          "duration" : 4201
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Failed login - invalid password",
+        "uid" : "341377bce514df4b",
+        "parentUid" : "dae0adcadc7b1a682d563a31b1b0151f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627417857843,
+          "stop" : 1627417860480,
+          "duration" : 2637
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Deleting one address from the address book",
+        "uid" : "e4b2c09e93b7b98b",
+        "parentUid" : "dae0adcadc7b1a682d563a31b1b0151f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627417914675,
+          "stop" : 1627417918511,
+          "duration" : 3836
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Navigate to the next page with more results after listing all sales items",
+        "uid" : "d4631056335517e0",
+        "parentUid" : "dae0adcadc7b1a682d563a31b1b0151f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627417872635,
+          "stop" : 1627417875744,
+          "duration" : 3109
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Open privacy statement and check the checkbox",
+        "uid" : "1be1d4a5e2345194",
+        "parentUid" : "dae0adcadc7b1a682d563a31b1b0151f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627417862383,
+          "stop" : 1627417866062,
+          "duration" : 3679
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e243d1408dee483534c3caacf2b41d86"
+      "uid" : "dae0adcadc7b1a682d563a31b1b0151f"
+    }, {
+      "name" : "18112@GABOR-PC.Test worker(12)",
+      "children" : [ {
+        "name" : "Save the name, description and price of all laptops from the list into a text file. File path: src/test/resources/output.txt",
+        "uid" : "30acc2fea5fcbcf2",
+        "parentUid" : "7ac1e3a1053d9a3915398a270d7620d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627462629957,
+          "stop" : 1627462632617,
+          "duration" : 2660
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ac1e3a1053d9a3915398a270d7620d6"
     } ],
     "uid" : "17702d9ce51367f3daa7d2323915d0b6"
-  } ]
+  } ],
+  "name" : "timeline"
 }

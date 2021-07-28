@@ -1,3 +1,5 @@
+BaseTest.java
+ BaseTest
 TC12_SavingDataFromTheWebApplication.java
  TC12_SavingDataFromTheWebApplication
 TC10_ExistingDataModification.java
@@ -36,7 +38,5 @@ pages/AddressBookPage.java
  pages.AddressBookPage
 pages/YourStoreHome.java
  pages.YourStoreHome
-BaseTest.java
- BaseTest
 pages/EditAccountPage.java
  pages.EditAccountPage

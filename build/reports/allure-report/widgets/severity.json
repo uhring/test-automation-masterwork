@@ -1,160 +1,160 @@
 [ {
-  "uid" : "dee0828301f723f0",
-  "name" : "Save the name, description and price of all laptops from the list into a text file",
-  "time" : {
-    "start" : 1627379464441,
-    "stop" : 1627379466836,
-    "duration" : 2395
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bdd0cb30f8b90570",
-  "name" : "Navigate to the next page with more results after listing all sales items",
-  "time" : {
-    "start" : 1627379415710,
-    "stop" : 1627379418896,
-    "duration" : 3186
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c52ee5fc33cbf8b8",
-  "name" : "Modification of the customer's first name",
-  "time" : {
-    "start" : 1627379452210,
-    "stop" : 1627379456690,
-    "duration" : 4480
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "776dd35b10b729fd",
-  "name" : "Add address to an existing account",
-  "time" : {
-    "start" : 1627379420817,
-    "stop" : 1627379426061,
-    "duration" : 5244
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "47ee668cbe2a6401",
-  "name" : "Successful registration",
-  "time" : {
-    "start" : 1627379384338,
-    "stop" : 1627379388354,
-    "duration" : 4016
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "73dc077eb81653d1",
+  "uid" : "c3431a84a804b690",
   "name" : "[2] Ilona, Nagy, Palota u. 11., Soltvadkert, 3443, Hungary",
   "time" : {
-    "start" : 1627379434422,
-    "stop" : 1627379439767,
-    "duration" : 5345
+    "start" : 1627417891011,
+    "stop" : 1627417896200,
+    "duration" : 5189
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1a7ac73f57da10aa",
-  "name" : "Successful login",
+  "uid" : "d4631056335517e0",
+  "name" : "Navigate to the next page with more results after listing all sales items",
   "time" : {
-    "start" : 1627379396155,
-    "stop" : 1627379398967,
-    "duration" : 2812
+    "start" : 1627417872635,
+    "stop" : 1627417875744,
+    "duration" : 3109
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "876a59965bc4d2d6",
-  "name" : "Deleting one address from the address book",
-  "time" : {
-    "start" : 1627379458578,
-    "stop" : 1627379462492,
-    "duration" : 3914
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a6cd16534e64efc6",
-  "name" : "Login and logout",
-  "time" : {
-    "start" : 1627379468777,
-    "stop" : 1627379471962,
-    "duration" : 3185
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "62996c8cadb6b4b1",
-  "name" : "Open privacy statement and check the checkbox",
-  "time" : {
-    "start" : 1627379405362,
-    "stop" : 1627379409206,
-    "duration" : 3844
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1075a91a63f4dfcf",
+  "uid" : "b3f25e81bba58f6f",
   "name" : "Failed registration with previously registered email",
   "time" : {
-    "start" : 1627379390530,
-    "stop" : 1627379394181,
-    "duration" : 3651
+    "start" : 1627417847716,
+    "stop" : 1627417851403,
+    "duration" : 3687
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "91baf225cee7799b",
-  "name" : "Failed login - invalid password",
+  "uid" : "8ed4f1cafabfc49e",
+  "name" : "Add address to an existing account",
   "time" : {
-    "start" : 1627379400913,
-    "stop" : 1627379403460,
-    "duration" : 2547
+    "start" : 1627417877673,
+    "stop" : 1627417882953,
+    "duration" : 5280
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "13b9d1cc6f13b5b7",
-  "name" : "Listing all sales items",
-  "time" : {
-    "start" : 1627379411162,
-    "stop" : 1627379413747,
-    "duration" : 2585
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "301cacc7f4185a36",
+  "uid" : "fb00169813cb4eeb",
   "name" : "[3] Ambrus, Kiss, Ceruza u. 23., Buda, 1443, Hungary",
   "time" : {
-    "start" : 1627379439773,
-    "stop" : 1627379445065,
-    "duration" : 5292
+    "start" : 1627417896207,
+    "stop" : 1627417901413,
+    "duration" : 5206
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c87b4fa468aa689d",
+  "uid" : "fcf24c2314f55bfc",
   "name" : "[1] Imre, Kiss, Palota u. 11., Soltvadkert, 3443, Hungary",
   "time" : {
-    "start" : 1627379428126,
-    "stop" : 1627379434416,
-    "duration" : 6290
+    "start" : 1627417884965,
+    "stop" : 1627417891005,
+    "duration" : 6040
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "875468bd01f7ca58",
+  "uid" : "441bb6bc3f077bdf",
   "name" : "[4] Anna, Nagy, Kapu u. 13., Pest, 1943, Hungary",
   "time" : {
-    "start" : 1627379445072,
-    "stop" : 1627379450235,
-    "duration" : 5163
+    "start" : 1627417901418,
+    "stop" : 1627417906613,
+    "duration" : 5195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef7e8b8110366ebf",
+  "name" : "Login and logout",
+  "time" : {
+    "start" : 1627417924782,
+    "stop" : 1627417928038,
+    "duration" : 3256
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0c054d9c140d311",
+  "name" : "Successful login",
+  "time" : {
+    "start" : 1627417853352,
+    "stop" : 1627417855851,
+    "duration" : 2499
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30acc2fea5fcbcf2",
+  "name" : "Save the name, description and price of all laptops from the list into a text file. File path: src/test/resources/output.txt",
+  "time" : {
+    "start" : 1627462629957,
+    "stop" : 1627462632617,
+    "duration" : 2660
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1be1d4a5e2345194",
+  "name" : "Open privacy statement and check the checkbox",
+  "time" : {
+    "start" : 1627417862383,
+    "stop" : 1627417866062,
+    "duration" : 3679
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4b2c09e93b7b98b",
+  "name" : "Deleting one address from the address book",
+  "time" : {
+    "start" : 1627417914675,
+    "stop" : 1627417918511,
+    "duration" : 3836
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9e21755522e3d39",
+  "name" : "Successful registration",
+  "time" : {
+    "start" : 1627417841499,
+    "stop" : 1627417845530,
+    "duration" : 4031
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1eb4fe503146b296",
+  "name" : "Listing all sales items",
+  "time" : {
+    "start" : 1627417868016,
+    "stop" : 1627417870701,
+    "duration" : 2685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "341377bce514df4b",
+  "name" : "Failed login - invalid password",
+  "time" : {
+    "start" : 1627417857843,
+    "stop" : 1627417860480,
+    "duration" : 2637
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "628aadd4901b2591",
+  "name" : "Modification of the customer's first name",
+  "time" : {
+    "start" : 1627417908579,
+    "stop" : 1627417912780,
+    "duration" : 4201
   },
   "status" : "passed",
   "severity" : "normal"

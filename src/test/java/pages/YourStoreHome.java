@@ -10,13 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 
@@ -53,7 +46,6 @@ public class YourStoreHome {
   public void openHomePage() {
     driver.get("http://test-automation-shop2.greenfox.academy/");
     LOG.info("Opening YourStore homepage...");
-
     assertThat(driver.getTitle()).isEqualTo("Your Store");
     LOG.info("YourStore Page loaded successfully");
   }
@@ -61,7 +53,6 @@ public class YourStoreHome {
   public void openLoginPage() {
     myAccount.click();
     LOG.info("Opening login page");
-
     assertThat(driver.getTitle()).isEqualTo("Account Login");
     LOG.info("Account Login page loaded successfully");
   }
@@ -81,34 +72,11 @@ public class YourStoreHome {
     LOG.info("Paginate to the next page");
   }
 
-  public void listLaptops() {
+  public void listAllLaptops() {
     action.moveToElement(laptopList).perform();
     LOG.info("Move pointer to \"Laptops & Notebooks\" tab");
     showAllLaptops.click();
     wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//div[@class='product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12']"), 0));
     LOG.info("Click \"Show All Laptops & Notebooks\" from the dropdown list");
-  }
-
-  public void writeToFile() {
-    Path fileToWrite = Paths.get("src/test/resources/output.txt");
-
-    List<WebElement> name = driver.findElements(By.xpath("//div[@class='caption']/h4"));
-    List<WebElement> description = driver.findElements(By.xpath("//div[@class='caption']/p[1]"));
-    List<WebElement> price = driver.findElements(By.xpath("//div[@class='caption']/p[2]"));
-
-    List<String> linesToFile = new ArrayList<>();
-
-    for (int i = 0; i < name.size(); i++) {
-      linesToFile.add(name.get(i).getText());
-      linesToFile.add(description.get(i).getText());
-      linesToFile.add(price.get(i).getText());
-      linesToFile.add("\n");
-    }
-    try {
-      Files.write(fileToWrite, linesToFile);
-      LOG.info("Write output.txt file");
-    } catch (IOException e) {
-      System.out.println(" Output.txt file cannot write");
-    }
   }
 }
