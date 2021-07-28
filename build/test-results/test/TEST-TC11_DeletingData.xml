@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TC11_DeletingData" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-28T10:17:17" hostname="GABOR-PC" time="3.791">
+<testsuite name="TC11_DeletingData" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-28T10:47:56" hostname="GABOR-PC" time="7.003">
   <properties/>
-  <testcase name="Deleting one address from the address book" classname="TC11_DeletingData" time="3.791"/>
+  <testcase name="Deleting one address from the address book" classname="TC11_DeletingData" time="7.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.43 (resolved driver for Chrome 92)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gábor\.cache\selenium\chromedriver\win32\92.0.4515.43\chromedriver.exe
-Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 6431
+Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 44682
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-júl. 28, 2021 12:17:17 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+júl. 28, 2021 12:47:56 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO pages.HomePage - Opening YourStore homepage...
 [Test worker] INFO pages.HomePage - YourStore Page loaded successfully
@@ -22,5 +22,15 @@ INFO: Detected dialect: W3C
 [Test worker] INFO pages.HomePage - Wait until address book page opens
 [Test worker] INFO pages.HomePage - Click on delete button at top element from address list
 [Test worker] INFO BaseTest - Assertion of number if initial number of addresses >1 is done.
+[Test worker] INFO pages.HomePage - Click on delete button at top element from address list
+[Test worker] INFO BaseTest - Assertion of number if initial number of addresses >1 is done.
+[Test worker] INFO pages.HomePage - Click on delete button at top element from address list
+[Test worker] INFO BaseTest - Assertion of number if initial number of addresses >1 is done.
+[Test worker] INFO pages.HomePage - Click on delete button at top element from address list
+[Test worker] INFO BaseTest - Assertion of number if initial number of addresses >1 is done.
+[Test worker] INFO pages.HomePage - Click on delete button at top element from address list
+[Test worker] INFO BaseTest - Assertion of number if initial number of addresses >1 is done.
+[Test worker] INFO pages.HomePage - Click on delete button at top element from address list
+[Test worker] INFO BaseTest - Assertion of text if initial number of addresses <= 1 is done.
 ]]></system-err>
 </testsuite>
