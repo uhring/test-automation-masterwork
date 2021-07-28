@@ -16,10 +16,12 @@ public class BaseTest {
   protected static WebDriver driver;
   protected static WebDriverWait wait;
   protected static Logger LOG = LoggerFactory.getLogger(BaseTest.class);
+  String registeredEmail = "nagy@ilona.hu";
+  String regiteredPassword = "nagyi";
 
 
   @BeforeAll
-  public static void setup() throws IOException {
+  public static void setup(){
     WebDriverManager.chromedriver().setup();
     driver = new ChromeDriver();
     driver.manage().window().maximize();

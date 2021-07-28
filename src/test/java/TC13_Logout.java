@@ -20,7 +20,7 @@ public class TC13_Logout extends BaseTest {
   public void logoutTest() {
     myAccountPage.openHomePage();
     myAccountPage.openLoginPage();
-    myAccountPage.loginReturningCustomer("nagy@ilona.hu", "nagyi");
+    myAccountPage.loginReturningCustomer(registeredEmail, regiteredPassword);
     myAccountPage.logout();
     assertThat(driver.findElement(By.xpath("//*[@id=\"content\"]/h1")).getText())
         .as("Text should be: Account Logout")

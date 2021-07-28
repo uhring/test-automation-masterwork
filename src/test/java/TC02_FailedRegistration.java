@@ -20,7 +20,7 @@ public class TC02_FailedRegistration extends BaseTest {
     registerAccount.openHomePage();
     registerAccount.openLoginPage();
     registerAccount.registerNewCustomer();
-    registerAccount.registerAccount("Nagy", "Ilona", "nagy@ilona.hu", "061111111", "nagyi");
+    registerAccount.registerAccount("Nagy", "Ilona", registeredEmail, "061111111", regiteredPassword);
     assertThat(registerAccount.getWarningEmailAlreadyRegistered().getText())
         .isEqualTo("Warning: E-Mail Address is already registered!");
     LOG.info("Email already registered warning is displayed");

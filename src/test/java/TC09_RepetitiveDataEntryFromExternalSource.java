@@ -21,11 +21,12 @@ public class TC09_RepetitiveDataEntryFromExternalSource extends BaseTest {
 
   @ParameterizedTest
   @CsvFileSource(resources = "/addresses.csv", numLinesToSkip = 1)
-  @DisplayName("Add multiple new addresses to an existing account from .csv file")
+  @DisplayName("Add multiple new addresses to an existing account from .csv file." +
+      " File source: File path: src/test/resources/output.txt")
   public void addMultipleAddressesToAnAccount(String firstName, String lastName, String address, String city, String postCode, String country) {
     addAddressPage.openHomePage();
     addAddressPage.openLoginPage();
-    addAddressPage.loginReturningCustomer("nagy@ilona.hu", "nagyi");
+    addAddressPage.loginReturningCustomer(registeredEmail, regiteredPassword);
     addAddressPage.goToAddressBook();
     List<WebElement> initialAddresses = driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr"));
     addAddressPage.addAddress();
