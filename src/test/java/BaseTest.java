@@ -16,8 +16,8 @@ public class BaseTest {
   protected static WebDriver driver;
   protected static WebDriverWait wait;
   protected static Logger LOG = LoggerFactory.getLogger(BaseTest.class);
-  String registeredEmail = "nagy@ilona.hu";
-  String registeredPassword = "nagyi";
+  protected String registeredEmail = "nagy@ilona.hu";
+  protected String registeredPassword = "nagyi";
 
 
   @BeforeAll
