@@ -13,7 +13,7 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @Epic("Your Store web application user administration")
-@Feature("User data administration")
+@Feature("Address book administration")
 @Story("Deleting addresses from the address book")
 public class TC11_DeletingData extends BaseTest {
   AddressBookPage addressBookPage = PageFactory.initElements(driver, AddressBookPage.class);
