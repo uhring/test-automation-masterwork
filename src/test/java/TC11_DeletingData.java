@@ -23,7 +23,7 @@ public class TC11_DeletingData extends BaseTest {
   public void deleteOneAddressFromAddresses() {
     addressBookPage.openHomePage();
     addressBookPage.openLoginPage();
-    addressBookPage.loginReturningCustomer(registeredEmail, regiteredPassword);
+    addressBookPage.loginReturningCustomer(registeredEmail, registeredPassword);
     addressBookPage.goToAddressBook();
     List<WebElement> initialAddresses = driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr"));
     if (initialAddresses.size() > 1) {

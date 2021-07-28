@@ -21,7 +21,7 @@ public class TC08_InputOfNewData extends BaseTest {
   public void addAddressToAccount() {
     addAddressPage.openHomePage();
     addAddressPage.openLoginPage();
-    addAddressPage.loginReturningCustomer(registeredEmail, regiteredPassword);
+    addAddressPage.loginReturningCustomer(registeredEmail, registeredPassword);
     addAddressPage.goToAddressBook();
     addAddressPage.addAddress();
     addAddressPage.addNewAddress("Ilona", "Nagy", "Nagy utca 1",

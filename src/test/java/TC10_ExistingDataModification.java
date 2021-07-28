@@ -20,7 +20,7 @@ public class TC10_ExistingDataModification extends BaseTest {
   public void modificationOfFirstName() {
     editAccountPage.openHomePage();
     editAccountPage.openLoginPage();
-    editAccountPage.loginReturningCustomer(registeredEmail, regiteredPassword);
+    editAccountPage.loginReturningCustomer(registeredEmail, registeredPassword);
     editAccountPage.goToEditAccountPage();
     editAccountPage.modifyFirstName("Ilonka");
     assertThat(driver.findElement(By.xpath("//*[@id=\"account-account\"]/div[1]")).getText())

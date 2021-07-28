@@ -26,7 +26,7 @@ public class TC09_RepetitiveDataEntryFromExternalSource extends BaseTest {
   public void addMultipleAddressesToAnAccount(String firstName, String lastName, String address, String city, String postCode, String country) {
     addAddressPage.openHomePage();
     addAddressPage.openLoginPage();
-    addAddressPage.loginReturningCustomer(registeredEmail, regiteredPassword);
+    addAddressPage.loginReturningCustomer(registeredEmail, registeredPassword);
     addAddressPage.goToAddressBook();
     List<WebElement> initialAddresses = driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr"));
     addAddressPage.addAddress();

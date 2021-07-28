@@ -19,7 +19,7 @@ public class TC03_SuccessfulLogin extends BaseTest {
   public void successfulLogin() {
     loginPage.openHomePage();
     loginPage.openLoginPage();
-    loginPage.loginReturningCustomer(registeredEmail, regiteredPassword);
+    loginPage.loginReturningCustomer(registeredEmail, registeredPassword);
     assertThat(driver.getTitle()).isEqualTo("My Account");
     LOG.info("Login successful");
   }
