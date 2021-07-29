@@ -21,6 +21,9 @@ public class TC05_UsingPrivacyStatement extends BaseTest {
     registerAccount.openLoginPage();
     registerAccount.registerNewCustomer();
     registerAccount.openPrivacyPolicy();
+    assertThat(registerAccount.getPrivacyPolicy().getText())
+        .isEqualTo("Privacy Policy");
+    LOG.info("Privacy policy text asserted");
     makeScreenshot();
     LOG.info("Screenshot taken");
     registerAccount.closePrivacyPolicy();

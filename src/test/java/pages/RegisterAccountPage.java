@@ -30,7 +30,7 @@ public class RegisterAccountPage extends LoginPage {
   WebElement passwordConfirmField;
 
   @FindBy(linkText = "Privacy Policy")
-  WebElement privacyPolicy;
+  WebElement privacyPolicyLink;
 
   @FindBy(xpath = "//*[@id=\"content\"]/form/div/div/input[1]")
   WebElement privacyCheckbox;
@@ -40,6 +40,13 @@ public class RegisterAccountPage extends LoginPage {
 
   @FindBy(xpath = "//*[@id=\"account-register\"]/div[1]")
   WebElement warningEmailAlreadyRegistered;
+
+  @FindBy(xpath = "//*[@id=\"modal-agree\"]/div/div/div[2]")
+  WebElement privacyPolicy;
+
+  public WebElement getPrivacyPolicy() {
+    return privacyPolicy;
+  }
 
   @FindBy(xpath = "//*[@id=\"modal-agree\"]/div/div/div[1]/button")
   WebElement privacyCloseButton;
@@ -72,7 +79,7 @@ public class RegisterAccountPage extends LoginPage {
   }
 
   public void openPrivacyPolicy() {
-    privacyPolicy.click();
+    privacyPolicyLink.click();
     wait.until(ExpectedConditions.visibilityOf(privacyCloseButton));
     LOG.info("Privacy policy opened");
   }
