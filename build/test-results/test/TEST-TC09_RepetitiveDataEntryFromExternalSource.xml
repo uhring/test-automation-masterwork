@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TC09_RepetitiveDataEntryFromExternalSource" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-07-30T12:29:46" hostname="GABOR-PC" time="23.013">
+  <properties/>
+  <testcase name="[1] Imre, Kiss, Palota u. 11., Soltvadkert, 3443, Hungary" classname="TC09_RepetitiveDataEntryFromExternalSource" time="6.134"/>
+  <testcase name="[2] Ilona, Nagy, Palota u. 11., Soltvadkert, 3443, Hungary" classname="TC09_RepetitiveDataEntryFromExternalSource" time="5.302"/>
+  <testcase name="[3] Ambrus, Kiss, Ceruza u. 23., Buda, 1443, Hungary" classname="TC09_RepetitiveDataEntryFromExternalSource" time="6.265"/>
+  <testcase name="[4] Anna, Nagy, Kapu u. 13., Pest, 1943, Hungary" classname="TC09_RepetitiveDataEntryFromExternalSource" time="5.301"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gábor\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 32182
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+júl. 30, 2021 2:29:45 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO pages.HomePage - Opening YourStore homepage...
+[Test worker] INFO pages.HomePage - YourStore Page loaded successfully
+[Test worker] INFO pages.HomePage - Opening login page
+[Test worker] INFO pages.HomePage - Account Login page loaded successfully
+[Test worker] INFO pages.HomePage - Email written in the email field
+[Test worker] INFO pages.HomePage - Password written in the password field
+[Test worker] INFO pages.HomePage - Click on login button
+[Test worker] INFO pages.HomePage - Click on address book link
+[Test worker] INFO pages.HomePage - Wait until address book page opens
+[Test worker] INFO pages.HomePage - New address button clicked
+[Test worker] INFO pages.HomePage - Wait until Add Address page opens
+[Test worker] INFO pages.HomePage - First name input : Imre
+[Test worker] INFO pages.HomePage - Last name input: Kiss
+[Test worker] INFO pages.HomePage - Address input: Palota u. 11.
+[Test worker] INFO pages.HomePage - City input: Soltvadkert
+[Test worker] INFO pages.HomePage - Post code input: 3443
+[Test worker] INFO pages.HomePage - Country selected: Hungary
+[Test worker] INFO pages.HomePage - Continue button clicked
+[Test worker] INFO pages.HomePage - Wait until next page loaded
+[Test worker] INFO BaseTest - Screenshot taken
+[Test worker] INFO BaseTest - Assertion of number of addresses done
+[Test worker] INFO pages.HomePage - Logout
+[Test worker] INFO pages.HomePage - Opening YourStore homepage...
+[Test worker] INFO pages.HomePage - YourStore Page loaded successfully
+[Test worker] INFO pages.HomePage - Opening login page
+[Test worker] INFO pages.HomePage - Account Login page loaded successfully
+[Test worker] INFO pages.HomePage - Email written in the email field
+[Test worker] INFO pages.HomePage - Password written in the password field
+[Test worker] INFO pages.HomePage - Click on login button
+[Test worker] INFO pages.HomePage - Click on address book link
+[Test worker] INFO pages.HomePage - Wait until address book page opens
+[Test worker] INFO pages.HomePage - New address button clicked
+[Test worker] INFO pages.HomePage - Wait until Add Address page opens
+[Test worker] INFO pages.HomePage - First name input : Ilona
+[Test worker] INFO pages.HomePage - Last name input: Nagy
+[Test worker] INFO pages.HomePage - Address input: Palota u. 11.
+[Test worker] INFO pages.HomePage - City input: Soltvadkert
+[Test worker] INFO pages.HomePage - Post code input: 3443
+[Test worker] INFO pages.HomePage - Country selected: Hungary
+[Test worker] INFO pages.HomePage - Continue button clicked
+[Test worker] INFO pages.HomePage - Wait until next page loaded
+[Test worker] INFO BaseTest - Screenshot taken
+[Test worker] INFO BaseTest - Assertion of number of addresses done
+[Test worker] INFO pages.HomePage - Logout
+[Test worker] INFO pages.HomePage - Opening YourStore homepage...
+[Test worker] INFO pages.HomePage - YourStore Page loaded successfully
+[Test worker] INFO pages.HomePage - Opening login page
+[Test worker] INFO pages.HomePage - Account Login page loaded successfully
+[Test worker] INFO pages.HomePage - Email written in the email field
+[Test worker] INFO pages.HomePage - Password written in the password field
+[Test worker] INFO pages.HomePage - Click on login button
+[Test worker] INFO pages.HomePage - Click on address book link
+[Test worker] INFO pages.HomePage - Wait until address book page opens
+[Test worker] INFO pages.HomePage - New address button clicked
+[Test worker] INFO pages.HomePage - Wait until Add Address page opens
+[Test worker] INFO pages.HomePage - First name input : Ambrus
+[Test worker] INFO pages.HomePage - Last name input: Kiss
+[Test worker] INFO pages.HomePage - Address input: Ceruza u. 23.
+[Test worker] INFO pages.HomePage - City input: Buda
+[Test worker] INFO pages.HomePage - Post code input: 1443
+[Test worker] INFO pages.HomePage - Country selected: Hungary
+[Test worker] INFO pages.HomePage - Continue button clicked
+[Test worker] INFO pages.HomePage - Wait until next page loaded
+[Test worker] INFO BaseTest - Screenshot taken
+[Test worker] INFO BaseTest - Assertion of number of addresses done
+[Test worker] INFO pages.HomePage - Logout
+[Test worker] INFO pages.HomePage - Opening YourStore homepage...
+[Test worker] INFO pages.HomePage - YourStore Page loaded successfully
+[Test worker] INFO pages.HomePage - Opening login page
+[Test worker] INFO pages.HomePage - Account Login page loaded successfully
+[Test worker] INFO pages.HomePage - Email written in the email field
+[Test worker] INFO pages.HomePage - Password written in the password field
+[Test worker] INFO pages.HomePage - Click on login button
+[Test worker] INFO pages.HomePage - Click on address book link
+[Test worker] INFO pages.HomePage - Wait until address book page opens
+[Test worker] INFO pages.HomePage - New address button clicked
+[Test worker] INFO pages.HomePage - Wait until Add Address page opens
+[Test worker] INFO pages.HomePage - First name input : Anna
+[Test worker] INFO pages.HomePage - Last name input: Nagy
+[Test worker] INFO pages.HomePage - Address input: Kapu u. 13.
+[Test worker] INFO pages.HomePage - City input: Pest
+[Test worker] INFO pages.HomePage - Post code input: 1943
+[Test worker] INFO pages.HomePage - Country selected: Hungary
+[Test worker] INFO pages.HomePage - Continue button clicked
+[Test worker] INFO pages.HomePage - Wait until next page loaded
+[Test worker] INFO BaseTest - Screenshot taken
+[Test worker] INFO BaseTest - Assertion of number of addresses done
+[Test worker] INFO pages.HomePage - Logout
+]]></system-err>
+</testsuite>

@@ -23,7 +23,7 @@ public class TC12_SavingDataFromTheWebApplication extends BaseTest{
 
   @Test
   @DisplayName("Save the name, description and price of all laptops from the list into a text file. " +
-      "File path: src/test/resources/output.txt")
+      "File path: src/test/output.txt")
   public void savingDataToFile(){
     home.openHomePage();
     home.listAllLaptops();
