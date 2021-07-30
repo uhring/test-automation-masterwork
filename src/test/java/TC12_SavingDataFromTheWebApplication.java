@@ -32,7 +32,7 @@ public class TC12_SavingDataFromTheWebApplication extends BaseTest{
   }
 
   public void writeToFile() {
-    Path fileToWrite = Paths.get("src/test/resources/output.txt");
+    Path fileToWrite = Paths.get("src/test/output.txt");
 
     List<WebElement> name = driver.findElements(By.xpath("//div[@class='caption']/h4"));
     List<WebElement> description = driver.findElements(By.xpath("//div[@class='caption']/p[1]"));
