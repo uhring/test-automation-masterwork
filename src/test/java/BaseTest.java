@@ -10,7 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
 public class BaseTest {
   protected static WebDriver driver;
   protected static WebDriverWait wait;
@@ -18,9 +17,8 @@ public class BaseTest {
   protected String registeredEmail = "nagy@ilona.hu";
   protected String registeredPassword = "nagyi";
 
-
   @BeforeAll
-  public static void setup(){
+  public static void setup() {
     WebDriverManager.chromedriver().setup();
     driver = new ChromeDriver();
     driver.manage().window().maximize();

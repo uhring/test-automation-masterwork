@@ -7,6 +7,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import pages.AddressBookPage;
+import pages.HomePage;
+import pages.LoginPage;
+import pages.MyAccountPage;
 
 import java.util.List;
 
@@ -16,15 +19,18 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Feature("Address book administration")
 @Story("Deleting addresses from the address book")
 public class TC11_DeletingData extends BaseTest {
+  HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+  LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
+  MyAccountPage myAccountPage = PageFactory.initElements(driver, MyAccountPage.class);
   AddressBookPage addressBookPage = PageFactory.initElements(driver, AddressBookPage.class);
 
   @Test
   @DisplayName("Deleting addresses from the address book")
   public void deleteAddressesFromAddressBook() {
-    addressBookPage.openHomePage();
-    addressBookPage.openLoginPage();
-    addressBookPage.loginReturningCustomer(registeredEmail, registeredPassword);
-    addressBookPage.goToAddressBook();
+    homePage.openHomePage();
+    homePage.openLoginPage();
+    loginPage.loginReturningCustomer(registeredEmail, registeredPassword);
+    myAccountPage.goToAddressBook();
     List<WebElement> addresses = driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr"));
     for (int i = 0; i < addresses.size(); i++) {
       List<WebElement> loopAddresses = driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr"));

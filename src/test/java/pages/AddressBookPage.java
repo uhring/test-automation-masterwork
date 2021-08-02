@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 
-public class AddressBookPage extends MyAccountPage {
+public class AddressBookPage extends BasePage {
 
   public AddressBookPage(WebDriver driver) {
     super(driver);

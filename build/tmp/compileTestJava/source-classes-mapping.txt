@@ -16,6 +16,8 @@ TC09_RepetitiveDataEntryFromExternalSource.java
  TC09_RepetitiveDataEntryFromExternalSource
 TC11_DeletingData.java
  TC11_DeletingData
+pages/BasePage.java
+ pages.BasePage
 TC01_SuccessfulRegistration.java
  TC01_SuccessfulRegistration
 TC02_FailedRegistration.java

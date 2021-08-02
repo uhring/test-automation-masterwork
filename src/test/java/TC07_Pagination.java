@@ -13,18 +13,18 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Feature("Listing data")
 @Story("Navigate to the next page with more results after listing all sales items")
 public class TC07_Pagination extends BaseTest {
-  HomePage home = PageFactory.initElements(driver, HomePage.class);
+
+  HomePage homePage = PageFactory.initElements(driver, HomePage.class);
 
   @Test
   @DisplayName("Navigate to the next page with more results after listing all sales items")
   public void pagination() {
-    home.openHomePage();
-    home.listAllItems();
-    home.paginateOnePage();
+    homePage.openHomePage();
+    homePage.listAllItems();
+    homePage.paginateOnePage();
     assertThat(driver.findElement(By.xpath("//*[@id=\"content\"]/div[5]/div[2]")).getText())
         .as("Text should be : Showing 16 to 16 of 16 (2 Pages)")
         .isEqualTo("Showing 16 to 16 of 16 (2 Pages)");
     LOG.info("Assertion done Text below the item as expected.");
-
   }
 }

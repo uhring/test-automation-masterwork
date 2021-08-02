@@ -13,13 +13,14 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Feature("Listing data")
 @Story("Listing all sales items")
 public class TC06_ListingData extends BaseTest {
-  HomePage home = PageFactory.initElements(driver, HomePage.class);
+
+  HomePage homePage = PageFactory.initElements(driver, HomePage.class);
 
   @Test
   @DisplayName("Listing all sales items")
   public void listingData() {
-    home.openHomePage();
-    home.listAllItems();
+    homePage.openHomePage();
+    homePage.listAllItems();
     makeScreenshot();
     LOG.info("Screenshot taken");
     assertThat(driver.findElements(By.xpath("//div[@class='product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12']")).size())
@@ -27,5 +28,4 @@ public class TC06_ListingData extends BaseTest {
         .isEqualTo(15);
     LOG.info("Assertion done - 15 items on the page");
   }
-
 }

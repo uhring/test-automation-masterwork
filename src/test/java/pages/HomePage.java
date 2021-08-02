@@ -1,22 +1,16 @@
 package pages;
 
-import io.qameta.allure.Attachment;
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+public class HomePage extends BasePage {
 
-public class HomePage {
-  protected WebDriver driver;
-  protected WebDriverWait wait;
-  protected Actions action;
-  protected static Logger LOG = LoggerFactory.getLogger(HomePage.class);
+  public HomePage(WebDriver driver) {
+    super(driver);
+  }
 
   @FindBy(xpath = "//div[4]/ul/li/a[contains(.,'My Account')]")
   WebElement myAccount;
@@ -35,12 +29,6 @@ public class HomePage {
 
   @FindBy(xpath = "//*[@id=\"content\"]/div[5]/div[1]/ul/li[3]/a")
   WebElement showMoreItems;
-
-  public HomePage(WebDriver driver) {
-    this.driver = driver;
-    this.wait = new WebDriverWait(driver, 10);
-    this.action = new Actions(driver);
-  }
 
   public void openHomePage() {
     driver.get("http://test-automation-shop2.greenfox.academy/");
@@ -77,10 +65,5 @@ public class HomePage {
     showAllLaptops.click();
     wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//div[@class='product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12']"), 0));
     LOG.info("Click \"Show All Laptops & Notebooks\" from the dropdown list");
-  }
-
-  @Attachment("screenshot")
-  public byte[] makeScreenshot() {
-    return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
   }
 }

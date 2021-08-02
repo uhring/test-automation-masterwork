@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
-public class AddAddressPage extends AddressBookPage {
+public class AddAddressPage extends BasePage {
 
   public AddAddressPage(WebDriver driver) {
     super(driver);

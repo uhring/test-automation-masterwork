@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import pages.AddAddressPage;
+import pages.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -14,16 +14,20 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Feature("Address book administration")
 @Story("Add address to an existing account")
 public class TC08_InputOfNewData extends BaseTest {
+  HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+  LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
+  MyAccountPage myAccountPage = PageFactory.initElements(driver, MyAccountPage.class);
+  AddressBookPage addressBookPage = PageFactory.initElements(driver, AddressBookPage.class);
   AddAddressPage addAddressPage = PageFactory.initElements(driver, AddAddressPage.class);
 
   @Test
   @DisplayName("Add address to an existing account")
   public void addAddressToAccount() {
-    addAddressPage.openHomePage();
-    addAddressPage.openLoginPage();
-    addAddressPage.loginReturningCustomer(registeredEmail, registeredPassword);
-    addAddressPage.goToAddressBook();
-    addAddressPage.addAddress();
+    homePage.openHomePage();
+    homePage.openLoginPage();
+    loginPage.loginReturningCustomer(registeredEmail, registeredPassword);
+    myAccountPage.goToAddressBook();
+    addressBookPage.addAddress();
     addAddressPage.addNewAddress("Ilona", "Nagy", "Nagy utca 1",
         "Budapest", "1999", "Hungary");
     wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"content\"]/h2")));

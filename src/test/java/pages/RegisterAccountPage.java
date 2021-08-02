@@ -6,7 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 
-public class RegisterAccountPage extends LoginPage {
+public class RegisterAccountPage extends BasePage {
+
   public RegisterAccountPage(WebDriver driver) {
     super(driver);
   }

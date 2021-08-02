@@ -18,15 +18,15 @@ import java.util.List;
 @Epic("Your Store web application marketplace")
 @Feature("Listing and saving data from the web application")
 @Story("Save the name, description and price of all laptops from the list into a text file")
-public class TC12_SavingDataFromTheWebApplication extends BaseTest{
-  HomePage home = PageFactory.initElements(driver, HomePage.class);
+public class TC12_SavingDataFromTheWebApplication extends BaseTest {
+  HomePage homePage = PageFactory.initElements(driver, HomePage.class);
 
   @Test
   @DisplayName("Save the name, description and price of all laptops from the list into a text file. " +
       "File path: src/test/output.txt")
-  public void savingDataToFile(){
-    home.openHomePage();
-    home.listAllLaptops();
+  public void savingDataToFile() {
+    homePage.openHomePage();
+    homePage.listAllLaptops();
     writeToFile();
     LOG.info("File written to /test");
   }

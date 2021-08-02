@@ -6,7 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class EditAccountPage extends MyAccountPage {
+public class EditAccountPage extends BasePage {
+
   public EditAccountPage(WebDriver driver) {
     super(driver);
   }

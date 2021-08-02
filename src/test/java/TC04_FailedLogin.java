@@ -4,6 +4,7 @@ import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.PageFactory;
+import pages.HomePage;
 import pages.LoginPage;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -12,13 +13,15 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Feature("Login")
 @Story("Failed login - invalid password")
 public class TC04_FailedLogin extends BaseTest {
+
+  HomePage homePage = PageFactory.initElements(driver, HomePage.class);
   LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
 
   @Test
   @DisplayName("Failed login - invalid password")
   public void failedLogin() {
-    loginPage.openHomePage();
-    loginPage.openLoginPage();
+    homePage.openHomePage();
+    homePage.openLoginPage();
     loginPage.loginReturningCustomer(registeredEmail, "nag");
     assertThat(loginPage.getWarningNoMatch().getText())
         .isEqualTo("Warning: No match for E-Mail Address and/or Password.");
