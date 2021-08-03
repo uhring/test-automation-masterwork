@@ -43,5 +43,7 @@ public class TC09_RepetitiveDataEntryFromExternalSource extends BaseTest {
         .isEqualTo(initialAddresses.size() + 1);
     LOG.info("Assertion of number of addresses done");
     myAccountPage.logout();
+    makeScreenshot();
+    LOG.info("Screenshot taken");
   }
 }

@@ -1,0 +1,249 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TC01_SuccessfulRegistration",
+    "children" : [ {
+      "name" : "successfulRegistration",
+      "uid" : "287e45466c034e6a",
+      "parentUid" : "620ea4b48db1adf02fcfd8ad6be46117",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628016474259,
+        "stop" : 1628016479135,
+        "duration" : 4876
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "620ea4b48db1adf02fcfd8ad6be46117"
+  }, {
+    "name" : "TC02_FailedRegistration",
+    "children" : [ {
+      "name" : "unsuccessfulRegistration",
+      "uid" : "19f0d67bac181ed2",
+      "parentUid" : "ab146be42fa8ef567659dfbf9a9d65fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628016481206,
+        "stop" : 1628016485933,
+        "duration" : 4727
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ab146be42fa8ef567659dfbf9a9d65fa"
+  }, {
+    "name" : "TC03_SuccessfulLogin",
+    "children" : [ {
+      "name" : "successfulLogin",
+      "uid" : "6710ebe990d44ab5",
+      "parentUid" : "b9793f921be150eb3f903c045d1c583f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628016487835,
+        "stop" : 1628016491289,
+        "duration" : 3454
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b9793f921be150eb3f903c045d1c583f"
+  }, {
+    "name" : "TC04_FailedLogin",
+    "children" : [ {
+      "name" : "failedLogin",
+      "uid" : "e4a0ac7e63e9f26d",
+      "parentUid" : "1f4cf12b97e4cecfc4b0ae1dc696953e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628016493256,
+        "stop" : 1628016496576,
+        "duration" : 3320
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1f4cf12b97e4cecfc4b0ae1dc696953e"
+  }, {
+    "name" : "TC05_UsingPrivacyStatement",
+    "children" : [ {
+      "name" : "openPrivacyStatement",
+      "uid" : "f4b1a78cc1b30cca",
+      "parentUid" : "3f7ebcd0ea66ed4c08075c7af545cdf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628016498511,
+        "stop" : 1628016502802,
+        "duration" : 4291
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3f7ebcd0ea66ed4c08075c7af545cdf8"
+  }, {
+    "name" : "TC06_ListingData",
+    "children" : [ {
+      "name" : "listingData",
+      "uid" : "4ede66405bfd79ad",
+      "parentUid" : "0436622627e02a10b753366732a6427c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628016504722,
+        "stop" : 1628016507724,
+        "duration" : 3002
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0436622627e02a10b753366732a6427c"
+  }, {
+    "name" : "TC07_Pagination",
+    "children" : [ {
+      "name" : "pagination",
+      "uid" : "8be51a57478a584a",
+      "parentUid" : "aabaebdab1b9f97eb3033658dff9c988",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628016509690,
+        "stop" : 1628016513659,
+        "duration" : 3969
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "aabaebdab1b9f97eb3033658dff9c988"
+  }, {
+    "name" : "TC08_InputOfNewData",
+    "children" : [ {
+      "name" : "addAddressToAccount",
+      "uid" : "1ea75e1e217001eb",
+      "parentUid" : "844bfe98202b5492ef5694d5b4d44aa0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628016515597,
+        "stop" : 1628016522336,
+        "duration" : 6739
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "844bfe98202b5492ef5694d5b4d44aa0"
+  }, {
+    "name" : "TC09_RepetitiveDataEntryFromExternalSource",
+    "children" : [ {
+      "name" : "addMultipleAddressesToAnAccount",
+      "uid" : "931e1c57ad124c35",
+      "parentUid" : "062cb64624b45c237fa0b7c45c231d7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628016524274,
+        "stop" : 1628016531643,
+        "duration" : 7369
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addMultipleAddressesToAnAccount",
+      "uid" : "b2fc9b65781aca92",
+      "parentUid" : "062cb64624b45c237fa0b7c45c231d7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628016531649,
+        "stop" : 1628016538181,
+        "duration" : 6532
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addMultipleAddressesToAnAccount",
+      "uid" : "8a6e059e7856aaf0",
+      "parentUid" : "062cb64624b45c237fa0b7c45c231d7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628016538181,
+        "stop" : 1628016544777,
+        "duration" : 6596
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addMultipleAddressesToAnAccount",
+      "uid" : "a29663d19a044d1e",
+      "parentUid" : "062cb64624b45c237fa0b7c45c231d7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628016544781,
+        "stop" : 1628016551380,
+        "duration" : 6599
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "062cb64624b45c237fa0b7c45c231d7f"
+  }, {
+    "name" : "TC10_ExistingDataModification",
+    "children" : [ {
+      "name" : "modificationOfFirstName",
+      "uid" : "1b19e70f333a8b1a",
+      "parentUid" : "bc119a7aacba6fb47592ae264f5b0803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628016553328,
+        "stop" : 1628016558947,
+        "duration" : 5619
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bc119a7aacba6fb47592ae264f5b0803"
+  }, {
+    "name" : "TC11_DeletingData",
+    "children" : [ {
+      "name" : "deleteAddressesFromAddressBook",
+      "uid" : "f940ae24b9ca9558",
+      "parentUid" : "983b7c685bda8a75d14fa1c991228ee1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628016560843,
+        "stop" : 1628016569702,
+        "duration" : 8859
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "983b7c685bda8a75d14fa1c991228ee1"
+  }, {
+    "name" : "TC12_SavingDataFromTheWebApplication",
+    "children" : [ {
+      "name" : "savingDataToFile",
+      "uid" : "14e1e8ec1f7f9926",
+      "parentUid" : "d3f7d7d2f0d642a738de841ff72a2436",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628016571656,
+        "stop" : 1628016574652,
+        "duration" : 2996
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d3f7d7d2f0d642a738de841ff72a2436"
+  }, {
+    "name" : "TC13_Logout",
+    "children" : [ {
+      "name" : "logoutTest",
+      "uid" : "da1f02ec8ed6f9b9",
+      "parentUid" : "d70653e149629770caba15e91436d951",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628016576569,
+        "stop" : 1628016580817,
+        "duration" : 4248
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d70653e149629770caba15e91436d951"
+  } ]
+}
