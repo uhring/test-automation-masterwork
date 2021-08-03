@@ -21,6 +21,9 @@ public class AddressBookPage extends BasePage {
   @FindBy(xpath = "//*[@id=\"content\"]/div[1]/table/tbody/tr[1]/td[2]/a[2]")
   WebElement deleteFirstAddressButton;
 
+  @FindBy(xpath = "//*[@id=\"account-address\"]/div[1]")
+  WebElement warningMessage;
+
   public void addAddress() {
     newAddressButton.click();
     LOG.info("New address button clicked");
@@ -31,5 +34,9 @@ public class AddressBookPage extends BasePage {
   public void deleteTopElementFromTheList() {
     deleteFirstAddressButton.click();
     LOG.info("Click on delete button at top element from address list");
+  }
+
+  public WebElement getWarningMessage() {
+    return warningMessage;
   }
 }

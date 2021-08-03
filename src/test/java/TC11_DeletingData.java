@@ -29,13 +29,15 @@ public class TC11_DeletingData extends BaseTest {
     LOG.info("screenshot taken");
     myAccountPage.goToAddressBook();
     List<WebElement> addresses = driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr"));
+    LOG.info("List of address book entries created");
     for (int i = 0; i < addresses.size(); i++) {
       List<WebElement> loopAddresses = driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr"));
       if (loopAddresses.size() > 1) {
         addressBookPage.deleteTopElementFromTheList();
         makeScreenshot();
         LOG.info("screenshot taken");
-        assertThat(driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr")).size())
+        List<WebElement> newAddresses = driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr"));
+        assertThat(newAddresses.size())
             .as("New number of addresses should be initial number - 1")
             .isEqualTo(loopAddresses.size() - 1);
         LOG.info("Assertion of number if initial number of addresses >1 is done.");
@@ -43,7 +45,7 @@ public class TC11_DeletingData extends BaseTest {
         addressBookPage.deleteTopElementFromTheList();
         makeScreenshot();
         LOG.info("screenshot taken");
-        assertThat(driver.findElement(By.xpath("//*[@id=\"account-address\"]/div[1]")).getText())
+        assertThat(addressBookPage.getWarningMessage().getText())
             .as("Text should be: Warning: You must have at least one address!")
             .isEqualTo("Warning: You must have at least one address!");
         LOG.info("Assertion of text if initial number of addresses <= 1 is done.");
