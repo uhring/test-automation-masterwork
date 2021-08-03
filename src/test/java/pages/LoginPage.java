@@ -37,9 +37,11 @@ public class LoginPage extends BasePage {
 
   public void loginReturningCustomer(String email, String password) {
     emailField.sendKeys(email);
-    LOG.info("Email written in the email field");
+    LOG.info("Email written in the email field: " + email);
     passwordField.sendKeys(password);
-    LOG.info("Password written in the password field");
+    LOG.info("Password written in the password field: " + password);
+    makeScreenshot();
+    LOG.info("screenshot taken");
     loginButton.click();
     LOG.info("Click on login button");
   }

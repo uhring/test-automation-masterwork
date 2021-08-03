@@ -4,9 +4,7 @@ import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import pages.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -14,23 +12,30 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Feature("Address book administration")
 @Story("Add address to an existing account")
 public class TC08_InputOfNewData extends BaseTest {
-  HomePage homePage = PageFactory.initElements(driver, HomePage.class);
-  LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
-  MyAccountPage myAccountPage = PageFactory.initElements(driver, MyAccountPage.class);
-  AddressBookPage addressBookPage = PageFactory.initElements(driver, AddressBookPage.class);
-  AddAddressPage addAddressPage = PageFactory.initElements(driver, AddAddressPage.class);
 
   @Test
   @DisplayName("Add address to an existing account")
   public void addAddressToAccount() {
     homePage.openHomePage();
+    makeScreenshot();
+    LOG.info("screenshot taken");
     homePage.openLoginPage();
+    makeScreenshot();
+    LOG.info("screenshot taken");
     loginPage.loginReturningCustomer(registeredEmail, registeredPassword);
+    makeScreenshot();
+    LOG.info("screenshot taken");
     myAccountPage.goToAddressBook();
+    makeScreenshot();
+    LOG.info("screenshot taken");
     addressBookPage.addAddress();
+    makeScreenshot();
+    LOG.info("screenshot taken");
     addAddressPage.addNewAddress("Ilona", "Nagy", "Nagy utca 1",
         "Budapest", "1999", "Hungary");
     wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"content\"]/h2")));
+    makeScreenshot();
+    LOG.info("screenshot taken");
     assertThat(driver.findElement(By.xpath("//*[@id=\"content\"]/h2")).getText())
         .isEqualTo("Address Book Entries");
     LOG.info("Assertion done, text as expected.");

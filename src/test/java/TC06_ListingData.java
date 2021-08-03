@@ -4,8 +4,6 @@ import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.PageFactory;
-import pages.HomePage;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -14,12 +12,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Story("Listing all sales items")
 public class TC06_ListingData extends BaseTest {
 
-  HomePage homePage = PageFactory.initElements(driver, HomePage.class);
-
   @Test
   @DisplayName("Listing all sales items")
   public void listingData() {
     homePage.openHomePage();
+    makeScreenshot();
+    LOG.info("screenshot taken");
     homePage.listAllItems();
     makeScreenshot();
     LOG.info("Screenshot taken");

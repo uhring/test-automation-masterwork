@@ -4,10 +4,6 @@ import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.PageFactory;
-import pages.HomePage;
-import pages.LoginPage;
-import pages.MyAccountPage;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -15,17 +11,22 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Feature("Logout")
 @Story("Login and logout")
 public class TC13_Logout extends BaseTest {
-  HomePage homePage = PageFactory.initElements(driver, HomePage.class);
-  LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
-  MyAccountPage myAccountPage = PageFactory.initElements(driver, MyAccountPage.class);
 
   @Test
   @DisplayName("Login and logout")
   public void logoutTest() {
     homePage.openHomePage();
+    makeScreenshot();
+    LOG.info("screenshot taken");
     homePage.openLoginPage();
+    makeScreenshot();
+    LOG.info("screenshot taken");
     loginPage.loginReturningCustomer(registeredEmail, registeredPassword);
+    makeScreenshot();
+    LOG.info("screenshot taken");
     myAccountPage.logout();
+    makeScreenshot();
+    LOG.info("screenshot taken");
     assertThat(driver.findElement(By.xpath("//*[@id=\"content\"]/h1")).getText())
         .as("Text should be: Account Logout")
         .isEqualTo("Account Logout");

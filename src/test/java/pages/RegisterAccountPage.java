@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-
 public class RegisterAccountPage extends BasePage {
 
   public RegisterAccountPage(WebDriver driver) {
@@ -54,19 +53,21 @@ public class RegisterAccountPage extends BasePage {
 
   public void registerAccount(String firstName, String lastName, String email, String telephone, String password) {
     firstNameField.sendKeys(firstName);
-    LOG.info("First name field done");
+    LOG.info("First name field: " + firstName);
     lastNameField.sendKeys(lastName);
-    LOG.info("Last name field done");
+    LOG.info("Last name field: " + lastName);
     emailField.sendKeys(email);
-    LOG.info("Email field done");
+    LOG.info("Email field: " + email);
     telephoneField.sendKeys(telephone);
-    LOG.info("Telephone field done");
+    LOG.info("Telephone field: " + telephone);
     passwordField.sendKeys(password);
-    LOG.info("Password field done");
+    LOG.info("Password field: " + password);
     passwordConfirmField.sendKeys(password);
-    LOG.info("Password confirmation field done");
+    LOG.info("Password confirmation: " + password);
     privacyCheckbox.click();
     LOG.info("Clicked on privacy checkbox");
+    makeScreenshot();
+    LOG.info("screenshot taken");
     continueButton.click();
     LOG.info("Click on continue button");
   }

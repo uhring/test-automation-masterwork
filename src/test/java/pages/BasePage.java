@@ -21,7 +21,7 @@ public class BasePage {
     this.action = new Actions(driver);
   }
 
-  @Attachment("screenshot")
+  @Attachment("Screenshot")
   public byte[] makeScreenshot() {
     return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
   }

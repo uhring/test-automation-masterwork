@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TC02_FailedRegistration" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-02T18:07:02" hostname="GABOR-PC" time="3.72">
+<testsuite name="TC02_FailedRegistration" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-03T11:09:18" hostname="GABOR-PC" time="4.566">
   <properties/>
-  <testcase name="Failed registration with previously registered email" classname="TC02_FailedRegistration" time="3.72"/>
+  <testcase name="Failed registration with previously registered email" classname="TC02_FailedRegistration" time="4.566"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gábor\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
-Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 45840
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 37366
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-aug. 02, 2021 8:07:02 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+aug. 03, 2021 1:09:18 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO pages.HomePage - Opening YourStore homepage...
 [Test worker] INFO pages.HomePage - YourStore Page loaded successfully
+[Test worker] INFO BaseTest - screenshot taken
 [Test worker] INFO pages.HomePage - Opening login page
 [Test worker] INFO pages.HomePage - Account Login page loaded successfully
+[Test worker] INFO BaseTest - screenshot taken
 [Test worker] INFO pages.HomePage - Click on continue button
 [Test worker] INFO pages.HomePage - Register Account page loaded successfully
-[Test worker] INFO pages.HomePage - First name field done
-[Test worker] INFO pages.HomePage - Last name field done
-[Test worker] INFO pages.HomePage - Email field done
-[Test worker] INFO pages.HomePage - Telephone field done
-[Test worker] INFO pages.HomePage - Password field done
-[Test worker] INFO pages.HomePage - Password confirmation field done
+[Test worker] INFO BaseTest - screenshot taken
+[Test worker] INFO pages.HomePage - First name field: Nagy
+[Test worker] INFO pages.HomePage - Last name field: Ilona
+[Test worker] INFO pages.HomePage - Email field: nagy@ilona.hu
+[Test worker] INFO pages.HomePage - Telephone field: 061111111
+[Test worker] INFO pages.HomePage - Password field: nagyi
+[Test worker] INFO pages.HomePage - Password confirmation: nagyi
 [Test worker] INFO pages.HomePage - Clicked on privacy checkbox
+[Test worker] INFO pages.HomePage - screenshot taken
 [Test worker] INFO pages.HomePage - Click on continue button
+[Test worker] INFO BaseTest - screenshot taken
 [Test worker] INFO BaseTest - Email already registered warning is displayed
 ]]></system-err>
 </testsuite>

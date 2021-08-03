@@ -48,6 +48,8 @@ public class HomePage extends BasePage {
     wait.until(ExpectedConditions.elementToBeClickable(desktopsList));
     action.moveToElement(desktopsList).perform();
     LOG.info("Move pointer to \"Desktops\" tab");
+    makeScreenshot();
+    LOG.info("screenshot taken");
     showAllDesktops.click();
     wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//div[@class='product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12']"), 0));
     LOG.info("Click \"Show All Desktops\" from the dropdown list");
@@ -62,6 +64,8 @@ public class HomePage extends BasePage {
   public void listAllLaptops() {
     action.moveToElement(laptopList).perform();
     LOG.info("Move pointer to \"Laptops & Notebooks\" tab");
+    makeScreenshot();
+    LOG.info("screenshot taken");
     showAllLaptops.click();
     wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//div[@class='product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12']"), 0));
     LOG.info("Click \"Show All Laptops & Notebooks\" from the dropdown list");

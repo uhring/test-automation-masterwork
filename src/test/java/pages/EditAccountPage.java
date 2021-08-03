@@ -19,12 +19,10 @@ public class EditAccountPage extends BasePage {
   WebElement continueButton;
 
   public void modifyFirstName(String firstName) {
-    makeScreenshot();
-    LOG.info("Screenshot before modification");
     firstNameField.clear();
     LOG.info("Clear first name field");
     firstNameField.sendKeys(firstName);
-    LOG.info("Fill new data to first name field");
+    LOG.info("Fill new data to first name field: " + firstName);
     wait.until(ExpectedConditions.elementToBeClickable(continueButton));
     makeScreenshot();
     LOG.info("Screenshot after modification");

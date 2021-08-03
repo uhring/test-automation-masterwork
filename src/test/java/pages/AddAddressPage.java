@@ -49,6 +49,8 @@ public class AddAddressPage extends BasePage {
     select.selectByVisibleText(country);
     LOG.info("Country selected: " + country);
     wait.until(ExpectedConditions.elementToBeClickable(continueButton));
+    makeScreenshot();
+    LOG.info("screenshot taken");
     continueButton.click();
     LOG.info("Continue button clicked");
     wait.until(ExpectedConditions.presenceOfElementLocated(By.id("content")));
