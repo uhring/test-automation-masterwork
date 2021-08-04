@@ -27,8 +27,8 @@ public class TC13_Logout extends BaseTest {
     myAccountPage.logout();
     makeScreenshot();
     LOG.info("screenshot taken");
-    assertThat(driver.findElement(By.xpath("//*[@id=\"content\"]/h1")).getText())
-        .as("Text should be: Account Logout")
+    assertThat(driver.getTitle())
+        .as("Title should be: Account Logout")
         .isEqualTo("Account Logout");
     LOG.info("Assertion after logout OK");
   }

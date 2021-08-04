@@ -18,8 +18,8 @@ TC10_ExistingDataModification.java
  TC10_ExistingDataModification
 TC08_InputOfNewData.java
  TC08_InputOfNewData
-TC13_Logout.java
- TC13_Logout
+BaseTest.java
+ BaseTest
 pages/MyAccountPage.java
  pages.MyAccountPage
 TC09_RepetitiveDataEntryFromExternalSource.java
@@ -40,5 +40,5 @@ TC04_FailedLogin.java
  TC04_FailedLogin
 TC07_Pagination.java
  TC07_Pagination
-BaseTest.java
- BaseTest
+TC13_Logout.java
+ TC13_Logout
