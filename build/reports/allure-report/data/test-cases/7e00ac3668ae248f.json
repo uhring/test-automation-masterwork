@@ -1,0 +1,88 @@
+{
+  "uid" : "7e00ac3668ae248f",
+  "name" : "Save the name, description and price of all laptops from the list into a text file. File path: src/test/output.txt",
+  "fullName" : "TC12_SavingDataFromTheWebApplication.savingDataToFile",
+  "historyId" : "db14af3b07e922d17cb4e9b9c35445d3",
+  "time" : {
+    "start" : 1628089376518,
+    "stop" : 1628089379706,
+    "duration" : 3188
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c0d5fd2b31219cec",
+      "name" : "screenshot",
+      "source" : "c0d5fd2b31219cec.png",
+      "type" : "image/png",
+      "size" : 305680
+    }, {
+      "uid" : "c0574729a3b420cc",
+      "name" : "Screenshot",
+      "source" : "c0574729a3b420cc.png",
+      "type" : "image/png",
+      "size" : 312515
+    }, {
+      "uid" : "e662e239230c1bba",
+      "name" : "screenshot",
+      "source" : "e662e239230c1bba.png",
+      "type" : "image/png",
+      "size" : 228454
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store web application marketplace"
+  }, {
+    "name" : "feature",
+    "value" : "Listing and saving data from the web application"
+  }, {
+    "name" : "story",
+    "value" : "Save the name, description and price of all laptops from the list into a text file"
+  }, {
+    "name" : "host",
+    "value" : "GABOR-PC"
+  }, {
+    "name" : "thread",
+    "value" : "7952@GABOR-PC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "TC12_SavingDataFromTheWebApplication"
+  }, {
+    "name" : "testClass",
+    "value" : "TC12_SavingDataFromTheWebApplication"
+  }, {
+    "name" : "testMethod",
+    "value" : "savingDataToFile"
+  }, {
+    "name" : "suite",
+    "value" : "TC12_SavingDataFromTheWebApplication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e00ac3668ae248f.json",
+  "parameterValues" : [ ]
+}

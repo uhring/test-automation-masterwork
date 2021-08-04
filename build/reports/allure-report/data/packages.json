@@ -5,13 +5,13 @@
     "name" : "TC01_SuccessfulRegistration",
     "children" : [ {
       "name" : "successfulRegistration",
-      "uid" : "afdac8b024177ba",
+      "uid" : "5a24b52cb7aacf61",
       "parentUid" : "620ea4b48db1adf02fcfd8ad6be46117",
       "status" : "passed",
       "time" : {
-        "start" : 1628076395873,
-        "stop" : 1628076400855,
-        "duration" : 4982
+        "start" : 1628089275142,
+        "stop" : 1628089280313,
+        "duration" : 5171
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -21,13 +21,13 @@
     "name" : "TC02_FailedRegistration",
     "children" : [ {
       "name" : "unsuccessfulRegistration",
-      "uid" : "90d2a3dcfd51a1ea",
+      "uid" : "d7860a444fcc3f18",
       "parentUid" : "ab146be42fa8ef567659dfbf9a9d65fa",
       "status" : "passed",
       "time" : {
-        "start" : 1628076402873,
-        "stop" : 1628076407490,
-        "duration" : 4617
+        "start" : 1628089282407,
+        "stop" : 1628089287088,
+        "duration" : 4681
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -37,13 +37,13 @@
     "name" : "TC03_SuccessfulLogin",
     "children" : [ {
       "name" : "successfulLogin",
-      "uid" : "31d2e2d591a2da13",
+      "uid" : "5c93c061c0274698",
       "parentUid" : "b9793f921be150eb3f903c045d1c583f",
       "status" : "passed",
       "time" : {
-        "start" : 1628076409461,
-        "stop" : 1628076412909,
-        "duration" : 3448
+        "start" : 1628089289008,
+        "stop" : 1628089292557,
+        "duration" : 3549
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -53,13 +53,13 @@
     "name" : "TC04_FailedLogin",
     "children" : [ {
       "name" : "failedLogin",
-      "uid" : "c015cdb82121742a",
+      "uid" : "cc0952d6141e163f",
       "parentUid" : "1f4cf12b97e4cecfc4b0ae1dc696953e",
       "status" : "passed",
       "time" : {
-        "start" : 1628076414802,
-        "stop" : 1628076418318,
-        "duration" : 3516
+        "start" : 1628089294452,
+        "stop" : 1628089298084,
+        "duration" : 3632
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -69,13 +69,13 @@
     "name" : "TC05_UsingPrivacyStatement",
     "children" : [ {
       "name" : "openPrivacyStatement",
-      "uid" : "4f0262493d697de0",
+      "uid" : "200661f85466dc6d",
       "parentUid" : "3f7ebcd0ea66ed4c08075c7af545cdf8",
       "status" : "passed",
       "time" : {
-        "start" : 1628076420219,
-        "stop" : 1628076424689,
-        "duration" : 4470
+        "start" : 1628089299989,
+        "stop" : 1628089304508,
+        "duration" : 4519
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -85,13 +85,13 @@
     "name" : "TC06_ListingData",
     "children" : [ {
       "name" : "listingData",
-      "uid" : "5add5157f04c8eb7",
+      "uid" : "a2c8d43963fc3af7",
       "parentUid" : "0436622627e02a10b753366732a6427c",
       "status" : "passed",
       "time" : {
-        "start" : 1628076426626,
-        "stop" : 1628076429848,
-        "duration" : 3222
+        "start" : 1628089306427,
+        "stop" : 1628089309571,
+        "duration" : 3144
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -101,13 +101,13 @@
     "name" : "TC07_Pagination",
     "children" : [ {
       "name" : "pagination",
-      "uid" : "3d1f945e74e7ba92",
+      "uid" : "d6720509b353600d",
       "parentUid" : "aabaebdab1b9f97eb3033658dff9c988",
       "status" : "passed",
       "time" : {
-        "start" : 1628076431877,
-        "stop" : 1628076435796,
-        "duration" : 3919
+        "start" : 1628089311455,
+        "stop" : 1628089315542,
+        "duration" : 4087
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -117,13 +117,13 @@
     "name" : "TC08_InputOfNewData",
     "children" : [ {
       "name" : "addAddressToAccount",
-      "uid" : "d59dd54c1536e8fe",
+      "uid" : "457dc63ebd514d61",
       "parentUid" : "844bfe98202b5492ef5694d5b4d44aa0",
       "status" : "passed",
       "time" : {
-        "start" : 1628076437676,
-        "stop" : 1628076444593,
-        "duration" : 6917
+        "start" : 1628089317475,
+        "stop" : 1628089324491,
+        "duration" : 7016
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -133,49 +133,49 @@
     "name" : "TC09_RepetitiveDataEntryFromExternalSource",
     "children" : [ {
       "name" : "addMultipleAddressesToAnAccount",
-      "uid" : "341d7563feb8b789",
+      "uid" : "399623b4a50732fd",
       "parentUid" : "062cb64624b45c237fa0b7c45c231d7f",
       "status" : "passed",
       "time" : {
-        "start" : 1628076446607,
-        "stop" : 1628076454029,
-        "duration" : 7422
+        "start" : 1628089326563,
+        "stop" : 1628089334491,
+        "duration" : 7928
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "addMultipleAddressesToAnAccount",
-      "uid" : "8bd6dc09b54a96c2",
+      "uid" : "685caf2c100a6262",
       "parentUid" : "062cb64624b45c237fa0b7c45c231d7f",
       "status" : "passed",
       "time" : {
-        "start" : 1628076454035,
-        "stop" : 1628076460791,
-        "duration" : 6756
+        "start" : 1628089334498,
+        "stop" : 1628089341627,
+        "duration" : 7129
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "addMultipleAddressesToAnAccount",
-      "uid" : "e0287d186addeaf7",
+      "uid" : "99f57891194c8645",
       "parentUid" : "062cb64624b45c237fa0b7c45c231d7f",
       "status" : "passed",
       "time" : {
-        "start" : 1628076460796,
-        "stop" : 1628076467724,
-        "duration" : 6928
+        "start" : 1628089341641,
+        "stop" : 1628089348614,
+        "duration" : 6973
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "addMultipleAddressesToAnAccount",
-      "uid" : "554ef62356b6fa7e",
+      "uid" : "68176de0d10a69ed",
       "parentUid" : "062cb64624b45c237fa0b7c45c231d7f",
       "status" : "passed",
       "time" : {
-        "start" : 1628076467739,
-        "stop" : 1628076474501,
-        "duration" : 6762
+        "start" : 1628089348614,
+        "stop" : 1628089355670,
+        "duration" : 7056
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -185,13 +185,13 @@
     "name" : "TC10_ExistingDataModification",
     "children" : [ {
       "name" : "modificationOfFirstName",
-      "uid" : "e5a7ed4df38c72fe",
+      "uid" : "d93f813b67497dfa",
       "parentUid" : "bc119a7aacba6fb47592ae264f5b0803",
       "status" : "passed",
       "time" : {
-        "start" : 1628076476421,
-        "stop" : 1628076482348,
-        "duration" : 5927
+        "start" : 1628089357670,
+        "stop" : 1628089363499,
+        "duration" : 5829
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -201,13 +201,13 @@
     "name" : "TC11_DeletingData",
     "children" : [ {
       "name" : "deleteAddressesFromAddressBook",
-      "uid" : "ec6f8fd28b2caa9f",
+      "uid" : "9ea637464a8cefe5",
       "parentUid" : "983b7c685bda8a75d14fa1c991228ee1",
       "status" : "passed",
       "time" : {
-        "start" : 1628076484228,
-        "stop" : 1628076493450,
-        "duration" : 9222
+        "start" : 1628089365413,
+        "stop" : 1628089374639,
+        "duration" : 9226
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -217,13 +217,13 @@
     "name" : "TC12_SavingDataFromTheWebApplication",
     "children" : [ {
       "name" : "savingDataToFile",
-      "uid" : "c62bc29db9a18b29",
+      "uid" : "7e00ac3668ae248f",
       "parentUid" : "d3f7d7d2f0d642a738de841ff72a2436",
       "status" : "passed",
       "time" : {
-        "start" : 1628076495337,
-        "stop" : 1628076498478,
-        "duration" : 3141
+        "start" : 1628089376518,
+        "stop" : 1628089379706,
+        "duration" : 3188
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -233,13 +233,13 @@
     "name" : "TC13_Logout",
     "children" : [ {
       "name" : "logoutTest",
-      "uid" : "be69d45771775d06",
+      "uid" : "b91741b826cceb4a",
       "parentUid" : "d70653e149629770caba15e91436d951",
       "status" : "passed",
       "time" : {
-        "start" : 1628076500394,
-        "stop" : 1628076504518,
-        "duration" : 4124
+        "start" : 1628089381659,
+        "stop" : 1628089385924,
+        "duration" : 4265
       },
       "flaky" : false,
       "parameters" : [ ]

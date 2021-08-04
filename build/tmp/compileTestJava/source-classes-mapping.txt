@@ -12,8 +12,8 @@ pages/LoginPage.java
  pages.LoginPage
 pages/MyAccountPage.java
  pages.MyAccountPage
-pages/EditAccountPage.java
- pages.EditAccountPage
+TC09_RepetitiveDataEntryFromExternalSource.java
+ TC09_RepetitiveDataEntryFromExternalSource
 TC11_DeletingData.java
  TC11_DeletingData
 pages/BasePage.java
@@ -40,5 +40,5 @@ pages/AddressBookPage.java
  pages.AddressBookPage
 BaseTest.java
  BaseTest
-TC09_RepetitiveDataEntryFromExternalSource.java
- TC09_RepetitiveDataEntryFromExternalSource
+pages/EditAccountPage.java
+ pages.EditAccountPage

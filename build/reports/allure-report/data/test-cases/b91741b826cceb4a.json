@@ -1,0 +1,100 @@
+{
+  "uid" : "b91741b826cceb4a",
+  "name" : "Login and logout",
+  "fullName" : "TC13_Logout.logoutTest",
+  "historyId" : "f5397a6346072f79f5307d7d4dbf1700",
+  "time" : {
+    "start" : 1628089381659,
+    "stop" : 1628089385924,
+    "duration" : 4265
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8c9b5ef00eaf6079",
+      "name" : "screenshot",
+      "source" : "8c9b5ef00eaf6079.png",
+      "type" : "image/png",
+      "size" : 305676
+    }, {
+      "uid" : "1c1e6f3606e9b61f",
+      "name" : "screenshot",
+      "source" : "1c1e6f3606e9b61f.png",
+      "type" : "image/png",
+      "size" : 68925
+    }, {
+      "uid" : "465c5dd53470349e",
+      "name" : "Screenshot",
+      "source" : "465c5dd53470349e.png",
+      "type" : "image/png",
+      "size" : 68815
+    }, {
+      "uid" : "6946a9a5abafae83",
+      "name" : "screenshot",
+      "source" : "6946a9a5abafae83.png",
+      "type" : "image/png",
+      "size" : 73558
+    }, {
+      "uid" : "625f9ee636d0ac6a",
+      "name" : "screenshot",
+      "source" : "625f9ee636d0ac6a.png",
+      "type" : "image/png",
+      "size" : 56674
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store web application user administration"
+  }, {
+    "name" : "feature",
+    "value" : "Logout"
+  }, {
+    "name" : "story",
+    "value" : "Login and logout"
+  }, {
+    "name" : "host",
+    "value" : "GABOR-PC"
+  }, {
+    "name" : "thread",
+    "value" : "7952@GABOR-PC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "TC13_Logout"
+  }, {
+    "name" : "testClass",
+    "value" : "TC13_Logout"
+  }, {
+    "name" : "testMethod",
+    "value" : "logoutTest"
+  }, {
+    "name" : "suite",
+    "value" : "TC13_Logout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b91741b826cceb4a.json",
+  "parameterValues" : [ ]
+}

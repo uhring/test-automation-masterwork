@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TC09_RepetitiveDataEntryFromExternalSource" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-08-04T13:47:59" hostname="GABOR-PC" time="28.1">
+<testsuite name="TC09_RepetitiveDataEntryFromExternalSource" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-08-04T15:02:06" hostname="GABOR-PC" time="29.101">
   <properties/>
-  <testcase name="Add new address with first name: Imre, last name: Kiss, address: Palota u. 11., city: Soltvadkert, post code: 3443, country: Hungary." classname="TC09_RepetitiveDataEntryFromExternalSource" time="8.015"/>
-  <testcase name="Add new address with first name: Ilona, last name: Nagy, address: Palota u. 11., city: Soltvadkert, post code: 3443, country: Hungary." classname="TC09_RepetitiveDataEntryFromExternalSource" time="6.758"/>
-  <testcase name="Add new address with first name: Ambrus, last name: Kiss, address: Ceruza u. 23., city: Buda, post code: 1443, country: Hungary." classname="TC09_RepetitiveDataEntryFromExternalSource" time="6.674"/>
-  <testcase name="Add new address with first name: Anna, last name: Nagy, address: Kapu u. 13., city: Pest, post code: 1943, country: Hungary." classname="TC09_RepetitiveDataEntryFromExternalSource" time="6.636"/>
+  <testcase name="Add new address : First name = Imre, Last name = Kiss, Address = Palota u. 11., City = Soltvadkert, Post code = 3443, Country = Hungary." classname="TC09_RepetitiveDataEntryFromExternalSource" time="7.924"/>
+  <testcase name="Add new address : First name = Ilona, Last name = Nagy, Address = Palota u. 11., City = Soltvadkert, Post code = 3443, Country = Hungary." classname="TC09_RepetitiveDataEntryFromExternalSource" time="7.13"/>
+  <testcase name="Add new address : First name = Ambrus, Last name = Kiss, Address = Ceruza u. 23., City = Buda, Post code = 1443, Country = Hungary." classname="TC09_RepetitiveDataEntryFromExternalSource" time="6.983"/>
+  <testcase name="Add new address : First name = Anna, Last name = Nagy, Address = Kapu u. 13., City = Pest, Post code = 1943, Country = Hungary." classname="TC09_RepetitiveDataEntryFromExternalSource" time="7.053"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gábor\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
-Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 15882
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 15834
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-aug. 04, 2021 3:47:59 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+aug. 04, 2021 5:02:06 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO pages.HomePage - Opening YourStore homepage...
 [Test worker] INFO pages.HomePage - YourStore Page loaded successfully
@@ -27,6 +27,7 @@ INFO: Detected dialect: W3C
 [Test worker] INFO BaseTest - screenshot taken
 [Test worker] INFO pages.HomePage - Click on address book link
 [Test worker] INFO pages.HomePage - Wait until address book page opens
+[Test worker] INFO BaseTest - screenshot taken
 [Test worker] INFO pages.HomePage - New address button clicked
 [Test worker] INFO pages.HomePage - Wait until Add Address page opens
 [Test worker] INFO BaseTest - screenshot taken
@@ -56,6 +57,7 @@ INFO: Detected dialect: W3C
 [Test worker] INFO BaseTest - screenshot taken
 [Test worker] INFO pages.HomePage - Click on address book link
 [Test worker] INFO pages.HomePage - Wait until address book page opens
+[Test worker] INFO BaseTest - screenshot taken
 [Test worker] INFO pages.HomePage - New address button clicked
 [Test worker] INFO pages.HomePage - Wait until Add Address page opens
 [Test worker] INFO BaseTest - screenshot taken
@@ -85,6 +87,7 @@ INFO: Detected dialect: W3C
 [Test worker] INFO BaseTest - screenshot taken
 [Test worker] INFO pages.HomePage - Click on address book link
 [Test worker] INFO pages.HomePage - Wait until address book page opens
+[Test worker] INFO BaseTest - screenshot taken
 [Test worker] INFO pages.HomePage - New address button clicked
 [Test worker] INFO pages.HomePage - Wait until Add Address page opens
 [Test worker] INFO BaseTest - screenshot taken
@@ -114,6 +117,7 @@ INFO: Detected dialect: W3C
 [Test worker] INFO BaseTest - screenshot taken
 [Test worker] INFO pages.HomePage - Click on address book link
 [Test worker] INFO pages.HomePage - Wait until address book page opens
+[Test worker] INFO BaseTest - screenshot taken
 [Test worker] INFO pages.HomePage - New address button clicked
 [Test worker] INFO pages.HomePage - Wait until Add Address page opens
 [Test worker] INFO BaseTest - screenshot taken
