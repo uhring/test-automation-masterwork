@@ -1,0 +1,94 @@
+{
+  "uid" : "3d1f945e74e7ba92",
+  "name" : "Navigate to the next page with more results after listing all sales items",
+  "fullName" : "TC07_Pagination.pagination",
+  "historyId" : "43ee1dcf2af8d7b4a0aca9478ff8dd60",
+  "time" : {
+    "start" : 1628076431877,
+    "stop" : 1628076435796,
+    "duration" : 3919
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cf8f2cd55955441b",
+      "name" : "screenshot",
+      "source" : "cf8f2cd55955441b.png",
+      "type" : "image/png",
+      "size" : 305611
+    }, {
+      "uid" : "501bce6c3a1c857c",
+      "name" : "Screenshot",
+      "source" : "501bce6c3a1c857c.png",
+      "type" : "image/png",
+      "size" : 310300
+    }, {
+      "uid" : "8d7a79e57372cf36",
+      "name" : "screenshot",
+      "source" : "8d7a79e57372cf36.png",
+      "type" : "image/png",
+      "size" : 247815
+    }, {
+      "uid" : "d55960d992514d10",
+      "name" : "screenshot",
+      "source" : "d55960d992514d10.png",
+      "type" : "image/png",
+      "size" : 139745
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store web application marketplace"
+  }, {
+    "name" : "feature",
+    "value" : "Listing data"
+  }, {
+    "name" : "story",
+    "value" : "Navigate to the next page with more results after listing all sales items"
+  }, {
+    "name" : "host",
+    "value" : "GABOR-PC"
+  }, {
+    "name" : "thread",
+    "value" : "3464@GABOR-PC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "TC07_Pagination"
+  }, {
+    "name" : "testClass",
+    "value" : "TC07_Pagination"
+  }, {
+    "name" : "testMethod",
+    "value" : "pagination"
+  }, {
+    "name" : "suite",
+    "value" : "TC07_Pagination"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d1f945e74e7ba92.json",
+  "parameterValues" : [ ]
+}

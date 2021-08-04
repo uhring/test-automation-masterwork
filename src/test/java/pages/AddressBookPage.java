@@ -24,7 +24,7 @@ public class AddressBookPage extends BasePage {
   @FindBy(xpath = "//*[@id=\"account-address\"]/div[1]")
   WebElement warningMessage;
 
-  public void addAddress() {
+  public void navigateToAddAddressPage() {
     newAddressButton.click();
     LOG.info("New address button clicked");
     wait.until(ExpectedConditions.visibilityOf(addressBookContent));

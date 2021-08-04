@@ -1,160 +1,160 @@
 [ {
-  "uid" : "1ea75e1e217001eb",
+  "uid" : "d59dd54c1536e8fe",
   "name" : "Add address to an existing account",
   "time" : {
-    "start" : 1628016515597,
-    "stop" : 1628016522336,
-    "duration" : 6739
+    "start" : 1628076437676,
+    "stop" : 1628076444593,
+    "duration" : 6917
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e4a0ac7e63e9f26d",
-  "name" : "Failed login - invalid password",
-  "time" : {
-    "start" : 1628016493256,
-    "stop" : 1628016496576,
-    "duration" : 3320
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f940ae24b9ca9558",
-  "name" : "Deleting addresses from the address book",
-  "time" : {
-    "start" : 1628016560843,
-    "stop" : 1628016569702,
-    "duration" : 8859
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6710ebe990d44ab5",
-  "name" : "Successful login",
-  "time" : {
-    "start" : 1628016487835,
-    "stop" : 1628016491289,
-    "duration" : 3454
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b2fc9b65781aca92",
+  "uid" : "8bd6dc09b54a96c2",
   "name" : "[2] Ilona, Nagy, Palota u. 11., Soltvadkert, 3443, Hungary",
   "time" : {
-    "start" : 1628016531649,
-    "stop" : 1628016538181,
-    "duration" : 6532
+    "start" : 1628076454035,
+    "stop" : 1628076460791,
+    "duration" : 6756
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "287e45466c034e6a",
-  "name" : "Successful registration",
-  "time" : {
-    "start" : 1628016474259,
-    "stop" : 1628016479135,
-    "duration" : 4876
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8be51a57478a584a",
-  "name" : "Navigate to the next page with more results after listing all sales items",
-  "time" : {
-    "start" : 1628016509690,
-    "stop" : 1628016513659,
-    "duration" : 3969
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "931e1c57ad124c35",
-  "name" : "[1] Imre, Kiss, Palota u. 11., Soltvadkert, 3443, Hungary",
-  "time" : {
-    "start" : 1628016524274,
-    "stop" : 1628016531643,
-    "duration" : 7369
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f4b1a78cc1b30cca",
-  "name" : "Open privacy statement and check the checkbox",
-  "time" : {
-    "start" : 1628016498511,
-    "stop" : 1628016502802,
-    "duration" : 4291
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "da1f02ec8ed6f9b9",
-  "name" : "Login and logout",
-  "time" : {
-    "start" : 1628016576569,
-    "stop" : 1628016580817,
-    "duration" : 4248
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "19f0d67bac181ed2",
-  "name" : "Failed registration with previously registered email",
-  "time" : {
-    "start" : 1628016481206,
-    "stop" : 1628016485933,
-    "duration" : 4727
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1b19e70f333a8b1a",
+  "uid" : "e5a7ed4df38c72fe",
   "name" : "Modification of the customer's first name",
   "time" : {
-    "start" : 1628016553328,
-    "stop" : 1628016558947,
-    "duration" : 5619
+    "start" : 1628076476421,
+    "stop" : 1628076482348,
+    "duration" : 5927
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a29663d19a044d1e",
+  "uid" : "be69d45771775d06",
+  "name" : "Login and logout",
+  "time" : {
+    "start" : 1628076500394,
+    "stop" : 1628076504518,
+    "duration" : 4124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d1f945e74e7ba92",
+  "name" : "Navigate to the next page with more results after listing all sales items",
+  "time" : {
+    "start" : 1628076431877,
+    "stop" : 1628076435796,
+    "duration" : 3919
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "554ef62356b6fa7e",
   "name" : "[4] Anna, Nagy, Kapu u. 13., Pest, 1943, Hungary",
   "time" : {
-    "start" : 1628016544781,
-    "stop" : 1628016551380,
-    "duration" : 6599
+    "start" : 1628076467739,
+    "stop" : 1628076474501,
+    "duration" : 6762
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4ede66405bfd79ad",
-  "name" : "Listing all sales items",
-  "time" : {
-    "start" : 1628016504722,
-    "stop" : 1628016507724,
-    "duration" : 3002
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8a6e059e7856aaf0",
-  "name" : "[3] Ambrus, Kiss, Ceruza u. 23., Buda, 1443, Hungary",
-  "time" : {
-    "start" : 1628016538181,
-    "stop" : 1628016544777,
-    "duration" : 6596
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "14e1e8ec1f7f9926",
+  "uid" : "c62bc29db9a18b29",
   "name" : "Save the name, description and price of all laptops from the list into a text file. File path: src/test/output.txt",
   "time" : {
-    "start" : 1628016571656,
-    "stop" : 1628016574652,
-    "duration" : 2996
+    "start" : 1628076495337,
+    "stop" : 1628076498478,
+    "duration" : 3141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90d2a3dcfd51a1ea",
+  "name" : "Failed registration with previously registered email",
+  "time" : {
+    "start" : 1628076402873,
+    "stop" : 1628076407490,
+    "duration" : 4617
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31d2e2d591a2da13",
+  "name" : "Successful login",
+  "time" : {
+    "start" : 1628076409461,
+    "stop" : 1628076412909,
+    "duration" : 3448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec6f8fd28b2caa9f",
+  "name" : "Deleting addresses from the address book",
+  "time" : {
+    "start" : 1628076484228,
+    "stop" : 1628076493450,
+    "duration" : 9222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5add5157f04c8eb7",
+  "name" : "Listing all sales items",
+  "time" : {
+    "start" : 1628076426626,
+    "stop" : 1628076429848,
+    "duration" : 3222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0287d186addeaf7",
+  "name" : "[3] Ambrus, Kiss, Ceruza u. 23., Buda, 1443, Hungary",
+  "time" : {
+    "start" : 1628076460796,
+    "stop" : 1628076467724,
+    "duration" : 6928
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "341d7563feb8b789",
+  "name" : "[1] Imre, Kiss, Palota u. 11., Soltvadkert, 3443, Hungary",
+  "time" : {
+    "start" : 1628076446607,
+    "stop" : 1628076454029,
+    "duration" : 7422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c015cdb82121742a",
+  "name" : "Failed login - invalid password",
+  "time" : {
+    "start" : 1628076414802,
+    "stop" : 1628076418318,
+    "duration" : 3516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f0262493d697de0",
+  "name" : "Open privacy statement and check the checkbox",
+  "time" : {
+    "start" : 1628076420219,
+    "stop" : 1628076424689,
+    "duration" : 4470
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afdac8b024177ba",
+  "name" : "Successful registration",
+  "time" : {
+    "start" : 1628076395873,
+    "stop" : 1628076400855,
+    "duration" : 4982
   },
   "status" : "passed",
   "severity" : "normal"

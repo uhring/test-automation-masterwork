@@ -44,10 +44,6 @@ public class RegisterAccountPage extends BasePage {
   @FindBy(xpath = "//*[@id=\"modal-agree\"]/div/div/div[2]")
   WebElement privacyPolicy;
 
-  public WebElement getPrivacyPolicy() {
-    return privacyPolicy;
-  }
-
   @FindBy(xpath = "//*[@id=\"modal-agree\"]/div/div/div[1]/button")
   WebElement privacyCloseButton;
 
@@ -95,5 +91,9 @@ public class RegisterAccountPage extends BasePage {
     privacyCheckbox.click();
     wait.until(ExpectedConditions.elementToBeSelected(privacyCheckbox));
     LOG.info("Clicked on privacy checkbox");
+  }
+
+  public WebElement getPrivacyPolicy() {
+    return privacyPolicy;
   }
 }

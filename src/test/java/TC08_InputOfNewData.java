@@ -31,7 +31,7 @@ public class TC08_InputOfNewData extends BaseTest {
     List<WebElement> initialAddresses = driver.findElements(By.tagName("tr"));
     makeScreenshot();
     LOG.info("screenshot taken");
-    addressBookPage.addAddress();
+    addressBookPage.navigateToAddAddressPage();
     makeScreenshot();
     LOG.info("screenshot taken");
     addAddressPage.addNewAddress("Ilona", "Nagy", "Nagy utca 1",

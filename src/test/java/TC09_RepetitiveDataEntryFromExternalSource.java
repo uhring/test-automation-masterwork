@@ -32,7 +32,7 @@ public class TC09_RepetitiveDataEntryFromExternalSource extends BaseTest {
     LOG.info("screenshot taken");
     myAccountPage.goToAddressBook();
     List<WebElement> initialAddresses = driver.findElements(By.tagName("tr"));
-    addressBookPage.addAddress();
+    addressBookPage.navigateToAddAddressPage();
     makeScreenshot();
     LOG.info("screenshot taken");
     addAddressPage.addNewAddress(firstName, lastName, address, city, postCode, country);

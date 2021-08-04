@@ -9,13 +9,13 @@
         "name" : "Successful registration",
         "children" : [ {
           "name" : "Successful registration",
-          "uid" : "287e45466c034e6a",
+          "uid" : "afdac8b024177ba",
           "parentUid" : "1b40babe91830fe52318311f5d74b41a",
           "status" : "passed",
           "time" : {
-            "start" : 1628016474259,
-            "stop" : 1628016479135,
-            "duration" : 4876
+            "start" : 1628076395873,
+            "stop" : 1628076400855,
+            "duration" : 4982
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -25,13 +25,13 @@
         "name" : "Failed registration with previously registered email",
         "children" : [ {
           "name" : "Failed registration with previously registered email",
-          "uid" : "19f0d67bac181ed2",
+          "uid" : "90d2a3dcfd51a1ea",
           "parentUid" : "15f3cb775c87896aa64bdeb2806c21be",
           "status" : "passed",
           "time" : {
-            "start" : 1628016481206,
-            "stop" : 1628016485933,
-            "duration" : 4727
+            "start" : 1628076402873,
+            "stop" : 1628076407490,
+            "duration" : 4617
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -41,13 +41,13 @@
         "name" : "Open privacy statement and check the checkbox",
         "children" : [ {
           "name" : "Open privacy statement and check the checkbox",
-          "uid" : "f4b1a78cc1b30cca",
+          "uid" : "4f0262493d697de0",
           "parentUid" : "4e8df22420b077c6bb4d66440f0f0f02",
           "status" : "passed",
           "time" : {
-            "start" : 1628016498511,
-            "stop" : 1628016502802,
-            "duration" : 4291
+            "start" : 1628076420219,
+            "stop" : 1628076424689,
+            "duration" : 4470
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -61,13 +61,13 @@
         "name" : "Successful login",
         "children" : [ {
           "name" : "Successful login",
-          "uid" : "6710ebe990d44ab5",
+          "uid" : "31d2e2d591a2da13",
           "parentUid" : "9e549d09503cc9aef1752d7dde371908",
           "status" : "passed",
           "time" : {
-            "start" : 1628016487835,
-            "stop" : 1628016491289,
-            "duration" : 3454
+            "start" : 1628076409461,
+            "stop" : 1628076412909,
+            "duration" : 3448
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -77,13 +77,13 @@
         "name" : "Failed login - invalid password",
         "children" : [ {
           "name" : "Failed login - invalid password",
-          "uid" : "e4a0ac7e63e9f26d",
+          "uid" : "c015cdb82121742a",
           "parentUid" : "df747b3235b3e9e235e4b27c811087be",
           "status" : "passed",
           "time" : {
-            "start" : 1628016493256,
-            "stop" : 1628016496576,
-            "duration" : 3320
+            "start" : 1628076414802,
+            "stop" : 1628076418318,
+            "duration" : 3516
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -97,13 +97,13 @@
         "name" : "Add address to an existing account",
         "children" : [ {
           "name" : "Add address to an existing account",
-          "uid" : "1ea75e1e217001eb",
+          "uid" : "d59dd54c1536e8fe",
           "parentUid" : "09bb0ca8b77c18ee4056d337067e7bf7",
           "status" : "passed",
           "time" : {
-            "start" : 1628016515597,
-            "stop" : 1628016522336,
-            "duration" : 6739
+            "start" : 1628076437676,
+            "stop" : 1628076444593,
+            "duration" : 6917
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -113,49 +113,49 @@
         "name" : "Add multiple new addresses to an existing account from .csv file",
         "children" : [ {
           "name" : "[1] Imre, Kiss, Palota u. 11., Soltvadkert, 3443, Hungary",
-          "uid" : "931e1c57ad124c35",
+          "uid" : "341d7563feb8b789",
           "parentUid" : "7f068135ac9f4cb0b9a1f3d4e9ad4838",
           "status" : "passed",
           "time" : {
-            "start" : 1628016524274,
-            "stop" : 1628016531643,
-            "duration" : 7369
+            "start" : 1628076446607,
+            "stop" : 1628076454029,
+            "duration" : 7422
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "[2] Ilona, Nagy, Palota u. 11., Soltvadkert, 3443, Hungary",
-          "uid" : "b2fc9b65781aca92",
+          "uid" : "8bd6dc09b54a96c2",
           "parentUid" : "7f068135ac9f4cb0b9a1f3d4e9ad4838",
           "status" : "passed",
           "time" : {
-            "start" : 1628016531649,
-            "stop" : 1628016538181,
-            "duration" : 6532
+            "start" : 1628076454035,
+            "stop" : 1628076460791,
+            "duration" : 6756
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "[3] Ambrus, Kiss, Ceruza u. 23., Buda, 1443, Hungary",
-          "uid" : "8a6e059e7856aaf0",
+          "uid" : "e0287d186addeaf7",
           "parentUid" : "7f068135ac9f4cb0b9a1f3d4e9ad4838",
           "status" : "passed",
           "time" : {
-            "start" : 1628016538181,
-            "stop" : 1628016544777,
-            "duration" : 6596
+            "start" : 1628076460796,
+            "stop" : 1628076467724,
+            "duration" : 6928
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "[4] Anna, Nagy, Kapu u. 13., Pest, 1943, Hungary",
-          "uid" : "a29663d19a044d1e",
+          "uid" : "554ef62356b6fa7e",
           "parentUid" : "7f068135ac9f4cb0b9a1f3d4e9ad4838",
           "status" : "passed",
           "time" : {
-            "start" : 1628016544781,
-            "stop" : 1628016551380,
-            "duration" : 6599
+            "start" : 1628076467739,
+            "stop" : 1628076474501,
+            "duration" : 6762
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -165,13 +165,13 @@
         "name" : "Deleting addresses from the address book",
         "children" : [ {
           "name" : "Deleting addresses from the address book",
-          "uid" : "f940ae24b9ca9558",
+          "uid" : "ec6f8fd28b2caa9f",
           "parentUid" : "cd0bb606eedd3babeaf4eab7deacf452",
           "status" : "passed",
           "time" : {
-            "start" : 1628016560843,
-            "stop" : 1628016569702,
-            "duration" : 8859
+            "start" : 1628076484228,
+            "stop" : 1628076493450,
+            "duration" : 9222
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -185,13 +185,13 @@
         "name" : "Modification of the customer's first name",
         "children" : [ {
           "name" : "Modification of the customer's first name",
-          "uid" : "1b19e70f333a8b1a",
+          "uid" : "e5a7ed4df38c72fe",
           "parentUid" : "1af0d4a54b38bf6f5f755703c67ce63b",
           "status" : "passed",
           "time" : {
-            "start" : 1628016553328,
-            "stop" : 1628016558947,
-            "duration" : 5619
+            "start" : 1628076476421,
+            "stop" : 1628076482348,
+            "duration" : 5927
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -205,13 +205,13 @@
         "name" : "Login and logout",
         "children" : [ {
           "name" : "Login and logout",
-          "uid" : "da1f02ec8ed6f9b9",
+          "uid" : "be69d45771775d06",
           "parentUid" : "1563821cbc6392886ae45ac2bc1b1b77",
           "status" : "passed",
           "time" : {
-            "start" : 1628016576569,
-            "stop" : 1628016580817,
-            "duration" : 4248
+            "start" : 1628076500394,
+            "stop" : 1628076504518,
+            "duration" : 4124
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -229,13 +229,13 @@
         "name" : "Listing all sales items",
         "children" : [ {
           "name" : "Listing all sales items",
-          "uid" : "4ede66405bfd79ad",
+          "uid" : "5add5157f04c8eb7",
           "parentUid" : "e7924dedd4796d6039719965aa323e5c",
           "status" : "passed",
           "time" : {
-            "start" : 1628016504722,
-            "stop" : 1628016507724,
-            "duration" : 3002
+            "start" : 1628076426626,
+            "stop" : 1628076429848,
+            "duration" : 3222
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -245,13 +245,13 @@
         "name" : "Navigate to the next page with more results after listing all sales items",
         "children" : [ {
           "name" : "Navigate to the next page with more results after listing all sales items",
-          "uid" : "8be51a57478a584a",
+          "uid" : "3d1f945e74e7ba92",
           "parentUid" : "ff6730011a1478b7f9f90427c0556d01",
           "status" : "passed",
           "time" : {
-            "start" : 1628016509690,
-            "stop" : 1628016513659,
-            "duration" : 3969
+            "start" : 1628076431877,
+            "stop" : 1628076435796,
+            "duration" : 3919
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -265,13 +265,13 @@
         "name" : "Save the name, description and price of all laptops from the list into a text file",
         "children" : [ {
           "name" : "Save the name, description and price of all laptops from the list into a text file. File path: src/test/output.txt",
-          "uid" : "14e1e8ec1f7f9926",
+          "uid" : "c62bc29db9a18b29",
           "parentUid" : "ac44c3215a2a8e33cb69bbd3cbcde4d6",
           "status" : "passed",
           "time" : {
-            "start" : 1628016571656,
-            "stop" : 1628016574652,
-            "duration" : 2996
+            "start" : 1628076495337,
+            "stop" : 1628076498478,
+            "duration" : 3141
           },
           "flaky" : false,
           "parameters" : [ ]

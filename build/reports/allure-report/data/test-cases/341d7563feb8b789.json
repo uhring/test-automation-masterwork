@@ -1,0 +1,118 @@
+{
+  "uid" : "341d7563feb8b789",
+  "name" : "[1] Imre, Kiss, Palota u. 11., Soltvadkert, 3443, Hungary",
+  "fullName" : "TC09_RepetitiveDataEntryFromExternalSource.addMultipleAddressesToAnAccount",
+  "historyId" : "163ead75e6aced3b39fa4e4e2db8251",
+  "time" : {
+    "start" : 1628076446607,
+    "stop" : 1628076454029,
+    "duration" : 7422
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bab62b7163c02592",
+      "name" : "screenshot",
+      "source" : "bab62b7163c02592.png",
+      "type" : "image/png",
+      "size" : 305638
+    }, {
+      "uid" : "f12512cb2ab0a43d",
+      "name" : "screenshot",
+      "source" : "f12512cb2ab0a43d.png",
+      "type" : "image/png",
+      "size" : 68944
+    }, {
+      "uid" : "c4d890dec0a9b820",
+      "name" : "Screenshot",
+      "source" : "c4d890dec0a9b820.png",
+      "type" : "image/png",
+      "size" : 69192
+    }, {
+      "uid" : "6f13f4cd0de458cf",
+      "name" : "screenshot",
+      "source" : "6f13f4cd0de458cf.png",
+      "type" : "image/png",
+      "size" : 73558
+    }, {
+      "uid" : "ae169c774ab6f6fc",
+      "name" : "screenshot",
+      "source" : "ae169c774ab6f6fc.png",
+      "type" : "image/png",
+      "size" : 70603
+    }, {
+      "uid" : "9905559a3c5cf0a0",
+      "name" : "Screenshot",
+      "source" : "9905559a3c5cf0a0.png",
+      "type" : "image/png",
+      "size" : 69758
+    }, {
+      "uid" : "800dbe188ff786e4",
+      "name" : "screenshot",
+      "source" : "800dbe188ff786e4.png",
+      "type" : "image/png",
+      "size" : 73249
+    }, {
+      "uid" : "300348326aafdac6",
+      "name" : "screenshot",
+      "source" : "300348326aafdac6.png",
+      "type" : "image/png",
+      "size" : 56674
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store web application user administration"
+  }, {
+    "name" : "feature",
+    "value" : "Address book administration"
+  }, {
+    "name" : "story",
+    "value" : "Add multiple new addresses to an existing account from .csv file"
+  }, {
+    "name" : "host",
+    "value" : "GABOR-PC"
+  }, {
+    "name" : "thread",
+    "value" : "3464@GABOR-PC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "TC09_RepetitiveDataEntryFromExternalSource"
+  }, {
+    "name" : "testClass",
+    "value" : "TC09_RepetitiveDataEntryFromExternalSource"
+  }, {
+    "name" : "testMethod",
+    "value" : "addMultipleAddressesToAnAccount"
+  }, {
+    "name" : "suite",
+    "value" : "TC09_RepetitiveDataEntryFromExternalSource"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "341d7563feb8b789.json",
+  "parameterValues" : [ ]
+}
