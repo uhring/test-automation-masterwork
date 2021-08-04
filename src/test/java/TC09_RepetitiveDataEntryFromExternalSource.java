@@ -38,7 +38,8 @@ public class TC09_RepetitiveDataEntryFromExternalSource extends BaseTest {
     addAddressPage.addNewAddress(firstName, lastName, address, city, postCode, country);
     makeScreenshot();
     LOG.info("Screenshot taken");
-    assertThat(driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr")).size())
+    List<WebElement> addressesAfterOneAdded = driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr"));
+    assertThat(addressesAfterOneAdded.size())
         .as("New number of addresses should be initial number + 1")
         .isEqualTo(initialAddresses.size() + 1);
     LOG.info("Assertion of number of addresses done");
