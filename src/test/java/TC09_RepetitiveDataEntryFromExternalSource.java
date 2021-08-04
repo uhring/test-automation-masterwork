@@ -16,10 +16,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Story("Add multiple new addresses to an existing account from .csv file")
 public class TC09_RepetitiveDataEntryFromExternalSource extends BaseTest {
 
-  @ParameterizedTest
+  @ParameterizedTest(name = "Add new address with first name: {0}, last name: {1}, address: {2}, city: {3}, post code: {4}, country: {5}.")
   @CsvFileSource(resources = "/addresses.csv", numLinesToSkip = 1)
-  @DisplayName("Add multiple new addresses to an existing account from .csv file." +
-      " File source: File path: src/test/resources/output.txt")
+  @DisplayName("Add multiple new addresses to an existing account from .csv file. File source: File path: src/test/resources/output.txt")
   public void addMultipleAddressesToAnAccount(String firstName, String lastName, String address, String city, String postCode, String country) {
     homePage.openHomePage();
     makeScreenshot();
