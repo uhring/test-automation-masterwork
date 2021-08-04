@@ -4,7 +4,10 @@ import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -26,6 +29,7 @@ public class TC08_InputOfNewData extends BaseTest {
     makeScreenshot();
     LOG.info("screenshot taken");
     myAccountPage.goToAddressBook();
+    List<WebElement> initialAddresses = driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr"));
     makeScreenshot();
     LOG.info("screenshot taken");
     addressBookPage.addAddress();
@@ -36,8 +40,9 @@ public class TC08_InputOfNewData extends BaseTest {
     wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"content\"]/h2")));
     makeScreenshot();
     LOG.info("screenshot taken");
-    assertThat(driver.findElement(By.xpath("//*[@id=\"content\"]/h2")).getText())
-        .isEqualTo("Address Book Entries");
-    LOG.info("Assertion done, text as expected.");
+    assertThat(driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr")).size())
+        .as("New number of addresses should be initial number + 1")
+        .isEqualTo(initialAddresses.size() + 1);
+    LOG.info("Assertion of number of addresses done");
   }
 }

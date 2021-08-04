@@ -2,8 +2,8 @@ TC12_SavingDataFromTheWebApplication.java
  TC12_SavingDataFromTheWebApplication
 TC10_ExistingDataModification.java
  TC10_ExistingDataModification
-TC08_InputOfNewData.java
- TC08_InputOfNewData
+pages/EditAccountPage.java
+ pages.EditAccountPage
 pages/AddAddressPage.java
  pages.AddAddressPage
 TC13_Logout.java
@@ -40,5 +40,5 @@ pages/AddressBookPage.java
  pages.AddressBookPage
 BaseTest.java
  BaseTest
-pages/EditAccountPage.java
- pages.EditAccountPage
+TC08_InputOfNewData.java
+ TC08_InputOfNewData
