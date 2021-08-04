@@ -26,8 +26,8 @@ pages/HomePage.java
  pages.HomePage
 TC05_UsingPrivacyStatement.java
  TC05_UsingPrivacyStatement
-TC06_ListingData.java
- TC06_ListingData
+TC08_InputOfNewData.java
+ TC08_InputOfNewData
 pages/RegisterAccountPage.java
  pages.RegisterAccountPage
 TC03_SuccessfulLogin.java
@@ -40,5 +40,5 @@ pages/AddressBookPage.java
  pages.AddressBookPage
 TC11_DeletingData.java
  TC11_DeletingData
-TC08_InputOfNewData.java
- TC08_InputOfNewData
+TC06_ListingData.java
+ TC06_ListingData

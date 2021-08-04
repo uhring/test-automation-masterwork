@@ -24,7 +24,7 @@ public class TC06_ListingData extends BaseTest {
     homePage.listAllItems();
     makeScreenshot();
     LOG.info("Screenshot taken");
-    List<WebElement> productList = driver.findElements(By.xpath("//div[@class='product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12']"));
+    List<WebElement> productList = driver.findElements(By.className("product-layout"));
     assertThat(productList.size())
         .as("There should be 15 items listed on one page")
         .isEqualTo(15);
