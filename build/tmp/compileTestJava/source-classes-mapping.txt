@@ -32,13 +32,13 @@ TC02_FailedRegistration.java
  TC02_FailedRegistration
 TC05_UsingPrivacyStatement.java
  TC05_UsingPrivacyStatement
-TC06_ListingData.java
- TC06_ListingData
+TC13_Logout.java
+ TC13_Logout
 TC03_SuccessfulLogin.java
  TC03_SuccessfulLogin
 TC04_FailedLogin.java
  TC04_FailedLogin
 TC07_Pagination.java
  TC07_Pagination
-TC13_Logout.java
- TC13_Logout
+TC06_ListingData.java
+ TC06_ListingData

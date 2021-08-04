@@ -4,6 +4,9 @@ import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -21,7 +24,8 @@ public class TC06_ListingData extends BaseTest {
     homePage.listAllItems();
     makeScreenshot();
     LOG.info("Screenshot taken");
-    assertThat(driver.findElements(By.xpath("//div[@class='product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12']")).size())
+    List<WebElement> productList = driver.findElements(By.xpath("//div[@class='product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12']"));
+    assertThat(productList.size())
         .as("There should be 15 items listed on one page")
         .isEqualTo(15);
     LOG.info("Assertion done - 15 items on the page");
