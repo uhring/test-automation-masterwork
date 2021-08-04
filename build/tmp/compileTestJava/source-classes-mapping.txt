@@ -38,7 +38,7 @@ BaseTest.java
  BaseTest
 pages/AddressBookPage.java
  pages.AddressBookPage
-TC09_RepetitiveDataEntryFromExternalSource.java
- TC09_RepetitiveDataEntryFromExternalSource
 TC11_DeletingData.java
  TC11_DeletingData
+TC09_RepetitiveDataEntryFromExternalSource.java
+ TC09_RepetitiveDataEntryFromExternalSource

@@ -31,14 +31,14 @@ public class TC09_RepetitiveDataEntryFromExternalSource extends BaseTest {
     makeScreenshot();
     LOG.info("screenshot taken");
     myAccountPage.goToAddressBook();
-    List<WebElement> initialAddresses = driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr"));
+    List<WebElement> initialAddresses = driver.findElements(By.tagName("tr"));
     addressBookPage.addAddress();
     makeScreenshot();
     LOG.info("screenshot taken");
     addAddressPage.addNewAddress(firstName, lastName, address, city, postCode, country);
     makeScreenshot();
     LOG.info("Screenshot taken");
-    List<WebElement> addressesAfterOneAdded = driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr"));
+    List<WebElement> addressesAfterOneAdded = driver.findElements(By.tagName("tr"));
     assertThat(addressesAfterOneAdded.size())
         .as("New number of addresses should be initial number + 1")
         .isEqualTo(initialAddresses.size() + 1);
