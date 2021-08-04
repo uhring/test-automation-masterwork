@@ -3,7 +3,6 @@ import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -24,7 +23,7 @@ public class TC07_Pagination extends BaseTest {
     homePage.paginateOnePage();
     makeScreenshot();
     LOG.info("screenshot taken");
-    assertThat(driver.findElement(By.xpath("//*[@id=\"content\"]/div[5]/div[2]")).getText())
+    assertThat(homePage.getListedProductsNumber().getText())
         .as("Text should be : Showing 16 to 16 of 16 (2 Pages)")
         .isEqualTo("Showing 16 to 16 of 16 (2 Pages)");
     LOG.info("Assertion done Text below the item as expected.");

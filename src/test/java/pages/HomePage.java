@@ -30,6 +30,9 @@ public class HomePage extends BasePage {
   @FindBy(xpath = "//*[@id=\"content\"]/div[5]/div[1]/ul/li[3]/a")
   WebElement showMoreItems;
 
+  @FindBy(xpath = "//*[@id=\"content\"]/div[5]/div[2]")
+  WebElement listedProductsNumber;
+
   public void openHomePage() {
     driver.get("http://test-automation-shop2.greenfox.academy/");
     LOG.info("Opening YourStore homepage...");
@@ -69,5 +72,9 @@ public class HomePage extends BasePage {
     showAllLaptops.click();
     wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//div[@class='product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12']"), 0));
     LOG.info("Click \"Show All Laptops & Notebooks\" from the dropdown list");
+  }
+
+  public WebElement getListedProductsNumber() {
+    return listedProductsNumber;
   }
 }

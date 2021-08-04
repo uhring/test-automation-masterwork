@@ -1,44 +1,44 @@
-pages/AddressBookPage.java
- pages.AddressBookPage
-pages/HomePage.java
- pages.HomePage
-pages/EditAccountPage.java
- pages.EditAccountPage
-pages/AddAddressPage.java
- pages.AddAddressPage
-pages/RegisterAccountPage.java
- pages.RegisterAccountPage
-pages/LoginPage.java
- pages.LoginPage
-pages/BasePage.java
- pages.BasePage
 TC12_SavingDataFromTheWebApplication.java
  TC12_SavingDataFromTheWebApplication
 TC10_ExistingDataModification.java
  TC10_ExistingDataModification
 TC08_InputOfNewData.java
  TC08_InputOfNewData
-BaseTest.java
- BaseTest
+pages/AddAddressPage.java
+ pages.AddAddressPage
+TC13_Logout.java
+ TC13_Logout
+pages/LoginPage.java
+ pages.LoginPage
 pages/MyAccountPage.java
  pages.MyAccountPage
 TC09_RepetitiveDataEntryFromExternalSource.java
  TC09_RepetitiveDataEntryFromExternalSource
 TC11_DeletingData.java
  TC11_DeletingData
+pages/BasePage.java
+ pages.BasePage
 TC01_SuccessfulRegistration.java
  TC01_SuccessfulRegistration
 TC02_FailedRegistration.java
  TC02_FailedRegistration
+pages/HomePage.java
+ pages.HomePage
 TC05_UsingPrivacyStatement.java
  TC05_UsingPrivacyStatement
-TC13_Logout.java
- TC13_Logout
+TC06_ListingData.java
+ TC06_ListingData
+pages/RegisterAccountPage.java
+ pages.RegisterAccountPage
 TC03_SuccessfulLogin.java
  TC03_SuccessfulLogin
 TC04_FailedLogin.java
  TC04_FailedLogin
 TC07_Pagination.java
  TC07_Pagination
-TC06_ListingData.java
- TC06_ListingData
+pages/AddressBookPage.java
+ pages.AddressBookPage
+BaseTest.java
+ BaseTest
+pages/EditAccountPage.java
+ pages.EditAccountPage
