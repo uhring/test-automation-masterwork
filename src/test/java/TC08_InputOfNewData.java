@@ -5,7 +5,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
@@ -29,7 +28,7 @@ public class TC08_InputOfNewData extends BaseTest {
     makeScreenshot();
     LOG.info("screenshot taken");
     myAccountPage.goToAddressBook();
-    List<WebElement> initialAddresses = driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr"));
+    List<WebElement> initialAddresses = driver.findElements(By.tagName("tr"));
     makeScreenshot();
     LOG.info("screenshot taken");
     addressBookPage.addAddress();
@@ -39,7 +38,7 @@ public class TC08_InputOfNewData extends BaseTest {
         "Budapest", "1999", "Hungary");
     makeScreenshot();
     LOG.info("screenshot taken");
-    List<WebElement> addressesAfterOneAdded = driver.findElements(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr"));
+    List<WebElement> addressesAfterOneAdded = driver.findElements(By.tagName("tr"));
     assertThat(addressesAfterOneAdded.size())
         .as("New number of addresses should be initial number + 1")
         .isEqualTo(initialAddresses.size() + 1);

@@ -14,8 +14,8 @@ pages/MyAccountPage.java
  pages.MyAccountPage
 TC07_Pagination.java
  TC07_Pagination
-TC08_InputOfNewData.java
- TC08_InputOfNewData
+TC09_RepetitiveDataEntryFromExternalSource.java
+ TC09_RepetitiveDataEntryFromExternalSource
 pages/BasePage.java
  pages.BasePage
 TC01_SuccessfulRegistration.java
@@ -40,5 +40,5 @@ pages/AddressBookPage.java
  pages.AddressBookPage
 TC11_DeletingData.java
  TC11_DeletingData
-TC09_RepetitiveDataEntryFromExternalSource.java
- TC09_RepetitiveDataEntryFromExternalSource
+TC08_InputOfNewData.java
+ TC08_InputOfNewData
