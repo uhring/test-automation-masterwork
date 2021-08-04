@@ -20,6 +20,9 @@ public class MyAccountPage extends BasePage {
   @FindBy(xpath = "//*[@id=\"column-right\"]/div/a[13]")
   WebElement logout;
 
+  @FindBy(xpath = "//*[@id=\"account-account\"]/div[1]")
+  WebElement successMessage;
+
   public void goToAddressBook() {
     addressBookLink.click();
     LOG.info("Click on address book link");
@@ -38,5 +41,9 @@ public class MyAccountPage extends BasePage {
     logout.click();
     wait.until(ExpectedConditions.titleIs("Account Logout"));
     LOG.info("Logout");
+  }
+
+  public WebElement getSuccessMessage() {
+    return successMessage;
   }
 }

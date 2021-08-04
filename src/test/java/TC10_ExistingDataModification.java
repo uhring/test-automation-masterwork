@@ -3,7 +3,6 @@ import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -30,7 +29,7 @@ public class TC10_ExistingDataModification extends BaseTest {
     editAccountPage.modifyFirstName("Ilona" + (int) (Math.random() * 100));
     makeScreenshot();
     LOG.info("Success screenshot taken");
-    assertThat(driver.findElement(By.xpath("//*[@id=\"account-account\"]/div[1]")).getText())
+    assertThat(myAccountPage.getSuccessMessage().getText())
         .as("Text should be: Success: Your account has been successfully updated.")
         .isEqualTo("Success: Your account has been successfully updated.");
     LOG.info("Assertion on actual and expected text is done");
