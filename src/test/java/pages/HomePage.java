@@ -27,12 +27,6 @@ public class HomePage extends BasePage {
   @FindBy(xpath = "//*[@id=\"menu\"]/div[2]/ul/li[2]/div/a")
   WebElement showAllLaptops;
 
-  @FindBy(xpath = "//*[@id=\"content\"]/div[5]/div[1]/ul/li[3]/a")
-  WebElement showMoreItems;
-
-  @FindBy(xpath = "//*[@id=\"content\"]/div[5]/div[2]")
-  WebElement listedProductsNumber;
-
   public void openHomePage() {
     driver.get("http://test-automation-shop2.greenfox.academy/");
     LOG.info("Opening YourStore homepage...");
@@ -58,12 +52,6 @@ public class HomePage extends BasePage {
     LOG.info("Click \"Show All Desktops\" from the dropdown list");
   }
 
-  public void paginateOnePage() {
-    showMoreItems.click();
-    wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//*[@id=\"content\"]/div[4]/div"), 0));
-    LOG.info("Paginate to the next page");
-  }
-
   public void listAllLaptops() {
     action.moveToElement(laptopList).perform();
     LOG.info("Move pointer to \"Laptops & Notebooks\" tab");
@@ -72,9 +60,5 @@ public class HomePage extends BasePage {
     showAllLaptops.click();
     wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//div[@class='product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12']"), 0));
     LOG.info("Click \"Show All Laptops & Notebooks\" from the dropdown list");
-  }
-
-  public WebElement getListedProductsNumber() {
-    return listedProductsNumber;
   }
 }

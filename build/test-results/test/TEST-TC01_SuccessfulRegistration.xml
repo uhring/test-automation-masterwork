@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TC01_SuccessfulRegistration" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-04T15:01:15" hostname="GABOR-PC" time="5.346">
+<testsuite name="TC01_SuccessfulRegistration" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-05T09:44:51" hostname="GABOR-PC" time="5.623">
   <properties/>
-  <testcase name="Successful registration" classname="TC01_SuccessfulRegistration" time="5.346"/>
+  <testcase name="Successful registration" classname="TC01_SuccessfulRegistration" time="5.623"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Gábor\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
-Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 24818
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 18472
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-aug. 04, 2021 5:01:14 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+aug. 05, 2021 11:44:51 DE org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO pages.HomePage - Opening YourStore homepage...
 [Test worker] INFO pages.HomePage - YourStore Page loaded successfully
@@ -22,7 +22,7 @@ INFO: Detected dialect: W3C
 [Test worker] INFO BaseTest - screenshot taken
 [Test worker] INFO pages.HomePage - First name field: Ilona
 [Test worker] INFO pages.HomePage - Last name field: Nagy
-[Test worker] INFO pages.HomePage - Email field: nagy1327@ilona.hu
+[Test worker] INFO pages.HomePage - Email field: nagy6033@ilona.hu
 [Test worker] INFO pages.HomePage - Telephone field: 061111111
 [Test worker] INFO pages.HomePage - Password field: nagyi
 [Test worker] INFO pages.HomePage - Password confirmation: nagyi

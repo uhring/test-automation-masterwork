@@ -20,6 +20,7 @@ public class BaseTest {
   protected String registeredPassword = "nagyi";
 
   HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+  DesktopsPage desktopsPage = PageFactory.initElements(driver, DesktopsPage.class);
   LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
   RegisterAccountPage registerAccountPage = PageFactory.initElements(driver, RegisterAccountPage.class);
   MyAccountPage myAccountPage = PageFactory.initElements(driver, MyAccountPage.class);

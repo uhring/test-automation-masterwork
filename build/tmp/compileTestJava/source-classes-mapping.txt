@@ -42,3 +42,5 @@ BaseTest.java
  BaseTest
 pages/EditAccountPage.java
  pages.EditAccountPage
+pages/DesktopsPage.java
+ pages.DesktopsPage

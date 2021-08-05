@@ -20,10 +20,10 @@ public class TC07_Pagination extends BaseTest {
     homePage.listAllItems();
     makeScreenshot();
     LOG.info("screenshot taken");
-    homePage.paginateOnePage();
+    desktopsPage.paginateOnePage();
     makeScreenshot();
     LOG.info("screenshot taken");
-    assertThat(homePage.getListedProductsNumber().getText())
+    assertThat(desktopsPage.getListedProductsNumber().getText())
         .as("Text should be : Showing 16 to 16 of 16 (2 Pages)")
         .isEqualTo("Showing 16 to 16 of 16 (2 Pages)");
     LOG.info("Assertion done Text below the item as expected.");
