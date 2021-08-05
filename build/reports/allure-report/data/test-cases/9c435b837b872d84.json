@@ -1,0 +1,94 @@
+{
+  "uid" : "9c435b837b872d84",
+  "name" : "Successful login",
+  "fullName" : "TC03_SuccessfulLogin.successfulLogin",
+  "historyId" : "d3d8d6fc74b14f7cad1391747eec18b4",
+  "time" : {
+    "start" : 1628156706679,
+    "stop" : 1628156710151,
+    "duration" : 3472
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6b1dc2cca77f7bd3",
+      "name" : "screenshot",
+      "source" : "6b1dc2cca77f7bd3.png",
+      "type" : "image/png",
+      "size" : 305702
+    }, {
+      "uid" : "d037cbd72a93dd8d",
+      "name" : "screenshot",
+      "source" : "d037cbd72a93dd8d.png",
+      "type" : "image/png",
+      "size" : 69084
+    }, {
+      "uid" : "674f7dcc866cb709",
+      "name" : "Screenshot",
+      "source" : "674f7dcc866cb709.png",
+      "type" : "image/png",
+      "size" : 69115
+    }, {
+      "uid" : "f840ed75aafd0d93",
+      "name" : "screenshot",
+      "source" : "f840ed75aafd0d93.png",
+      "type" : "image/png",
+      "size" : 73470
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store web application user administration"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "story",
+    "value" : "Successful login"
+  }, {
+    "name" : "host",
+    "value" : "GABOR-PC"
+  }, {
+    "name" : "thread",
+    "value" : "1484@GABOR-PC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "TC03_SuccessfulLogin"
+  }, {
+    "name" : "testClass",
+    "value" : "TC03_SuccessfulLogin"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfulLogin"
+  }, {
+    "name" : "suite",
+    "value" : "TC03_SuccessfulLogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9c435b837b872d84.json",
+  "parameterValues" : [ ]
+}

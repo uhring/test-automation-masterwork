@@ -1,0 +1,124 @@
+{
+  "uid" : "9fa318811009db6b",
+  "name" : "Add new address : First name = Anna, Last name = Nagy, Address = Kapu u. 13., City = Pest, Post code = 1943, Country = Hungary.",
+  "fullName" : "TC09_RepetitiveDataEntryFromExternalSource.addMultipleAddressesToAnAccount",
+  "historyId" : "9ad8cb1470d9eb205f0c9de10120156b",
+  "time" : {
+    "start" : 1628156766149,
+    "stop" : 1628156773166,
+    "duration" : 7017
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "be3c607e38ff20c4",
+      "name" : "screenshot",
+      "source" : "be3c607e38ff20c4.png",
+      "type" : "image/png",
+      "size" : 305586
+    }, {
+      "uid" : "f2791d89d8485352",
+      "name" : "screenshot",
+      "source" : "f2791d89d8485352.png",
+      "type" : "image/png",
+      "size" : 69084
+    }, {
+      "uid" : "e709f39616a748ac",
+      "name" : "Screenshot",
+      "source" : "e709f39616a748ac.png",
+      "type" : "image/png",
+      "size" : 68823
+    }, {
+      "uid" : "13c64602bf2f949c",
+      "name" : "screenshot",
+      "source" : "13c64602bf2f949c.png",
+      "type" : "image/png",
+      "size" : 73470
+    }, {
+      "uid" : "7e4f9a80340d8948",
+      "name" : "screenshot",
+      "source" : "7e4f9a80340d8948.png",
+      "type" : "image/png",
+      "size" : 82673
+    }, {
+      "uid" : "f70b256fe488029b",
+      "name" : "screenshot",
+      "source" : "f70b256fe488029b.png",
+      "type" : "image/png",
+      "size" : 70823
+    }, {
+      "uid" : "fe974509616a03da",
+      "name" : "Screenshot",
+      "source" : "fe974509616a03da.png",
+      "type" : "image/png",
+      "size" : 69587
+    }, {
+      "uid" : "7d215a39f5f65ce",
+      "name" : "screenshot",
+      "source" : "7d215a39f5f65ce.png",
+      "type" : "image/png",
+      "size" : 87709
+    }, {
+      "uid" : "84eb600e6f9ef96e",
+      "name" : "screenshot",
+      "source" : "84eb600e6f9ef96e.png",
+      "type" : "image/png",
+      "size" : 56925
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store web application user administration"
+  }, {
+    "name" : "feature",
+    "value" : "Address book administration"
+  }, {
+    "name" : "story",
+    "value" : "Add multiple new addresses to an existing account from .csv file. File source: File path: src/test/resources/output.txt"
+  }, {
+    "name" : "host",
+    "value" : "GABOR-PC"
+  }, {
+    "name" : "thread",
+    "value" : "1484@GABOR-PC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "TC09_RepetitiveDataEntryFromExternalSource"
+  }, {
+    "name" : "testClass",
+    "value" : "TC09_RepetitiveDataEntryFromExternalSource"
+  }, {
+    "name" : "testMethod",
+    "value" : "addMultipleAddressesToAnAccount"
+  }, {
+    "name" : "suite",
+    "value" : "TC09_RepetitiveDataEntryFromExternalSource"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9fa318811009db6b.json",
+  "parameterValues" : [ ]
+}

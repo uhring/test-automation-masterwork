@@ -1,0 +1,118 @@
+{
+  "uid" : "3f78dac1da998a43",
+  "name" : "Add address to an existing account",
+  "fullName" : "TC08_InputOfNewData.addAddressToAccount",
+  "historyId" : "587fe9719d0c015c167ee569230418cc",
+  "time" : {
+    "start" : 1628156735003,
+    "stop" : 1628156742139,
+    "duration" : 7136
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "28c1c93a186f661c",
+      "name" : "screenshot",
+      "source" : "28c1c93a186f661c.png",
+      "type" : "image/png",
+      "size" : 305677
+    }, {
+      "uid" : "a8c3d9e820630afb",
+      "name" : "screenshot",
+      "source" : "a8c3d9e820630afb.png",
+      "type" : "image/png",
+      "size" : 69084
+    }, {
+      "uid" : "168db5af12242691",
+      "name" : "Screenshot",
+      "source" : "168db5af12242691.png",
+      "type" : "image/png",
+      "size" : 69153
+    }, {
+      "uid" : "c98ca52a23767960",
+      "name" : "screenshot",
+      "source" : "c98ca52a23767960.png",
+      "type" : "image/png",
+      "size" : 73470
+    }, {
+      "uid" : "2f70912f34d6bc68",
+      "name" : "screenshot",
+      "source" : "2f70912f34d6bc68.png",
+      "type" : "image/png",
+      "size" : 59141
+    }, {
+      "uid" : "c27170a9c98d7d5d",
+      "name" : "screenshot",
+      "source" : "c27170a9c98d7d5d.png",
+      "type" : "image/png",
+      "size" : 70823
+    }, {
+      "uid" : "fe7cf01c0df85f3b",
+      "name" : "Screenshot",
+      "source" : "fe7cf01c0df85f3b.png",
+      "type" : "image/png",
+      "size" : 70056
+    }, {
+      "uid" : "c957675c3be727f9",
+      "name" : "screenshot",
+      "source" : "c957675c3be727f9.png",
+      "type" : "image/png",
+      "size" : 67521
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store web application user administration"
+  }, {
+    "name" : "feature",
+    "value" : "Address book administration"
+  }, {
+    "name" : "story",
+    "value" : "Add address to an existing account"
+  }, {
+    "name" : "host",
+    "value" : "GABOR-PC"
+  }, {
+    "name" : "thread",
+    "value" : "1484@GABOR-PC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "TC08_InputOfNewData"
+  }, {
+    "name" : "testClass",
+    "value" : "TC08_InputOfNewData"
+  }, {
+    "name" : "testMethod",
+    "value" : "addAddressToAccount"
+  }, {
+    "name" : "suite",
+    "value" : "TC08_InputOfNewData"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f78dac1da998a43.json",
+  "parameterValues" : [ ]
+}

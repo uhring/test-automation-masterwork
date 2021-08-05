@@ -1,0 +1,161 @@
+[ {
+  "uid" : "809d38aaad1d287c",
+  "name" : "Modification of the customer's first name",
+  "time" : {
+    "start" : 1628156775120,
+    "stop" : 1628156780805,
+    "duration" : 5685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e7d8f83d07d536a",
+  "name" : "Login and logout",
+  "time" : {
+    "start" : 1628156798636,
+    "stop" : 1628156802878,
+    "duration" : 4242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45d497c7623d80ef",
+  "name" : "Deleting addresses from the address book",
+  "time" : {
+    "start" : 1628156782720,
+    "stop" : 1628156791754,
+    "duration" : 9034
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fa318811009db6b",
+  "name" : "Add new address : First name = Anna, Last name = Nagy, Address = Kapu u. 13., City = Pest, Post code = 1943, Country = Hungary.",
+  "time" : {
+    "start" : 1628156766149,
+    "stop" : 1628156773166,
+    "duration" : 7017
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a120b05f769b9666",
+  "name" : "Save the name, description and price of all laptops from the list into a text file. File path: src/test/output.txt",
+  "time" : {
+    "start" : 1628156793653,
+    "stop" : 1628156796720,
+    "duration" : 3067
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59d284c250a27db6",
+  "name" : "Failed login - invalid password",
+  "time" : {
+    "start" : 1628156712079,
+    "stop" : 1628156715514,
+    "duration" : 3435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a77c46b465261a85",
+  "name" : "Navigate to the next page with more results after listing all sales items",
+  "time" : {
+    "start" : 1628156729088,
+    "stop" : 1628156733071,
+    "duration" : 3983
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b90a5c7ad8e80c62",
+  "name" : "Add new address : First name = Imre, Last name = Kiss, Address = Palota u. 11., City = Soltvadkert, Post code = 3443, Country = Hungary.",
+  "time" : {
+    "start" : 1628156744219,
+    "stop" : 1628156752065,
+    "duration" : 7846
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "280ae6f4f8344233",
+  "name" : "Successful registration",
+  "time" : {
+    "start" : 1628156691681,
+    "stop" : 1628156697222,
+    "duration" : 5541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c435b837b872d84",
+  "name" : "Successful login",
+  "time" : {
+    "start" : 1628156706679,
+    "stop" : 1628156710151,
+    "duration" : 3472
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4044902923ae787a",
+  "name" : "Failed registration with previously registered email",
+  "time" : {
+    "start" : 1628156699292,
+    "stop" : 1628156704662,
+    "duration" : 5370
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6af783571312a95f",
+  "name" : "Open privacy statement and check the checkbox",
+  "time" : {
+    "start" : 1628156717474,
+    "stop" : 1628156722001,
+    "duration" : 4527
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd24bbd61f513fea",
+  "name" : "Listing all sales items",
+  "time" : {
+    "start" : 1628156723988,
+    "stop" : 1628156727154,
+    "duration" : 3166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f78dac1da998a43",
+  "name" : "Add address to an existing account",
+  "time" : {
+    "start" : 1628156735003,
+    "stop" : 1628156742139,
+    "duration" : 7136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1fd2f68ccc020e6",
+  "name" : "Add new address : First name = Ambrus, Last name = Kiss, Address = Ceruza u. 23., City = Buda, Post code = 1443, Country = Hungary.",
+  "time" : {
+    "start" : 1628156759143,
+    "stop" : 1628156766149,
+    "duration" : 7006
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f858fc91a61b38f",
+  "name" : "Add new address : First name = Ilona, Last name = Nagy, Address = Palota u. 11., City = Soltvadkert, Post code = 3443, Country = Hungary.",
+  "time" : {
+    "start" : 1628156752076,
+    "stop" : 1628156759137,
+    "duration" : 7061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
