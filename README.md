@@ -5,5 +5,5 @@
   1. Ennek a tárolónak a klónozása (git clone https://github.com/uhring/test-automation-masterwork.git) 
   2. A klónozott könyvtárba navigálás
   3. Itt a ' **./gradlew clean test** ' parancs futtatása
-- A tesztjelentés megtekintése (Allure Test Report):
+- A tesztjelentés megtekintése (Allure Test Report formátumban):
   - az automata tesztek futtatását követően(3. pont) a ' **./gradlew allureServe** ' parancs futtatásával lehetséges.
