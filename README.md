@@ -1,9 +1,9 @@
-# test-automation-masterwork
-- Tested webapplication URL : **http://test-automation-shop2.greenfox.academy/**
-- Manual test cases in Google Sheets : **https://docs.google.com/spreadsheets/d/1JU_-Nuq-PCI_imIMcbGNFMfSI8Oqm75S7lBkDq4Jd6o/edit?usp=sharing**
-- Steps for running the automated test cases : 
-  1. Clone this repository
-  2. Navigate to the cloned repository directory
-  3. Run  ' **./gradlew clean test** '
-- To see the test report (Allure Test Report):
-  - Run ' **./gradlew allureServe** ' after running the automated test cases
+# test-automation-vizsgaremek
+- A tesztelt webalkalmazás elérési útja : **http://test-automation-shop2.greenfox.academy/**
+- Manuális tesztesetek Google Táblázatok formátumban : **https://docs.google.com/spreadsheets/d/1JU_-Nuq-PCI_imIMcbGNFMfSI8Oqm75S7lBkDq4Jd6o/edit?usp=sharing**
+- Az automata tesztesetek futtatásának lépései : 
+  1. Ennek a tárolónak a klónozása (git clone https://github.com/uhring/test-automation-masterwork.git) 
+  2. A klónozott könyvtárba navigálás
+  3. Itt a ' **./gradlew clean test** ' parancs futtatása
+- A tesztjelentés megtekintése (Allure Test Report):
+  - az automata tesztek futtatását követően(3. pont) a ' **./gradlew allureServe** ' parancs futtatásával lehetséges.
