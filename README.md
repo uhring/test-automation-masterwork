@@ -6,4 +6,4 @@
   2. A klónozott könyvtárba navigálás
   3. Itt a ' **./gradlew clean test** ' parancs futtatása
 - A tesztjelentés megtekintése (Allure Test Report formátumban):
-  - az automata tesztek futtatását követően(3. pont) a ' **./gradlew allureServe** ' parancs futtatásával lehetséges.
+  - az automata tesztek futtatását követően(iii. pont) a ' **./gradlew allureServe** ' parancs futtatásával lehetséges.
