@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Feature("User registration")
 @Story("Successful registration")
 public class TC01_SuccessfulRegistration extends BaseTest {
-  protected String email = "nagy" + ((int) (Math.random() * 10000)) + "@ilona.hu";
+  protected String email = "nagyilona" + ((int) (Math.random() * 10000)) + "@ilona.hu";
 
   @Test
   @DisplayName("Successful registration")

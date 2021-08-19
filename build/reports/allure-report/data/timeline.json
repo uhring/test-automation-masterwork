@@ -4,201 +4,201 @@
   "children" : [ {
     "name" : "GABOR-PC",
     "children" : [ {
-      "name" : "1484@GABOR-PC.Test worker(12)",
+      "name" : "1260@GABOR-PC.Test worker(12)",
       "children" : [ {
         "name" : "Open privacy statement and check the checkbox",
-        "uid" : "6af783571312a95f",
-        "parentUid" : "4905ee700bfd5eb81021686aa77c730e",
+        "uid" : "c47f9f605883b1da",
+        "parentUid" : "9c3d6fa3ab476ed2ce939783ac4bf666",
         "status" : "passed",
         "time" : {
-          "start" : 1628156717474,
-          "stop" : 1628156722001,
-          "duration" : 4527
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Listing all sales items",
-        "uid" : "cd24bbd61f513fea",
-        "parentUid" : "4905ee700bfd5eb81021686aa77c730e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628156723988,
-          "stop" : 1628156727154,
-          "duration" : 3166
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Add new address : First name = Imre, Last name = Kiss, Address = Palota u. 11., City = Soltvadkert, Post code = 3443, Country = Hungary.",
-        "uid" : "b90a5c7ad8e80c62",
-        "parentUid" : "4905ee700bfd5eb81021686aa77c730e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628156744219,
-          "stop" : 1628156752065,
-          "duration" : 7846
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Failed registration with previously registered email",
-        "uid" : "4044902923ae787a",
-        "parentUid" : "4905ee700bfd5eb81021686aa77c730e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628156699292,
-          "stop" : 1628156704662,
-          "duration" : 5370
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Add address to an existing account",
-        "uid" : "3f78dac1da998a43",
-        "parentUid" : "4905ee700bfd5eb81021686aa77c730e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628156735003,
-          "stop" : 1628156742139,
-          "duration" : 7136
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Deleting addresses from the address book",
-        "uid" : "45d497c7623d80ef",
-        "parentUid" : "4905ee700bfd5eb81021686aa77c730e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628156782720,
-          "stop" : 1628156791754,
-          "duration" : 9034
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Save the name, description and price of all laptops from the list into a text file. File path: src/test/output.txt",
-        "uid" : "a120b05f769b9666",
-        "parentUid" : "4905ee700bfd5eb81021686aa77c730e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628156793653,
-          "stop" : 1628156796720,
-          "duration" : 3067
+          "start" : 1629392803200,
+          "stop" : 1629392806606,
+          "duration" : 3406
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Successful login",
-        "uid" : "9c435b837b872d84",
-        "parentUid" : "4905ee700bfd5eb81021686aa77c730e",
+        "uid" : "b1951936f202c396",
+        "parentUid" : "9c3d6fa3ab476ed2ce939783ac4bf666",
         "status" : "passed",
         "time" : {
-          "start" : 1628156706679,
-          "stop" : 1628156710151,
-          "duration" : 3472
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Failed login - invalid password",
-        "uid" : "59d284c250a27db6",
-        "parentUid" : "4905ee700bfd5eb81021686aa77c730e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628156712079,
-          "stop" : 1628156715514,
-          "duration" : 3435
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Login and logout",
-        "uid" : "5e7d8f83d07d536a",
-        "parentUid" : "4905ee700bfd5eb81021686aa77c730e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628156798636,
-          "stop" : 1628156802878,
-          "duration" : 4242
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Modification of the customer's first name",
-        "uid" : "809d38aaad1d287c",
-        "parentUid" : "4905ee700bfd5eb81021686aa77c730e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628156775120,
-          "stop" : 1628156780805,
-          "duration" : 5685
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Navigate to the next page with more results after listing all sales items",
-        "uid" : "a77c46b465261a85",
-        "parentUid" : "4905ee700bfd5eb81021686aa77c730e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628156729088,
-          "stop" : 1628156733071,
-          "duration" : 3983
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Add new address : First name = Ilona, Last name = Nagy, Address = Palota u. 11., City = Soltvadkert, Post code = 3443, Country = Hungary.",
-        "uid" : "9f858fc91a61b38f",
-        "parentUid" : "4905ee700bfd5eb81021686aa77c730e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628156752076,
-          "stop" : 1628156759137,
-          "duration" : 7061
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Add new address : First name = Anna, Last name = Nagy, Address = Kapu u. 13., City = Pest, Post code = 1943, Country = Hungary.",
-        "uid" : "9fa318811009db6b",
-        "parentUid" : "4905ee700bfd5eb81021686aa77c730e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628156766149,
-          "stop" : 1628156773166,
-          "duration" : 7017
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Add new address : First name = Ambrus, Last name = Kiss, Address = Ceruza u. 23., City = Buda, Post code = 1443, Country = Hungary.",
-        "uid" : "b1fd2f68ccc020e6",
-        "parentUid" : "4905ee700bfd5eb81021686aa77c730e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628156759143,
-          "stop" : 1628156766149,
-          "duration" : 7006
+          "start" : 1629392794396,
+          "stop" : 1629392796895,
+          "duration" : 2499
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Successful registration",
-        "uid" : "280ae6f4f8344233",
-        "parentUid" : "4905ee700bfd5eb81021686aa77c730e",
+        "uid" : "1bd30f66953f3553",
+        "parentUid" : "9c3d6fa3ab476ed2ce939783ac4bf666",
         "status" : "passed",
         "time" : {
-          "start" : 1628156691681,
-          "stop" : 1628156697222,
-          "duration" : 5541
+          "start" : 1629392782713,
+          "stop" : 1629392786950,
+          "duration" : 4237
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Listing all sales items",
+        "uid" : "177601e8cf0e523f",
+        "parentUid" : "9c3d6fa3ab476ed2ce939783ac4bf666",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629392808495,
+          "stop" : 1629392810807,
+          "duration" : 2312
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add new address : First name = Anna, Last name = Nagy, Address = Kapu u. 13., City = Pest, Post code = 1943, Country = Hungary.",
+        "uid" : "ff12a4b3cd933f7d",
+        "parentUid" : "9c3d6fa3ab476ed2ce939783ac4bf666",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629392839117,
+          "stop" : 1629392843919,
+          "duration" : 4802
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Save the name, description and price of all laptops from the list into a text file. File path: src/test/output.txt",
+        "uid" : "d6523fb7edfc593",
+        "parentUid" : "9c3d6fa3ab476ed2ce939783ac4bf666",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629392859549,
+          "stop" : 1629392861963,
+          "duration" : 2414
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Failed login - invalid password",
+        "uid" : "7e63fe1bde3b0104",
+        "parentUid" : "9c3d6fa3ab476ed2ce939783ac4bf666",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629392798865,
+          "stop" : 1629392801326,
+          "duration" : 2461
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Navigate to the next page with more results after listing all sales items",
+        "uid" : "9d2d37377652667b",
+        "parentUid" : "9c3d6fa3ab476ed2ce939783ac4bf666",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629392812683,
+          "stop" : 1629392815556,
+          "duration" : 2873
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add new address : First name = Ambrus, Last name = Kiss, Address = Ceruza u. 23., City = Buda, Post code = 1443, Country = Hungary.",
+        "uid" : "748e33b48c1b5657",
+        "parentUid" : "9c3d6fa3ab476ed2ce939783ac4bf666",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629392834376,
+          "stop" : 1629392839113,
+          "duration" : 4737
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Deleting addresses from the address book",
+        "uid" : "68fef15c899c40d7",
+        "parentUid" : "9c3d6fa3ab476ed2ce939783ac4bf666",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629392851812,
+          "stop" : 1629392857713,
+          "duration" : 5901
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Modification of the customer's first name",
+        "uid" : "932de1bd746a7fce",
+        "parentUid" : "9c3d6fa3ab476ed2ce939783ac4bf666",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629392845784,
+          "stop" : 1629392849963,
+          "duration" : 4179
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add new address : First name = Ilona, Last name = Nagy, Address = Palota u. 11., City = Soltvadkert, Post code = 3443, Country = Hungary.",
+        "uid" : "51df05b45367b29",
+        "parentUid" : "9c3d6fa3ab476ed2ce939783ac4bf666",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629392829602,
+          "stop" : 1629392834371,
+          "duration" : 4769
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Failed registration with previously registered email",
+        "uid" : "fbc2845853278c81",
+        "parentUid" : "9c3d6fa3ab476ed2ce939783ac4bf666",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629392789143,
+          "stop" : 1629392792492,
+          "duration" : 3349
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login and logout",
+        "uid" : "223c3cdc8655fbe1",
+        "parentUid" : "9c3d6fa3ab476ed2ce939783ac4bf666",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629392863859,
+          "stop" : 1629392866932,
+          "duration" : 3073
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add address to an existing account",
+        "uid" : "c4eb4edd54116e12",
+        "parentUid" : "9c3d6fa3ab476ed2ce939783ac4bf666",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629392817432,
+          "stop" : 1629392822256,
+          "duration" : 4824
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add new address : First name = Imre, Last name = Kiss, Address = Palota u. 11., City = Soltvadkert, Post code = 3443, Country = Hungary.",
+        "uid" : "8e39a39beac4c293",
+        "parentUid" : "9c3d6fa3ab476ed2ce939783ac4bf666",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629392824272,
+          "stop" : 1629392829595,
+          "duration" : 5323
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4905ee700bfd5eb81021686aa77c730e"
+      "uid" : "9c3d6fa3ab476ed2ce939783ac4bf666"
     } ],
     "uid" : "17702d9ce51367f3daa7d2323915d0b6"
   } ]

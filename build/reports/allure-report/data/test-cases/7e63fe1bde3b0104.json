@@ -1,0 +1,94 @@
+{
+  "uid" : "7e63fe1bde3b0104",
+  "name" : "Failed login - invalid password",
+  "fullName" : "TC04_FailedLogin.failedLogin",
+  "historyId" : "d29c2c2caba5fbb45db366df55229384",
+  "time" : {
+    "start" : 1629392798865,
+    "stop" : 1629392801326,
+    "duration" : 2461
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "23c6c4469b112298",
+      "name" : "screenshot",
+      "source" : "23c6c4469b112298.png",
+      "type" : "image/png",
+      "size" : 304881
+    }, {
+      "uid" : "629ce0b2fb304b89",
+      "name" : "screenshot",
+      "source" : "629ce0b2fb304b89.png",
+      "type" : "image/png",
+      "size" : 69084
+    }, {
+      "uid" : "6a18ff733b8cb7bd",
+      "name" : "Screenshot",
+      "source" : "6a18ff733b8cb7bd.png",
+      "type" : "image/png",
+      "size" : 68656
+    }, {
+      "uid" : "7075c9b3d84cdb3e",
+      "name" : "screenshot",
+      "source" : "7075c9b3d84cdb3e.png",
+      "type" : "image/png",
+      "size" : 71514
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store web application user administration"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "story",
+    "value" : "Failed login - invalid password"
+  }, {
+    "name" : "host",
+    "value" : "GABOR-PC"
+  }, {
+    "name" : "thread",
+    "value" : "1260@GABOR-PC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "TC04_FailedLogin"
+  }, {
+    "name" : "testClass",
+    "value" : "TC04_FailedLogin"
+  }, {
+    "name" : "testMethod",
+    "value" : "failedLogin"
+  }, {
+    "name" : "suite",
+    "value" : "TC04_FailedLogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e63fe1bde3b0104.json",
+  "parameterValues" : [ ]
+}
