@@ -4,6 +4,6 @@
 - Az automata tesztesetek futtatásának lépései : 
   1. Ennek a tárolónak a klónozása (a következő parancs futtatása:' **git clone https://github.com/uhring/test-automation-masterwork.git** ') 
   2. A klónozott könyvtárba navigálás
-  3. Itt a ' **./gradlew clean test** ' parancs futtatása
+  3. Itt a ' **./gradlew clean test** ' ( Linux / Git Bash ) vagy a ' **gradlew clean test** ' ( Windows Parancssor ) parancs futtatása 
 - A tesztjelentés megtekintése (Allure Test Report formátumban):
-  - az automata tesztek futtatását követően(iii. pont) a ' **./gradlew allureServe** ' parancs futtatásával lehetséges.
+  - az automata tesztek futtatását követően(iii. pont) a ' **./gradlew allureServe** ' ( Linux / Git Bash ) vagy a ' **gradlew allureServe** ' ( Windows Parancssor ) parancs futtatásával lehetséges.
