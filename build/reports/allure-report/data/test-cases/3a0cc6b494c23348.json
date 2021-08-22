@@ -1,0 +1,112 @@
+{
+  "uid" : "3a0cc6b494c23348",
+  "name" : "Modification of the customer's first name",
+  "fullName" : "TC10_ExistingDataModification.modificationOfFirstName",
+  "historyId" : "9134efcde493a5f9b1cac231c055becb",
+  "time" : {
+    "start" : 1629653695810,
+    "stop" : 1629653699744,
+    "duration" : 3934
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "93bff6b77b060b2b",
+      "name" : "screenshot",
+      "source" : "93bff6b77b060b2b.png",
+      "type" : "image/png",
+      "size" : 304881
+    }, {
+      "uid" : "e14de64a270905ce",
+      "name" : "screenshot",
+      "source" : "e14de64a270905ce.png",
+      "type" : "image/png",
+      "size" : 69084
+    }, {
+      "uid" : "41e3b9c40329decf",
+      "name" : "Screenshot",
+      "source" : "41e3b9c40329decf.png",
+      "type" : "image/png",
+      "size" : 68689
+    }, {
+      "uid" : "f631f466d0176f7b",
+      "name" : "screenshot",
+      "source" : "f631f466d0176f7b.png",
+      "type" : "image/png",
+      "size" : 73470
+    }, {
+      "uid" : "31abf4ad4e63068c",
+      "name" : "screenshot",
+      "source" : "31abf4ad4e63068c.png",
+      "type" : "image/png",
+      "size" : 64900
+    }, {
+      "uid" : "a028ac0cc5af8834",
+      "name" : "Screenshot",
+      "source" : "a028ac0cc5af8834.png",
+      "type" : "image/png",
+      "size" : 66351
+    }, {
+      "uid" : "54da19486e8a2722",
+      "name" : "screenshot",
+      "source" : "54da19486e8a2722.png",
+      "type" : "image/png",
+      "size" : 75952
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store web application user administration"
+  }, {
+    "name" : "feature",
+    "value" : "User data administration"
+  }, {
+    "name" : "story",
+    "value" : "Modification of the customer's first name"
+  }, {
+    "name" : "host",
+    "value" : "GABOR-PC"
+  }, {
+    "name" : "thread",
+    "value" : "9900@GABOR-PC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "TC10_ExistingDataModification"
+  }, {
+    "name" : "testClass",
+    "value" : "TC10_ExistingDataModification"
+  }, {
+    "name" : "testMethod",
+    "value" : "modificationOfFirstName"
+  }, {
+    "name" : "suite",
+    "value" : "TC10_ExistingDataModification"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a0cc6b494c23348.json",
+  "parameterValues" : [ ]
+}

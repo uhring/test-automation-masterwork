@@ -1,0 +1,100 @@
+{
+  "uid" : "3562ae33c078398e",
+  "name" : "Failed registration with previously registered email",
+  "fullName" : "TC02_FailedRegistration.unsuccessfulRegistration",
+  "historyId" : "d1c2fd52423a622d25a3206ad488a2a0",
+  "time" : {
+    "start" : 1629653640754,
+    "stop" : 1629653644039,
+    "duration" : 3285
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6b9558431611794b",
+      "name" : "screenshot",
+      "source" : "6b9558431611794b.png",
+      "type" : "image/png",
+      "size" : 304881
+    }, {
+      "uid" : "bfda8a334819bac4",
+      "name" : "screenshot",
+      "source" : "bfda8a334819bac4.png",
+      "type" : "image/png",
+      "size" : 69084
+    }, {
+      "uid" : "e0e154869d9270bc",
+      "name" : "screenshot",
+      "source" : "e0e154869d9270bc.png",
+      "type" : "image/png",
+      "size" : 78304
+    }, {
+      "uid" : "a55b06bfcd24833",
+      "name" : "Screenshot",
+      "source" : "a55b06bfcd24833.png",
+      "type" : "image/png",
+      "size" : 77188
+    }, {
+      "uid" : "6eb5d7ee989acfe1",
+      "name" : "screenshot",
+      "source" : "6eb5d7ee989acfe1.png",
+      "type" : "image/png",
+      "size" : 75482
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store web application user administration"
+  }, {
+    "name" : "feature",
+    "value" : "User registration"
+  }, {
+    "name" : "story",
+    "value" : "Failed registration with previously registered email"
+  }, {
+    "name" : "host",
+    "value" : "GABOR-PC"
+  }, {
+    "name" : "thread",
+    "value" : "9900@GABOR-PC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "TC02_FailedRegistration"
+  }, {
+    "name" : "testClass",
+    "value" : "TC02_FailedRegistration"
+  }, {
+    "name" : "testMethod",
+    "value" : "unsuccessfulRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "TC02_FailedRegistration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3562ae33c078398e.json",
+  "parameterValues" : [ ]
+}

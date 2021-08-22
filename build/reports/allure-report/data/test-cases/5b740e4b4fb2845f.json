@@ -1,0 +1,88 @@
+{
+  "uid" : "5b740e4b4fb2845f",
+  "name" : "Listing all sales items",
+  "fullName" : "TC06_ListingData.listingData",
+  "historyId" : "ce7111c8e30ccdc11898fd495fca0794",
+  "time" : {
+    "start" : 1629653659735,
+    "stop" : 1629653662009,
+    "duration" : 2274
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2eaca81d27662eed",
+      "name" : "screenshot",
+      "source" : "2eaca81d27662eed.png",
+      "type" : "image/png",
+      "size" : 304881
+    }, {
+      "uid" : "cac28ab4bf197136",
+      "name" : "Screenshot",
+      "source" : "cac28ab4bf197136.png",
+      "type" : "image/png",
+      "size" : 309837
+    }, {
+      "uid" : "b05a9e9b7634acbe",
+      "name" : "screenshot",
+      "source" : "b05a9e9b7634acbe.png",
+      "type" : "image/png",
+      "size" : 248476
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store web application marketplace"
+  }, {
+    "name" : "feature",
+    "value" : "Listing data"
+  }, {
+    "name" : "story",
+    "value" : "Listing all sales items"
+  }, {
+    "name" : "host",
+    "value" : "GABOR-PC"
+  }, {
+    "name" : "thread",
+    "value" : "9900@GABOR-PC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "TC06_ListingData"
+  }, {
+    "name" : "testClass",
+    "value" : "TC06_ListingData"
+  }, {
+    "name" : "testMethod",
+    "value" : "listingData"
+  }, {
+    "name" : "suite",
+    "value" : "TC06_ListingData"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b740e4b4fb2845f.json",
+  "parameterValues" : [ ]
+}

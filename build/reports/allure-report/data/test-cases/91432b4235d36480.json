@@ -1,0 +1,100 @@
+{
+  "uid" : "91432b4235d36480",
+  "name" : "Open privacy statement and check the checkbox",
+  "fullName" : "TC05_UsingPrivacyStatement.openPrivacyStatement",
+  "historyId" : "57ca63d99e4dded400b7628c22aa21c",
+  "time" : {
+    "start" : 1629653654440,
+    "stop" : 1629653657737,
+    "duration" : 3297
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8716d4e2c127253f",
+      "name" : "screenshot",
+      "source" : "8716d4e2c127253f.png",
+      "type" : "image/png",
+      "size" : 304881
+    }, {
+      "uid" : "5b710485314eb7c1",
+      "name" : "screenshot",
+      "source" : "5b710485314eb7c1.png",
+      "type" : "image/png",
+      "size" : 69084
+    }, {
+      "uid" : "51481af41a300ba0",
+      "name" : "screenshot",
+      "source" : "51481af41a300ba0.png",
+      "type" : "image/png",
+      "size" : 78304
+    }, {
+      "uid" : "a085d8e8e623e796",
+      "name" : "screenshot",
+      "source" : "a085d8e8e623e796.png",
+      "type" : "image/png",
+      "size" : 81515
+    }, {
+      "uid" : "6bedc3d7f74f6da2",
+      "name" : "screenshot",
+      "source" : "6bedc3d7f74f6da2.png",
+      "type" : "image/png",
+      "size" : 78436
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store web application user administration"
+  }, {
+    "name" : "feature",
+    "value" : "User registration"
+  }, {
+    "name" : "story",
+    "value" : "Open privacy statement and check the checkbox"
+  }, {
+    "name" : "host",
+    "value" : "GABOR-PC"
+  }, {
+    "name" : "thread",
+    "value" : "9900@GABOR-PC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "TC05_UsingPrivacyStatement"
+  }, {
+    "name" : "testClass",
+    "value" : "TC05_UsingPrivacyStatement"
+  }, {
+    "name" : "testMethod",
+    "value" : "openPrivacyStatement"
+  }, {
+    "name" : "suite",
+    "value" : "TC05_UsingPrivacyStatement"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91432b4235d36480.json",
+  "parameterValues" : [ ]
+}

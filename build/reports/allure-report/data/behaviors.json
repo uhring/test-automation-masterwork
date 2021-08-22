@@ -9,13 +9,13 @@
         "name" : "Successful registration",
         "children" : [ {
           "name" : "Successful registration",
-          "uid" : "1bd30f66953f3553",
+          "uid" : "99b77f702e5b66b7",
           "parentUid" : "1b40babe91830fe52318311f5d74b41a",
           "status" : "passed",
           "time" : {
-            "start" : 1629392782713,
-            "stop" : 1629392786950,
-            "duration" : 4237
+            "start" : 1629653634942,
+            "stop" : 1629653638608,
+            "duration" : 3666
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -25,13 +25,13 @@
         "name" : "Failed registration with previously registered email",
         "children" : [ {
           "name" : "Failed registration with previously registered email",
-          "uid" : "fbc2845853278c81",
+          "uid" : "3562ae33c078398e",
           "parentUid" : "15f3cb775c87896aa64bdeb2806c21be",
           "status" : "passed",
           "time" : {
-            "start" : 1629392789143,
-            "stop" : 1629392792492,
-            "duration" : 3349
+            "start" : 1629653640754,
+            "stop" : 1629653644039,
+            "duration" : 3285
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -41,13 +41,13 @@
         "name" : "Open privacy statement and check the checkbox",
         "children" : [ {
           "name" : "Open privacy statement and check the checkbox",
-          "uid" : "c47f9f605883b1da",
+          "uid" : "91432b4235d36480",
           "parentUid" : "4e8df22420b077c6bb4d66440f0f0f02",
           "status" : "passed",
           "time" : {
-            "start" : 1629392803200,
-            "stop" : 1629392806606,
-            "duration" : 3406
+            "start" : 1629653654440,
+            "stop" : 1629653657737,
+            "duration" : 3297
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -61,13 +61,13 @@
         "name" : "Successful login",
         "children" : [ {
           "name" : "Successful login",
-          "uid" : "b1951936f202c396",
+          "uid" : "18c75ca1cec182e6",
           "parentUid" : "9e549d09503cc9aef1752d7dde371908",
           "status" : "passed",
           "time" : {
-            "start" : 1629392794396,
-            "stop" : 1629392796895,
-            "duration" : 2499
+            "start" : 1629653645943,
+            "stop" : 1629653648308,
+            "duration" : 2365
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -77,13 +77,13 @@
         "name" : "Failed login - invalid password",
         "children" : [ {
           "name" : "Failed login - invalid password",
-          "uid" : "7e63fe1bde3b0104",
+          "uid" : "9d79c3e95e8d4575",
           "parentUid" : "df747b3235b3e9e235e4b27c811087be",
           "status" : "passed",
           "time" : {
-            "start" : 1629392798865,
-            "stop" : 1629392801326,
-            "duration" : 2461
+            "start" : 1629653650291,
+            "stop" : 1629653652537,
+            "duration" : 2246
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -97,13 +97,13 @@
         "name" : "Add address to an existing account",
         "children" : [ {
           "name" : "Add address to an existing account",
-          "uid" : "c4eb4edd54116e12",
+          "uid" : "8b72ccc76e31b2e4",
           "parentUid" : "09bb0ca8b77c18ee4056d337067e7bf7",
           "status" : "passed",
           "time" : {
-            "start" : 1629392817432,
-            "stop" : 1629392822256,
-            "duration" : 4824
+            "start" : 1629653668617,
+            "stop" : 1629653673253,
+            "duration" : 4636
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -113,49 +113,49 @@
         "name" : "Add multiple new addresses to an existing account from .csv file. File source: File path: src/test/resources/output.txt",
         "children" : [ {
           "name" : "Add new address : First name = Imre, Last name = Kiss, Address = Palota u. 11., City = Soltvadkert, Post code = 3443, Country = Hungary.",
-          "uid" : "8e39a39beac4c293",
+          "uid" : "8fcb936f46e231c7",
           "parentUid" : "0920cfcc5dcbff0f47916c0b7d2e7830",
           "status" : "passed",
           "time" : {
-            "start" : 1629392824272,
-            "stop" : 1629392829595,
-            "duration" : 5323
+            "start" : 1629653675230,
+            "stop" : 1629653680530,
+            "duration" : 5300
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "Add new address : First name = Ilona, Last name = Nagy, Address = Palota u. 11., City = Soltvadkert, Post code = 3443, Country = Hungary.",
-          "uid" : "51df05b45367b29",
+          "uid" : "95dccc0787f14bc2",
           "parentUid" : "0920cfcc5dcbff0f47916c0b7d2e7830",
           "status" : "passed",
           "time" : {
-            "start" : 1629392829602,
-            "stop" : 1629392834371,
-            "duration" : 4769
+            "start" : 1629653680530,
+            "stop" : 1629653684971,
+            "duration" : 4441
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "Add new address : First name = Ambrus, Last name = Kiss, Address = Ceruza u. 23., City = Buda, Post code = 1443, Country = Hungary.",
-          "uid" : "748e33b48c1b5657",
+          "uid" : "39f663baa233dd81",
           "parentUid" : "0920cfcc5dcbff0f47916c0b7d2e7830",
           "status" : "passed",
           "time" : {
-            "start" : 1629392834376,
-            "stop" : 1629392839113,
-            "duration" : 4737
+            "start" : 1629653684971,
+            "stop" : 1629653689432,
+            "duration" : 4461
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "Add new address : First name = Anna, Last name = Nagy, Address = Kapu u. 13., City = Pest, Post code = 1943, Country = Hungary.",
-          "uid" : "ff12a4b3cd933f7d",
+          "uid" : "7db0c3d3dbea71b3",
           "parentUid" : "0920cfcc5dcbff0f47916c0b7d2e7830",
           "status" : "passed",
           "time" : {
-            "start" : 1629392839117,
-            "stop" : 1629392843919,
-            "duration" : 4802
+            "start" : 1629653689436,
+            "stop" : 1629653693908,
+            "duration" : 4472
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -165,13 +165,13 @@
         "name" : "Deleting addresses from the address book",
         "children" : [ {
           "name" : "Deleting addresses from the address book",
-          "uid" : "68fef15c899c40d7",
+          "uid" : "b905d176753e88dc",
           "parentUid" : "cd0bb606eedd3babeaf4eab7deacf452",
           "status" : "passed",
           "time" : {
-            "start" : 1629392851812,
-            "stop" : 1629392857713,
-            "duration" : 5901
+            "start" : 1629653701708,
+            "stop" : 1629653707315,
+            "duration" : 5607
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -185,13 +185,13 @@
         "name" : "Modification of the customer's first name",
         "children" : [ {
           "name" : "Modification of the customer's first name",
-          "uid" : "932de1bd746a7fce",
+          "uid" : "3a0cc6b494c23348",
           "parentUid" : "1af0d4a54b38bf6f5f755703c67ce63b",
           "status" : "passed",
           "time" : {
-            "start" : 1629392845784,
-            "stop" : 1629392849963,
-            "duration" : 4179
+            "start" : 1629653695810,
+            "stop" : 1629653699744,
+            "duration" : 3934
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -205,13 +205,13 @@
         "name" : "Login and logout",
         "children" : [ {
           "name" : "Login and logout",
-          "uid" : "223c3cdc8655fbe1",
+          "uid" : "30018f47c3c59b8e",
           "parentUid" : "1563821cbc6392886ae45ac2bc1b1b77",
           "status" : "passed",
           "time" : {
-            "start" : 1629392863859,
-            "stop" : 1629392866932,
-            "duration" : 3073
+            "start" : 1629653713351,
+            "stop" : 1629653716242,
+            "duration" : 2891
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -229,13 +229,13 @@
         "name" : "Listing all sales items",
         "children" : [ {
           "name" : "Listing all sales items",
-          "uid" : "177601e8cf0e523f",
+          "uid" : "5b740e4b4fb2845f",
           "parentUid" : "e7924dedd4796d6039719965aa323e5c",
           "status" : "passed",
           "time" : {
-            "start" : 1629392808495,
-            "stop" : 1629392810807,
-            "duration" : 2312
+            "start" : 1629653659735,
+            "stop" : 1629653662009,
+            "duration" : 2274
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -245,13 +245,13 @@
         "name" : "Navigate to the next page with more results after listing all sales items",
         "children" : [ {
           "name" : "Navigate to the next page with more results after listing all sales items",
-          "uid" : "9d2d37377652667b",
+          "uid" : "b2a5fecdd672ec26",
           "parentUid" : "ff6730011a1478b7f9f90427c0556d01",
           "status" : "passed",
           "time" : {
-            "start" : 1629392812683,
-            "stop" : 1629392815556,
-            "duration" : 2873
+            "start" : 1629653664015,
+            "stop" : 1629653666696,
+            "duration" : 2681
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -265,13 +265,13 @@
         "name" : "Save the name, description and price of all laptops from the list into a text file",
         "children" : [ {
           "name" : "Save the name, description and price of all laptops from the list into a text file. File path: src/test/output.txt",
-          "uid" : "d6523fb7edfc593",
+          "uid" : "893b7b1a22416ee",
           "parentUid" : "ac44c3215a2a8e33cb69bbd3cbcde4d6",
           "status" : "passed",
           "time" : {
-            "start" : 1629392859549,
-            "stop" : 1629392861963,
-            "duration" : 2414
+            "start" : 1629653709217,
+            "stop" : 1629653711488,
+            "duration" : 2271
           },
           "flaky" : false,
           "parameters" : [ ]

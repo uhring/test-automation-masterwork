@@ -1,0 +1,124 @@
+{
+  "uid" : "39f663baa233dd81",
+  "name" : "Add new address : First name = Ambrus, Last name = Kiss, Address = Ceruza u. 23., City = Buda, Post code = 1443, Country = Hungary.",
+  "fullName" : "TC09_RepetitiveDataEntryFromExternalSource.addMultipleAddressesToAnAccount",
+  "historyId" : "563eb7ad8692fa243e02a12c3a5f2f77",
+  "time" : {
+    "start" : 1629653684971,
+    "stop" : 1629653689432,
+    "duration" : 4461
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fc065dc6f065d4ac",
+      "name" : "screenshot",
+      "source" : "fc065dc6f065d4ac.png",
+      "type" : "image/png",
+      "size" : 304881
+    }, {
+      "uid" : "d5e3690a700d89f0",
+      "name" : "screenshot",
+      "source" : "d5e3690a700d89f0.png",
+      "type" : "image/png",
+      "size" : 69084
+    }, {
+      "uid" : "c02c84c4c081d0bc",
+      "name" : "Screenshot",
+      "source" : "c02c84c4c081d0bc.png",
+      "type" : "image/png",
+      "size" : 68837
+    }, {
+      "uid" : "398023e3dd8c0c59",
+      "name" : "screenshot",
+      "source" : "398023e3dd8c0c59.png",
+      "type" : "image/png",
+      "size" : 73470
+    }, {
+      "uid" : "998fe34bf782f5bc",
+      "name" : "screenshot",
+      "source" : "998fe34bf782f5bc.png",
+      "type" : "image/png",
+      "size" : 77177
+    }, {
+      "uid" : "8f82af5dad436380",
+      "name" : "screenshot",
+      "source" : "8f82af5dad436380.png",
+      "type" : "image/png",
+      "size" : 70823
+    }, {
+      "uid" : "b0e0364f0bd3c250",
+      "name" : "Screenshot",
+      "source" : "b0e0364f0bd3c250.png",
+      "type" : "image/png",
+      "size" : 69651
+    }, {
+      "uid" : "834f202056365e74",
+      "name" : "screenshot",
+      "source" : "834f202056365e74.png",
+      "type" : "image/png",
+      "size" : 84772
+    }, {
+      "uid" : "8eace9c20b0b9eb9",
+      "name" : "screenshot",
+      "source" : "8eace9c20b0b9eb9.png",
+      "type" : "image/png",
+      "size" : 56925
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store web application user administration"
+  }, {
+    "name" : "feature",
+    "value" : "Address book administration"
+  }, {
+    "name" : "story",
+    "value" : "Add multiple new addresses to an existing account from .csv file. File source: File path: src/test/resources/output.txt"
+  }, {
+    "name" : "host",
+    "value" : "GABOR-PC"
+  }, {
+    "name" : "thread",
+    "value" : "9900@GABOR-PC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "TC09_RepetitiveDataEntryFromExternalSource"
+  }, {
+    "name" : "testClass",
+    "value" : "TC09_RepetitiveDataEntryFromExternalSource"
+  }, {
+    "name" : "testMethod",
+    "value" : "addMultipleAddressesToAnAccount"
+  }, {
+    "name" : "suite",
+    "value" : "TC09_RepetitiveDataEntryFromExternalSource"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39f663baa233dd81.json",
+  "parameterValues" : [ ]
+}

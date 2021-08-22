@@ -1,0 +1,130 @@
+{
+  "uid" : "b905d176753e88dc",
+  "name" : "Deleting addresses from the address book",
+  "fullName" : "TC11_DeletingData.deleteAddressesFromAddressBook",
+  "historyId" : "76f18aa874d2bfa6916a1c18d7902e32",
+  "time" : {
+    "start" : 1629653701708,
+    "stop" : 1629653707315,
+    "duration" : 5607
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "20e0060d1aa94061",
+      "name" : "screenshot",
+      "source" : "20e0060d1aa94061.png",
+      "type" : "image/png",
+      "size" : 304881
+    }, {
+      "uid" : "81f7eba2da64b19d",
+      "name" : "screenshot",
+      "source" : "81f7eba2da64b19d.png",
+      "type" : "image/png",
+      "size" : 69084
+    }, {
+      "uid" : "580d9d139a0f5ff7",
+      "name" : "Screenshot",
+      "source" : "580d9d139a0f5ff7.png",
+      "type" : "image/png",
+      "size" : 68620
+    }, {
+      "uid" : "8f0997891bc85ced",
+      "name" : "screenshot",
+      "source" : "8f0997891bc85ced.png",
+      "type" : "image/png",
+      "size" : 73470
+    }, {
+      "uid" : "b5a970882ddaa989",
+      "name" : "screenshot",
+      "source" : "b5a970882ddaa989.png",
+      "type" : "image/png",
+      "size" : 84813
+    }, {
+      "uid" : "4d1408b2dd80ba78",
+      "name" : "screenshot",
+      "source" : "4d1408b2dd80ba78.png",
+      "type" : "image/png",
+      "size" : 79172
+    }, {
+      "uid" : "ae3ab3ac5c57d94",
+      "name" : "screenshot",
+      "source" : "ae3ab3ac5c57d94.png",
+      "type" : "image/png",
+      "size" : 73283
+    }, {
+      "uid" : "292e276963bd5d8e",
+      "name" : "screenshot",
+      "source" : "292e276963bd5d8e.png",
+      "type" : "image/png",
+      "size" : 67353
+    }, {
+      "uid" : "16fb580dbc9043a9",
+      "name" : "screenshot",
+      "source" : "16fb580dbc9043a9.png",
+      "type" : "image/png",
+      "size" : 61579
+    }, {
+      "uid" : "6d19dd995d7d1d38",
+      "name" : "screenshot",
+      "source" : "6d19dd995d7d1d38.png",
+      "type" : "image/png",
+      "size" : 61839
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store web application user administration"
+  }, {
+    "name" : "feature",
+    "value" : "Address book administration"
+  }, {
+    "name" : "story",
+    "value" : "Deleting addresses from the address book"
+  }, {
+    "name" : "host",
+    "value" : "GABOR-PC"
+  }, {
+    "name" : "thread",
+    "value" : "9900@GABOR-PC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "TC11_DeletingData"
+  }, {
+    "name" : "testClass",
+    "value" : "TC11_DeletingData"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteAddressesFromAddressBook"
+  }, {
+    "name" : "suite",
+    "value" : "TC11_DeletingData"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b905d176753e88dc.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,100 @@
+{
+  "uid" : "99b77f702e5b66b7",
+  "name" : "Successful registration",
+  "fullName" : "TC01_SuccessfulRegistration.successfulRegistration",
+  "historyId" : "c38a9c04fc613b3ee5a8c12dbccbe07a",
+  "time" : {
+    "start" : 1629653634942,
+    "stop" : 1629653638608,
+    "duration" : 3666
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a020f3c32a43e56b",
+      "name" : "screenshot",
+      "source" : "a020f3c32a43e56b.png",
+      "type" : "image/png",
+      "size" : 305685
+    }, {
+      "uid" : "ce6ef2c28bedee76",
+      "name" : "screenshot",
+      "source" : "ce6ef2c28bedee76.png",
+      "type" : "image/png",
+      "size" : 69084
+    }, {
+      "uid" : "cb01ed10dadd5b9b",
+      "name" : "screenshot",
+      "source" : "cb01ed10dadd5b9b.png",
+      "type" : "image/png",
+      "size" : 78304
+    }, {
+      "uid" : "da8f0bdfac3f026",
+      "name" : "Screenshot",
+      "source" : "da8f0bdfac3f026.png",
+      "type" : "image/png",
+      "size" : 77748
+    }, {
+      "uid" : "9542bbadae33fd94",
+      "name" : "screenshot",
+      "source" : "9542bbadae33fd94.png",
+      "type" : "image/png",
+      "size" : 67806
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store web application user administration"
+  }, {
+    "name" : "feature",
+    "value" : "User registration"
+  }, {
+    "name" : "story",
+    "value" : "Successful registration"
+  }, {
+    "name" : "host",
+    "value" : "GABOR-PC"
+  }, {
+    "name" : "thread",
+    "value" : "9900@GABOR-PC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "TC01_SuccessfulRegistration"
+  }, {
+    "name" : "testClass",
+    "value" : "TC01_SuccessfulRegistration"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfulRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "TC01_SuccessfulRegistration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "99b77f702e5b66b7.json",
+  "parameterValues" : [ ]
+}
